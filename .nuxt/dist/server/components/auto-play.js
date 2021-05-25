@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(5);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".ant-carousel[data-v-35fb9ac5] .slick-slide{text-align:center;height:30px;line-height:30px;overflow:hidden;margin-top:20px}.ant-carousel[data-v-35fb9ac5] .custom-slick-arrow{width:20px;height:20px;font-size:16px;color:#fff;background-color:rgba(31,45,61,.11);opacity:.3}.ant-carousel[data-v-35fb9ac5] .custom-slick-arrow:before{display:none}.ant-carousel[data-v-35fb9ac5] .custom-slick-arrow:hover{opacity:.5}.ant-carousel[data-v-35fb9ac5] .slick-slide h3{color:#fff;font-size:22px}h3>span[data-v-35fb9ac5]{cursor:pointer}", ""]);
@@ -38,7 +38,7 @@ if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
-var add = __webpack_require__(5).default
+var add = __webpack_require__(6).default
 module.exports.__inject__ = function (context) {
   add("707e3d71", content, true, context)
 };
@@ -90,7 +90,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/AutoPlay.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_AutoPlayvue_type_script_lang_js_ = (AutoPlayvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(1);
+var componentNormalizer = __webpack_require__(2);
 
 // CONCATENATED MODULE: ./components/AutoPlay.vue
 

@@ -1,4 +1,4 @@
-exports.ids = [24];
+exports.ids = [25];
 exports.modules = {
 
 /***/ 116:
@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(5);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".slider-nav-bar-item[data-v-4d82db39]{display:flex;flex-direction:row;justify-content:space-between;margin-bottom:10px;border:1px solid #e5e5e5;padding:20px;background-color:#fff}.slider-nav-bar-item .slider-left[data-v-4d82db39]{width:60%}.slider-nav-bar-item .slider-left .sub-title[data-v-4d82db39]{margin-bottom:10px;transition:.5s;cursor:pointer;font-weight:700;font-size:16px;color:#222}.slider-nav-bar-item .slider-left .sub-title[data-v-4d82db39]:hover{color:#007dff;text-decoration:underline}.slider-nav-bar-item .slider-left .count[data-v-4d82db39]{font-size:12px;color:#fff;background-color:#ff492c;border-radius:4px;padding:2px 4px;margin-right:10px}.slider-nav-bar-item .slider-right[data-v-4d82db39]{width:40%;text-align:right}.slider-nav-bar-item .slider-right .check-comment[data-v-4d82db39]{width:80px;display:inline-block;color:#007dff;border:1px solid #007dff;font-size:12px;border-radius:14px;text-align:center;padding:4px 0;margin-bottom:10px;cursor:pointer}.slider-nav-bar-item .slider-right .check-comment[data-v-4d82db39]:hover{background-color:#007dff;color:#fff}.slider-nav-bar-item .slider-right .comment-num[data-v-4d82db39]{font-size:12px}.slider-nav-bar-item .slider-right .comment-num span.w[data-v-4d82db39]{font-size:16px}", ""]);
@@ -27,7 +27,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 160:
+/***/ 161:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59,7 +59,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/sliderNav/sliderNavBarItem.vue?vue&type=script&lang=js&
  /* harmony default export */ var sliderNav_sliderNavBarItemvue_type_script_lang_js_ = (sliderNavBarItemvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(1);
+var componentNormalizer = __webpack_require__(2);
 
 // CONCATENATED MODULE: ./components/sliderNav/sliderNavBarItem.vue
 
@@ -100,7 +100,7 @@ if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
-var add = __webpack_require__(5).default
+var add = __webpack_require__(6).default
 module.exports.__inject__ = function (context) {
   add("1595b318", content, true, context)
 };

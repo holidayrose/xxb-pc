@@ -53,12 +53,6 @@
   "IndexNews": {
     "description": "Auto imported from components/index/news.vue"
   },
-  "PopBanner": {
-    "description": "Auto imported from components/pop/banner.vue"
-  },
-  "PopModel": {
-    "description": "Auto imported from components/pop/model.vue"
-  },
   "ProductDetailContact": {
     "description": "Auto imported from components/productDetail/contact.vue"
   },
@@ -74,11 +68,14 @@
   "ProductDetailUserRate": {
     "description": "Auto imported from components/productDetail/userRate.vue"
   },
-  "CommonBreadCrumb": {
-    "description": "Auto imported from components/common/breadCrumb/index.vue"
+  "PopBanner": {
+    "description": "Auto imported from components/pop/banner.vue"
   },
-  "CommonStarZoom": {
-    "description": "Auto imported from components/common/starComp/StarZoom.vue"
+  "PopModel": {
+    "description": "Auto imported from components/pop/model.vue"
+  },
+  "SliderNavBarItem": {
+    "description": "Auto imported from components/sliderNav/sliderNavBarItem.vue"
   },
   "SwiperAdSwiper": {
     "description": "Auto imported from components/swiper/adSwiper.vue"
@@ -86,7 +83,10 @@
   "SwiperReviewSwiper": {
     "description": "Auto imported from components/swiper/reviewSwiper.vue"
   },
-  "SliderNavBarItem": {
-    "description": "Auto imported from components/sliderNav/sliderNavBarItem.vue"
+  "CommonBreadCrumb": {
+    "description": "Auto imported from components/common/breadCrumb/index.vue"
+  },
+  "CommonStarZoom": {
+    "description": "Auto imported from components/common/starComp/StarZoom.vue"
   }
 }

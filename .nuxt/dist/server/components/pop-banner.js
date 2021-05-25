@@ -1,4 +1,4 @@
-exports.ids = [12,13];
+exports.ids = [13,14];
 exports.modules = {
 
 /***/ 109:
@@ -39,7 +39,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/pop/model.vue?vue&type=script&lang=js&
  /* harmony default export */ var pop_modelvue_type_script_lang_js_ = (modelvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(1);
+var componentNormalizer = __webpack_require__(2);
 
 // CONCATENATED MODULE: ./components/pop/model.vue
 
@@ -85,7 +85,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(5);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".content-wrap[data-v-34020d05]{width:300px;height:534px;background-image:url(https://img.xuanxingbao.com/bgmc.png);background-size:cover;position:relative}.title[data-v-34020d05]{font-size:50px;color:#f3db99;font-weight:700;text-shadow:1px 1px 2px #000;padding-top:24%}.mini-program-img[data-v-34020d05]{width:100%;position:absolute;left:0;bottom:90px}.mini-program-img .txt[data-v-34020d05]{color:#fff;margin-bottom:10px}.mini-program-img .img[data-v-34020d05]{width:30%}", ""]);
@@ -95,7 +95,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 168:
+/***/ 169:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -162,7 +162,7 @@ var model = __webpack_require__(109);
 // CONCATENATED MODULE: ./components/pop/banner.vue?vue&type=script&lang=js&
  /* harmony default export */ var pop_bannervue_type_script_lang_js_ = (bannervue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(1);
+var componentNormalizer = __webpack_require__(2);
 
 // CONCATENATED MODULE: ./components/pop/banner.vue
 
@@ -203,7 +203,7 @@ if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
-var add = __webpack_require__(5).default
+var add = __webpack_require__(6).default
 module.exports.__inject__ = function (context) {
   add("20af5431", content, true, context)
 };
@@ -226,7 +226,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(5);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".model-wrap[data-v-515bd28e]{position:fixed;left:0;right:0;top:0;bottom:0;z-index:10}.model[data-v-515bd28e]{width:100%;height:100%;background-color:rgba(6,21,26,.67)}.content[data-v-515bd28e]{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}.close-btn[data-v-515bd28e]{position:absolute;top:0;right:-60px;cursor:pointer}", ""]);
@@ -247,7 +247,7 @@ if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
-var add = __webpack_require__(5).default
+var add = __webpack_require__(6).default
 module.exports.__inject__ = function (context) {
   add("6abe9547", content, true, context)
 };

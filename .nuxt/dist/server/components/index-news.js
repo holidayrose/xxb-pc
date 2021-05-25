@@ -1,4 +1,4 @@
-exports.ids = [10];
+exports.ids = [11];
 exports.modules = {
 
 /***/ 129:
@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(5);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".article-item[data-v-420110da]{padding:12px 0}.article-item[data-v-420110da]:hover{box-shadow:5px 4px 15px 0 rgba(0,0,0,.1);border-radius:4px}.case-img[data-v-420110da]{width:260px;height:154px;border-radius:4px}.detail[data-v-420110da]{margin-left:24px;flex-direction:column;max-width:530px}.detail .top[data-v-420110da]{flex:1}.detail .title[data-v-420110da]{text-overflow:ellipsis;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;font-size:18px;color:#222;transition:.5s;margin-bottom:10px}.detail .title[data-v-420110da]:hover{color:#007dff;text-decoration:underline}.detail .tags>span[data-v-420110da]{display:inline-block;margin-bottom:4px;padding:4px 8px;color:#ff8214;border:1px solid #fff4da;border-radius:20px;font-size:12px}.views img[data-v-420110da]{width:16px;margin-right:4px}.time[data-v-420110da]{font-size:14px;color:#a3a3a3;margin-left:20px}", ""]);
@@ -27,7 +27,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 166:
+/***/ 167:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -86,7 +86,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/index/news.vue?vue&type=script&lang=js&
  /* harmony default export */ var index_newsvue_type_script_lang_js_ = (newsvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(1);
+var componentNormalizer = __webpack_require__(2);
 
 // CONCATENATED MODULE: ./components/index/news.vue
 
@@ -134,7 +134,7 @@ if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
-var add = __webpack_require__(5).default
+var add = __webpack_require__(6).default
 module.exports.__inject__ = function (context) {
   add("2d998ed6", content, true, context)
 };
