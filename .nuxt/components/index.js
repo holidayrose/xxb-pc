@@ -25,10 +25,11 @@ export { default as ProductDetailFeature } from '../..\\components\\productDetai
 export { default as ProductDetailPrice } from '../..\\components\\productDetail\\price.vue'
 export { default as ProductDetailReviews } from '../..\\components\\productDetail\\reviews.vue'
 export { default as ProductDetailUserRate } from '../..\\components\\productDetail\\userRate.vue'
-export { default as SliderNavBarItem } from '../..\\components\\sliderNav\\sliderNavBarItem.vue'
-export { default as SwiperReviewSwiper } from '../..\\components\\swiper\\reviewSwiper.vue'
 export { default as CommonBreadCrumb } from '../..\\components\\common\\breadCrumb\\index.vue'
 export { default as CommonStarZoom } from '../..\\components\\common\\starComp\\StarZoom.vue'
+export { default as SwiperAdSwiper } from '../..\\components\\swiper\\adSwiper.vue'
+export { default as SwiperReviewSwiper } from '../..\\components\\swiper\\reviewSwiper.vue'
+export { default as SliderNavBarItem } from '../..\\components\\sliderNav\\sliderNavBarItem.vue'
 
 export const LazyAutoPlay = import('../..\\components\\AutoPlay.vue' /* webpackChunkName: "components/auto-play" */).then(c => wrapFunctional(c.default || c))
 export const LazyBarScore = import('../..\\components\\BarScore.vue' /* webpackChunkName: "components/bar-score" */).then(c => wrapFunctional(c.default || c))
@@ -55,7 +56,8 @@ export const LazyProductDetailFeature = import('../..\\components\\productDetail
 export const LazyProductDetailPrice = import('../..\\components\\productDetail\\price.vue' /* webpackChunkName: "components/product-detail-price" */).then(c => wrapFunctional(c.default || c))
 export const LazyProductDetailReviews = import('../..\\components\\productDetail\\reviews.vue' /* webpackChunkName: "components/product-detail-reviews" */).then(c => wrapFunctional(c.default || c))
 export const LazyProductDetailUserRate = import('../..\\components\\productDetail\\userRate.vue' /* webpackChunkName: "components/product-detail-user-rate" */).then(c => wrapFunctional(c.default || c))
-export const LazySliderNavBarItem = import('../..\\components\\sliderNav\\sliderNavBarItem.vue' /* webpackChunkName: "components/slider-nav-bar-item" */).then(c => wrapFunctional(c.default || c))
-export const LazySwiperReviewSwiper = import('../..\\components\\swiper\\reviewSwiper.vue' /* webpackChunkName: "components/swiper-review-swiper" */).then(c => wrapFunctional(c.default || c))
 export const LazyCommonBreadCrumb = import('../..\\components\\common\\breadCrumb\\index.vue' /* webpackChunkName: "components/common-bread-crumb" */).then(c => wrapFunctional(c.default || c))
 export const LazyCommonStarZoom = import('../..\\components\\common\\starComp\\StarZoom.vue' /* webpackChunkName: "components/common-star-zoom" */).then(c => wrapFunctional(c.default || c))
+export const LazySwiperAdSwiper = import('../..\\components\\swiper\\adSwiper.vue' /* webpackChunkName: "components/swiper-ad-swiper" */).then(c => wrapFunctional(c.default || c))
+export const LazySwiperReviewSwiper = import('../..\\components\\swiper\\reviewSwiper.vue' /* webpackChunkName: "components/swiper-review-swiper" */).then(c => wrapFunctional(c.default || c))
+export const LazySliderNavBarItem = import('../..\\components\\sliderNav\\sliderNavBarItem.vue' /* webpackChunkName: "components/slider-nav-bar-item" */).then(c => wrapFunctional(c.default || c))

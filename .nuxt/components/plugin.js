@@ -27,10 +27,11 @@ const components = {
   ProductDetailPrice: () => import('../..\\components\\productDetail\\price.vue' /* webpackChunkName: "components/product-detail-price" */).then(c => wrapFunctional(c.default || c)),
   ProductDetailReviews: () => import('../..\\components\\productDetail\\reviews.vue' /* webpackChunkName: "components/product-detail-reviews" */).then(c => wrapFunctional(c.default || c)),
   ProductDetailUserRate: () => import('../..\\components\\productDetail\\userRate.vue' /* webpackChunkName: "components/product-detail-user-rate" */).then(c => wrapFunctional(c.default || c)),
-  SliderNavBarItem: () => import('../..\\components\\sliderNav\\sliderNavBarItem.vue' /* webpackChunkName: "components/slider-nav-bar-item" */).then(c => wrapFunctional(c.default || c)),
-  SwiperReviewSwiper: () => import('../..\\components\\swiper\\reviewSwiper.vue' /* webpackChunkName: "components/swiper-review-swiper" */).then(c => wrapFunctional(c.default || c)),
   CommonBreadCrumb: () => import('../..\\components\\common\\breadCrumb\\index.vue' /* webpackChunkName: "components/common-bread-crumb" */).then(c => wrapFunctional(c.default || c)),
-  CommonStarZoom: () => import('../..\\components\\common\\starComp\\StarZoom.vue' /* webpackChunkName: "components/common-star-zoom" */).then(c => wrapFunctional(c.default || c))
+  CommonStarZoom: () => import('../..\\components\\common\\starComp\\StarZoom.vue' /* webpackChunkName: "components/common-star-zoom" */).then(c => wrapFunctional(c.default || c)),
+  SwiperAdSwiper: () => import('../..\\components\\swiper\\adSwiper.vue' /* webpackChunkName: "components/swiper-ad-swiper" */).then(c => wrapFunctional(c.default || c)),
+  SwiperReviewSwiper: () => import('../..\\components\\swiper\\reviewSwiper.vue' /* webpackChunkName: "components/swiper-review-swiper" */).then(c => wrapFunctional(c.default || c)),
+  SliderNavBarItem: () => import('../..\\components\\sliderNav\\sliderNavBarItem.vue' /* webpackChunkName: "components/slider-nav-bar-item" */).then(c => wrapFunctional(c.default || c))
 }
 
 for (const name in components) {

@@ -5,6 +5,7 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _86acd598 = () => interopDefault(import('..\\pages\\all\\index.vue' /* webpackChunkName: "pages/all/index" */))
+const _93fbe2c4 = () => interopDefault(import('..\\pages\\cctv\\product_trial_info\\_id.vue' /* webpackChunkName: "pages/cctv/product_trial_info/_id" */))
 const _0b876bc0 = () => interopDefault(import('..\\pages\\company\\_id.vue' /* webpackChunkName: "pages/company/_id" */))
 const _8c7a97b8 = () => interopDefault(import('..\\pages\\newsCase\\_id.vue' /* webpackChunkName: "pages/newsCase/_id" */))
 const _dc9188e4 = () => interopDefault(import('..\\pages\\product\\_id.vue' /* webpackChunkName: "pages/product/_id" */))
@@ -29,6 +30,10 @@ export const routerOptions = {
     path: "/all",
     component: _86acd598,
     name: "all"
+  }, {
+    path: "/cctv/product_trial_info/:id?",
+    component: _93fbe2c4,
+    name: "cctv-product_trial_info-id"
   }, {
     path: "/company/:id?",
     component: _0b876bc0,

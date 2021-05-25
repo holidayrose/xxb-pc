@@ -74,16 +74,19 @@
   "ProductDetailUserRate": {
     "description": "Auto imported from components/productDetail/userRate.vue"
   },
-  "SliderNavBarItem": {
-    "description": "Auto imported from components/sliderNav/sliderNavBarItem.vue"
-  },
-  "SwiperReviewSwiper": {
-    "description": "Auto imported from components/swiper/reviewSwiper.vue"
-  },
   "CommonBreadCrumb": {
     "description": "Auto imported from components/common/breadCrumb/index.vue"
   },
   "CommonStarZoom": {
     "description": "Auto imported from components/common/starComp/StarZoom.vue"
+  },
+  "SwiperAdSwiper": {
+    "description": "Auto imported from components/swiper/adSwiper.vue"
+  },
+  "SwiperReviewSwiper": {
+    "description": "Auto imported from components/swiper/reviewSwiper.vue"
+  },
+  "SliderNavBarItem": {
+    "description": "Auto imported from components/sliderNav/sliderNavBarItem.vue"
   }
 }

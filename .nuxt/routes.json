@@ -7,6 +7,13 @@
     "_name": "_86acd598"
   },
   {
+    "name": "cctv-product_trial_info-id",
+    "path": "/cctv/product_trial_info/:id?",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\cctv\\\\product_trial_info\\\\_id.vue",
+    "chunkName": "pages/cctv/product_trial_info/_id",
+    "_name": "_93fbe2c4"
+  },
+  {
     "name": "company-id",
     "path": "/company/:id?",
     "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\company\\\\_id.vue",
