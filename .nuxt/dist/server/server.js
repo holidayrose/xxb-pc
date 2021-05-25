@@ -3146,22 +3146,22 @@ const components = {
   SearchBox: () => __webpack_require__.e(/* import() | components/search-box */ 23).then(__webpack_require__.bind(null, 171)).then(c => wrapFunctional(c.default || c)),
   Slider: () => __webpack_require__.e(/* import() | components/slider */ 24).then(__webpack_require__.bind(null, 81)).then(c => wrapFunctional(c.default || c)),
   HasNoData: () => __webpack_require__.e(/* import() | components/has-no-data */ 9).then(__webpack_require__.bind(null, 68)).then(c => wrapFunctional(c.default || c)),
-  HeaderMHeader: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 28)).then(c => wrapFunctional(c.default || c)),
-  HeaderPHeader: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 27)).then(c => wrapFunctional(c.default || c)),
   IndexCase: () => __webpack_require__.e(/* import() | components/index-case */ 10).then(__webpack_require__.bind(null, 166)).then(c => wrapFunctional(c.default || c)),
   IndexNews: () => __webpack_require__.e(/* import() | components/index-news */ 11).then(__webpack_require__.bind(null, 167)).then(c => wrapFunctional(c.default || c)),
+  HeaderMHeader: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 28)).then(c => wrapFunctional(c.default || c)),
+  HeaderPHeader: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 27)).then(c => wrapFunctional(c.default || c)),
+  PopBanner: () => __webpack_require__.e(/* import() | components/pop-banner */ 13).then(__webpack_require__.bind(null, 169)).then(c => wrapFunctional(c.default || c)),
+  PopModel: () => __webpack_require__.e(/* import() | components/pop-model */ 14).then(__webpack_require__.bind(null, 109)).then(c => wrapFunctional(c.default || c)),
+  CommonBreadCrumb: () => __webpack_require__.e(/* import() | components/common-bread-crumb */ 6).then(__webpack_require__.bind(null, 162)).then(c => wrapFunctional(c.default || c)),
+  CommonStarZoom: () => __webpack_require__.e(/* import() | components/common-star-zoom */ 7).then(__webpack_require__.bind(null, 52)).then(c => wrapFunctional(c.default || c)),
   ProductDetailContact: () => __webpack_require__.e(/* import() | components/product-detail-contact */ 16).then(__webpack_require__.bind(null, 108)).then(c => wrapFunctional(c.default || c)),
   ProductDetailFeature: () => __webpack_require__.e(/* import() | components/product-detail-feature */ 17).then(__webpack_require__.bind(null, 164)).then(c => wrapFunctional(c.default || c)),
   ProductDetailPrice: () => __webpack_require__.e(/* import() | components/product-detail-price */ 18).then(__webpack_require__.bind(null, 216)).then(c => wrapFunctional(c.default || c)),
   ProductDetailReviews: () => __webpack_require__.e(/* import() | components/product-detail-reviews */ 19).then(__webpack_require__.bind(null, 165)).then(c => wrapFunctional(c.default || c)),
   ProductDetailUserRate: () => __webpack_require__.e(/* import() | components/product-detail-user-rate */ 20).then(__webpack_require__.bind(null, 217)).then(c => wrapFunctional(c.default || c)),
-  PopBanner: () => __webpack_require__.e(/* import() | components/pop-banner */ 13).then(__webpack_require__.bind(null, 169)).then(c => wrapFunctional(c.default || c)),
-  PopModel: () => __webpack_require__.e(/* import() | components/pop-model */ 14).then(__webpack_require__.bind(null, 109)).then(c => wrapFunctional(c.default || c)),
   SliderNavBarItem: () => __webpack_require__.e(/* import() | components/slider-nav-bar-item */ 25).then(__webpack_require__.bind(null, 161)).then(c => wrapFunctional(c.default || c)),
   SwiperAdSwiper: () => __webpack_require__.e(/* import() | components/swiper-ad-swiper */ 26).then(__webpack_require__.bind(null, 170)).then(c => wrapFunctional(c.default || c)),
-  SwiperReviewSwiper: () => __webpack_require__.e(/* import() | components/swiper-review-swiper */ 27).then(__webpack_require__.bind(null, 168)).then(c => wrapFunctional(c.default || c)),
-  CommonBreadCrumb: () => __webpack_require__.e(/* import() | components/common-bread-crumb */ 6).then(__webpack_require__.bind(null, 162)).then(c => wrapFunctional(c.default || c)),
-  CommonStarZoom: () => __webpack_require__.e(/* import() | components/common-star-zoom */ 7).then(__webpack_require__.bind(null, 52)).then(c => wrapFunctional(c.default || c))
+  SwiperReviewSwiper: () => __webpack_require__.e(/* import() | components/swiper-review-swiper */ 27).then(__webpack_require__.bind(null, 168)).then(c => wrapFunctional(c.default || c))
 };
 
 for (const name in components) {
