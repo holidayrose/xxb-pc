@@ -22,16 +22,17 @@ const components = {
   HeaderPHeader: () => import('../..\\components\\header\\pHeader.vue' /* webpackChunkName: "components/header-p-header" */).then(c => wrapFunctional(c.default || c)),
   PopBanner: () => import('../..\\components\\pop\\banner.vue' /* webpackChunkName: "components/pop-banner" */).then(c => wrapFunctional(c.default || c)),
   PopModel: () => import('../..\\components\\pop\\model.vue' /* webpackChunkName: "components/pop-model" */).then(c => wrapFunctional(c.default || c)),
-  CommonBreadCrumb: () => import('../..\\components\\common\\breadCrumb\\index.vue' /* webpackChunkName: "components/common-bread-crumb" */).then(c => wrapFunctional(c.default || c)),
-  CommonStarZoom: () => import('../..\\components\\common\\starComp\\StarZoom.vue' /* webpackChunkName: "components/common-star-zoom" */).then(c => wrapFunctional(c.default || c)),
   ProductDetailContact: () => import('../..\\components\\productDetail\\contact.vue' /* webpackChunkName: "components/product-detail-contact" */).then(c => wrapFunctional(c.default || c)),
   ProductDetailFeature: () => import('../..\\components\\productDetail\\feature.vue' /* webpackChunkName: "components/product-detail-feature" */).then(c => wrapFunctional(c.default || c)),
   ProductDetailPrice: () => import('../..\\components\\productDetail\\price.vue' /* webpackChunkName: "components/product-detail-price" */).then(c => wrapFunctional(c.default || c)),
   ProductDetailReviews: () => import('../..\\components\\productDetail\\reviews.vue' /* webpackChunkName: "components/product-detail-reviews" */).then(c => wrapFunctional(c.default || c)),
   ProductDetailUserRate: () => import('../..\\components\\productDetail\\userRate.vue' /* webpackChunkName: "components/product-detail-user-rate" */).then(c => wrapFunctional(c.default || c)),
+  RankList: () => import('../..\\components\\rank\\list.vue' /* webpackChunkName: "components/rank-list" */).then(c => wrapFunctional(c.default || c)),
   SliderNavBarItem: () => import('../..\\components\\sliderNav\\sliderNavBarItem.vue' /* webpackChunkName: "components/slider-nav-bar-item" */).then(c => wrapFunctional(c.default || c)),
   SwiperAdSwiper: () => import('../..\\components\\swiper\\adSwiper.vue' /* webpackChunkName: "components/swiper-ad-swiper" */).then(c => wrapFunctional(c.default || c)),
-  SwiperReviewSwiper: () => import('../..\\components\\swiper\\reviewSwiper.vue' /* webpackChunkName: "components/swiper-review-swiper" */).then(c => wrapFunctional(c.default || c))
+  SwiperReviewSwiper: () => import('../..\\components\\swiper\\reviewSwiper.vue' /* webpackChunkName: "components/swiper-review-swiper" */).then(c => wrapFunctional(c.default || c)),
+  CommonBreadCrumb: () => import('../..\\components\\common\\breadCrumb\\index.vue' /* webpackChunkName: "components/common-bread-crumb" */).then(c => wrapFunctional(c.default || c)),
+  CommonStarZoom: () => import('../..\\components\\common\\starComp\\StarZoom.vue' /* webpackChunkName: "components/common-star-zoom" */).then(c => wrapFunctional(c.default || c))
 }
 
 for (const name in components) {

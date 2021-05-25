@@ -59,12 +59,6 @@
   "PopModel": {
     "description": "Auto imported from components/pop/model.vue"
   },
-  "CommonBreadCrumb": {
-    "description": "Auto imported from components/common/breadCrumb/index.vue"
-  },
-  "CommonStarZoom": {
-    "description": "Auto imported from components/common/starComp/StarZoom.vue"
-  },
   "ProductDetailContact": {
     "description": "Auto imported from components/productDetail/contact.vue"
   },
@@ -80,6 +74,9 @@
   "ProductDetailUserRate": {
     "description": "Auto imported from components/productDetail/userRate.vue"
   },
+  "RankList": {
+    "description": "Auto imported from components/rank/list.vue"
+  },
   "SliderNavBarItem": {
     "description": "Auto imported from components/sliderNav/sliderNavBarItem.vue"
   },
@@ -88,5 +85,11 @@
   },
   "SwiperReviewSwiper": {
     "description": "Auto imported from components/swiper/reviewSwiper.vue"
+  },
+  "CommonBreadCrumb": {
+    "description": "Auto imported from components/common/breadCrumb/index.vue"
+  },
+  "CommonStarZoom": {
+    "description": "Auto imported from components/common/starComp/StarZoom.vue"
   }
 }
