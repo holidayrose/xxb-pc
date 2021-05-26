@@ -47,17 +47,17 @@
   "HeaderPHeader": {
     "description": "Auto imported from components/header/pHeader.vue"
   },
-  "IndexCase": {
-    "description": "Auto imported from components/index/case.vue"
-  },
-  "IndexNews": {
-    "description": "Auto imported from components/index/news.vue"
-  },
   "PopBanner": {
     "description": "Auto imported from components/pop/banner.vue"
   },
   "PopModel": {
     "description": "Auto imported from components/pop/model.vue"
+  },
+  "IndexCase": {
+    "description": "Auto imported from components/index/case.vue"
+  },
+  "IndexNews": {
+    "description": "Auto imported from components/index/news.vue"
   },
   "ProductDetailContact": {
     "description": "Auto imported from components/productDetail/contact.vue"
