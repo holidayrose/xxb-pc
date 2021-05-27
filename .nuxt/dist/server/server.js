@@ -741,68 +741,9 @@ var component = Object(_node_modules_vue_loader_15_9_7_vue_loader_lib_runtime_co
 
 /***/ }),
 /* 24 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-
-
-function isObject(val) {
-  return val !== null && typeof val === "object";
-}
-
-function _defu(baseObj, defaults, namespace = ".", merger) {
-  if (!isObject(defaults)) {
-    return _defu(baseObj, {}, namespace, merger);
-  }
-
-  const obj = Object.assign({}, defaults);
-
-  for (const key in baseObj) {
-    if (key === "__proto__" || key === "constructor") {
-      continue;
-    }
-
-    const val = baseObj[key];
-
-    if (val === null || val === void 0) {
-      continue;
-    }
-
-    if (merger && merger(obj, key, val, namespace)) {
-      continue;
-    }
-
-    if (Array.isArray(val) && Array.isArray(obj[key])) {
-      obj[key] = obj[key].concat(val);
-    } else if (isObject(val) && isObject(obj[key])) {
-      obj[key] = _defu(val, obj[key], (namespace ? `${namespace}.` : "") + key.toString(), merger);
-    } else {
-      obj[key] = val;
-    }
-  }
-
-  return obj;
-}
-
-function extend(merger) {
-  return (...args) => args.reduce((p, c) => _defu(p, c, "", merger), {});
-}
-
-const defu = extend();
-defu.fn = extend((obj, key, currentValue, _namespace) => {
-  if (typeof obj[key] !== "undefined" && typeof currentValue === "function") {
-    obj[key] = currentValue(obj[key]);
-    return true;
-  }
-});
-defu.arrayFn = extend((obj, key, currentValue, _namespace) => {
-  if (Array.isArray(obj[key]) && typeof currentValue === "function") {
-    obj[key] = currentValue(obj[key]);
-    return true;
-  }
-});
-defu.extend = extend;
-module.exports = defu;
+module.exports = require("defu");
 
 /***/ }),
 /* 25 */
@@ -1536,7 +1477,7 @@ var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".global-header{border-bottom:1px solid #ddd;background-color:#fff;height:74px;line-height:74px}.global-header .logo-wrap{margin-bottom:0}.global-header .logo{width:99px;margin-right:15px}.global-header strong{font-size:14px;color:#007dff}.global-header nav a.link{color:#555;display:inline-flex;align-items:center;padding:0 15px}.icon{display:inline-block;width:22px;height:22px;margin-right:6px}.review{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ")}.cate{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ")}.entry{background-color:#ff492c;color:#fff;line-height:38px;padding:0 32px;border-radius:20px}*{margin:0}*,ul{padding:0}.g-wrapper{width:100%;max-width:1200px!important;margin:0 auto!important}.g-flex{display:flex}.g-flex.v-center{flex-direction:column}.g-flex.center,.g-flex.v-center{justify-content:center;align-items:center}.g-flex.space-between{justify-content:space-between;align-items:center}.g-flex.space-around{justify-content:space-around}.footer{padding:60px 0 20px}.footer .footerInfo{text-align:center}.footer .footerInfo .ca_text{font-size:20px;color:#555}.footer .footerInfo .qc_text{font-size:15px;color:#c1c1c1;padding-top:20px}.footer .qcrodeImg{width:158px;margin-bottom:70px;margin-top:10px}.display-pc{display:block}.display-flex{display:flex}.display-m{display:none}.text-c{text-align:center}.report-wrap{background-color:#007dff;font-size:20px;padding:40px 0;margin-bottom:10px}.report-wrap,.review-btn{color:#fff;text-align:center}.review-btn{padding:6px 12px;background-color:#ff492c;border-radius:4px}.check-comment{padding:6px 18px;color:#007dff;border:1px solid #007dff;border-radius:16px;font-size:12px}.check-comment:hover{background-color:#007dff;color:#fff}.contact-btn{background-color:#773aff;color:#fff;padding:16px 0;text-align:center;margin-bottom:10px;cursor:pointer}.border{border:1px solid #cacaca;border-radius:4px}@media (max-width:767px){.display-m{display:flex}.display-flex,.display-pc{display:none}}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".global-header{border-bottom:1px solid #ddd;background-color:#fff;height:74px;line-height:74px}.global-header .logo-wrap{margin-bottom:0}.global-header .logo{width:99px;margin-right:15px}.global-header strong{font-size:14px;color:#007dff}.global-header nav a.link{color:#555;display:inline-flex;align-items:center;padding:0 15px}.icon{display:inline-block;width:22px;height:22px;margin-right:6px}.review{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ")}.cate{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ")}.entry{background-color:#ff492c;color:#fff;line-height:38px;padding:0 32px;border-radius:20px}*{margin:0}*,ul{padding:0}.g-wrapper{width:100%;max-width:1200px!important;margin:0 auto!important}.pad-t-10{padding-top:10px}.pad-t-20{padding-top:20px}.pad-b-20{padding-bottom:20px}.pad-b-30{padding-bottom:30px}.g-flex{display:flex}.g-flex.v-center{flex-direction:column}.g-flex.center,.g-flex.v-center{justify-content:center;align-items:center}.g-flex.space-between{justify-content:space-between;align-items:center}.g-flex.space-around{justify-content:space-around}.footer{padding:60px 0 20px}.footer .footerInfo{text-align:center}.footer .footerInfo .ca_text{font-size:20px;color:#555}.footer .footerInfo .qc_text{font-size:15px;color:#c1c1c1;padding-top:20px}.footer .qcrodeImg{width:158px;margin-bottom:70px;margin-top:10px}.display-pc{display:block}.display-flex{display:flex}.display-m{display:none}.text-c{text-align:center}.report-wrap{background-color:#007dff;font-size:20px;padding:40px 0;margin-bottom:10px}.report-wrap,.review-btn{color:#fff;text-align:center}.review-btn{padding:6px 12px;background-color:#ff492c;border-radius:4px}.check-comment{padding:6px 18px;color:#007dff;border:1px solid #007dff;border-radius:16px;font-size:12px}.check-comment:hover{background-color:#007dff;color:#fff}.contact-btn{background-color:#773aff;color:#fff;padding:16px 0;text-align:center;margin-bottom:10px;cursor:pointer}.border{border:1px solid #cacaca;border-radius:4px}@media (max-width:767px){.display-m{display:flex}.display-flex,.display-pc{display:none}}", ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -3148,10 +3089,10 @@ const components = {
   HasNoData: () => __webpack_require__.e(/* import() | components/has-no-data */ 9).then(__webpack_require__.bind(null, 69)).then(c => wrapFunctional(c.default || c)),
   HeaderMHeader: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 28)).then(c => wrapFunctional(c.default || c)),
   HeaderPHeader: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 27)).then(c => wrapFunctional(c.default || c)),
-  PopBanner: () => __webpack_require__.e(/* import() | components/pop-banner */ 13).then(__webpack_require__.bind(null, 173)).then(c => wrapFunctional(c.default || c)),
-  PopModel: () => __webpack_require__.e(/* import() | components/pop-model */ 14).then(__webpack_require__.bind(null, 113)).then(c => wrapFunctional(c.default || c)),
   IndexCase: () => __webpack_require__.e(/* import() | components/index-case */ 10).then(__webpack_require__.bind(null, 170)).then(c => wrapFunctional(c.default || c)),
   IndexNews: () => __webpack_require__.e(/* import() | components/index-news */ 11).then(__webpack_require__.bind(null, 171)).then(c => wrapFunctional(c.default || c)),
+  PopBanner: () => __webpack_require__.e(/* import() | components/pop-banner */ 13).then(__webpack_require__.bind(null, 173)).then(c => wrapFunctional(c.default || c)),
+  PopModel: () => __webpack_require__.e(/* import() | components/pop-model */ 14).then(__webpack_require__.bind(null, 113)).then(c => wrapFunctional(c.default || c)),
   ProductDetailContact: () => __webpack_require__.e(/* import() | components/product-detail-contact */ 16).then(__webpack_require__.bind(null, 85)).then(c => wrapFunctional(c.default || c)),
   ProductDetailFeature: () => __webpack_require__.e(/* import() | components/product-detail-feature */ 17).then(__webpack_require__.bind(null, 168)).then(c => wrapFunctional(c.default || c)),
   ProductDetailPrice: () => __webpack_require__.e(/* import() | components/product-detail-price */ 18).then(__webpack_require__.bind(null, 220)).then(c => wrapFunctional(c.default || c)),
@@ -3173,9 +3114,9 @@ for (const name in components) {
 var external_axios_ = __webpack_require__(4);
 var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_);
 
-// EXTERNAL MODULE: ./node_modules/_defu@5.0.0@defu/dist/defu.js
-var defu = __webpack_require__(24);
-var defu_default = /*#__PURE__*/__webpack_require__.n(defu);
+// EXTERNAL MODULE: external "defu"
+var external_defu_ = __webpack_require__(24);
+var external_defu_default = /*#__PURE__*/__webpack_require__.n(external_defu_);
 
 // CONCATENATED MODULE: ./.nuxt/axios.js
 
@@ -3224,7 +3165,7 @@ const axiosExtra = {
   },
 
   create(options) {
-    return createAxiosInstance(defu_default()(options, this.defaults));
+    return createAxiosInstance(external_defu_default()(options, this.defaults));
   }
 
 }; // Request helpers ($get, $post, ...)

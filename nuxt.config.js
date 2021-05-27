@@ -64,6 +64,14 @@ export default {
           rule.use.push(sassResourcesLoader)
         }
       })
-    }
+    },
+    // analyze: true, // 使用webpack-bundle-analyzer来可视化包以及如何优化它们
+    vendor: ['ant-design-vue'],
+    productionSourceMap: false,
+    productionGzip: true,
+    productionGzipExtensions: ['js', 'css', 'svg']
+  },
+  render: {
+    resourceHints: false
   }
 }
