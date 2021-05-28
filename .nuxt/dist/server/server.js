@@ -3418,8 +3418,8 @@ var external_qs_ = __webpack_require__(26);
 
 // CONCATENATED MODULE: ./plugins/api.js
 const api_base = 'https://sr.xuanxingbao.com';
-const testUrl = 'https://sr.xuanxingbao.com/ep';
-const testBase = 'https://eapi.xuanxingbao.com';
+const testUrl = 'https://sr.xuanxingbao.com/ep'; // const testBase = 'https://eapi.xuanxingbao.com'
+
 const api = {
   API: {
     // 各页面都可能用到的接口
@@ -3508,7 +3508,7 @@ const api = {
       },
       // 某类别下的产品
       selectCatePro: {
-        url: `${testBase}/szhzx/category/product`,
+        url: `${api_base}/szhzx/category/product`,
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
         }
@@ -3590,7 +3590,7 @@ const api = {
       },
       // 联系厂商
       apply: {
-        url: `${testBase}/sr/sr_score_applyexplain`,
+        url: `${api_base}/sr/sr_score_applyexplain`,
         method: 'post',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded'

@@ -1,6 +1,6 @@
 const base = 'https://sr.xuanxingbao.com'
 const testUrl = 'https://sr.xuanxingbao.com/ep'
-const testBase = 'https://eapi.xuanxingbao.com'
+// const testBase = 'https://eapi.xuanxingbao.com'
 
 const api = {
   API: {
@@ -90,7 +90,7 @@ const api = {
       },
       // 某类别下的产品
       selectCatePro: {
-        url: `${testBase}/szhzx/category/product`,
+        url: `${base}/szhzx/category/product`,
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
         }
@@ -172,7 +172,7 @@ const api = {
       },
       // 联系厂商
       apply: {
-        url: `${testBase}/sr/sr_score_applyexplain`,
+        url: `${base}/sr/sr_score_applyexplain`,
         method: 'post',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
