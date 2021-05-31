@@ -20,6 +20,9 @@
   "Header": {
     "description": "Auto imported from components/Header.vue"
   },
+  "Header2": {
+    "description": "Auto imported from components/Header2.vue"
+  },
   "Logo": {
     "description": "Auto imported from components/Logo.vue"
   },
@@ -28,6 +31,9 @@
   },
   "ProductOrder": {
     "description": "Auto imported from components/ProductOrder.vue"
+  },
+  "ReviewRepeat": {
+    "description": "Auto imported from components/Review-repeat.vue"
   },
   "Review": {
     "description": "Auto imported from components/Review.vue"
@@ -47,6 +53,9 @@
   "HeaderPHeader": {
     "description": "Auto imported from components/header/pHeader.vue"
   },
+  "HeaderPHeader2": {
+    "description": "Auto imported from components/header/pHeader2.vue"
+  },
   "IndexCase": {
     "description": "Auto imported from components/index/case.vue"
   },
@@ -58,6 +67,9 @@
   },
   "PopModel": {
     "description": "Auto imported from components/pop/model.vue"
+  },
+  "RankList": {
+    "description": "Auto imported from components/rank/list.vue"
   },
   "ProductDetailContact": {
     "description": "Auto imported from components/productDetail/contact.vue"
@@ -73,9 +85,6 @@
   },
   "ProductDetailUserRate": {
     "description": "Auto imported from components/productDetail/userRate.vue"
-  },
-  "RankList": {
-    "description": "Auto imported from components/rank/list.vue"
   },
   "RightNav": {
     "description": "Auto imported from components/rightNav/index.vue"
