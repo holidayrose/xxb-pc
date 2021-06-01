@@ -68,9 +68,6 @@
   "PopModel": {
     "description": "Auto imported from components/pop/model.vue"
   },
-  "RankList": {
-    "description": "Auto imported from components/rank/list.vue"
-  },
   "ProductDetailContact": {
     "description": "Auto imported from components/productDetail/contact.vue"
   },
@@ -85,6 +82,9 @@
   },
   "ProductDetailUserRate": {
     "description": "Auto imported from components/productDetail/userRate.vue"
+  },
+  "RankList": {
+    "description": "Auto imported from components/rank/list.vue"
   },
   "RightNav": {
     "description": "Auto imported from components/rightNav/index.vue"
