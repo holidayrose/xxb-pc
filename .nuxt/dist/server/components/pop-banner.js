@@ -7,7 +7,7 @@ exports.modules = {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(134);
+var content = __webpack_require__(135);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -45,7 +45,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 123:
+/***/ 124:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -113,7 +113,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 133:
+/***/ 134:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -125,7 +125,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 134:
+/***/ 135:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -139,7 +139,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 151:
+/***/ 152:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -154,7 +154,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/pop/banner.vue?vue&type=template&id=34020d05&scoped=true&
 
 // EXTERNAL MODULE: ./components/pop/model.vue + 4 modules
-var model = __webpack_require__(123);
+var model = __webpack_require__(124);
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.2.2@babel-loader/lib??ref--2-0!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/pop/banner.vue?vue&type=script&lang=js&
 //
@@ -214,7 +214,7 @@ var componentNormalizer = __webpack_require__(2);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(133)
+  var style0 = __webpack_require__(134)
 if (style0.__inject__) style0.__inject__(context)
 
 }
