@@ -233,7 +233,10 @@ const api = {
     qrcode: {
       get: {
         url: `${base}/sr/get_qr_code`,
-        method: 'post'
+        method: 'post',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        }
       }
     },
     // 推广类别
