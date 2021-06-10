@@ -4,8 +4,7 @@ function formatNumber (n) {
 }
 
 export function handleAvatar (attrName, item) {
-  // const defaultAvatar = '@/assets/images/avatar.jpg'
-  const defaultAvatar = '/assets/images/avatar.jpg'
+  const defaultAvatar = '/static/images/avatar.jpg'
   if (item[attrName]) {
     if (!item[attrName].includes('http')) {
       if (!item[attrName].includes('jpg') && !item[attrName].includes('JPG') && !item[attrName].includes('PNG')) {

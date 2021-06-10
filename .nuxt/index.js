@@ -17,6 +17,7 @@ import nuxt_plugin_axios_3d399f3e from 'nuxt_plugin_axios_3d399f3e' // Source: .
 import nuxt_plugin_antdui_2b2dca90 from 'nuxt_plugin_antdui_2b2dca90' // Source: ..\\plugins\\antd-ui (mode: 'all')
 import nuxt_plugin_configs_d3475606 from 'nuxt_plugin_configs_d3475606' // Source: ..\\plugins\\configs (mode: 'all')
 import nuxt_plugin_requests_4051e1b8 from 'nuxt_plugin_requests_4051e1b8' // Source: ..\\plugins\\requests (mode: 'all')
+import nuxt_plugin_icons_229035a6 from 'nuxt_plugin_icons_229035a6' // Source: ..\\plugins\\icons (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -66,7 +67,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"选型宝_企业软件的大众点评-ERP_BI_CRM_OA_企业邮箱怎么选？","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"ERP系统_BI_CRM系统_OA系统_数据库软件_BPM系统_企业邮箱...想了解各种企业软件的用户口碑?就上选型宝, 企业级软件的大众点评，实名制的CIO选型经验交流社区"},{"hid":"keywords","name":"keywords","content":"ERP_BI_CRM_OA_数据库_BPM_企业邮箱"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fxxb_mark.png"}],"style":[],"script":[]},
+    head: {"title":"选型宝_企业软件的大众点评-ERP_BI_CRM_OA_企业邮箱怎么选？","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"ERP系统_BI_CRM系统_OA系统_数据库软件_BPM系统_企业邮箱...想了解各种企业软件的用户口碑?就上选型宝, 企业级软件的大众点评，实名制的CIO选型经验交流社区"},{"hid":"keywords","name":"keywords","content":"ERP_BI_CRM_OA_数据库_BPM_企业邮箱"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fimages\u002Fxxb_mark.png"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -198,6 +199,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_requests_4051e1b8 === 'function') {
     await nuxt_plugin_requests_4051e1b8(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_icons_229035a6 === 'function') {
+    await nuxt_plugin_icons_229035a6(app.context, inject)
   }
 
   // Lock enablePreview in context

@@ -9,20 +9,21 @@ export default {
       { hid: 'keywords', name: 'keywords', content: 'ERP_BI_CRM_OA_数据库_BPM_企业邮箱' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/xxb_mark.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/images/xxb_mark.png' }
     ]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
-    'ant-design-vue/dist/antd.css'
+    // 'ant-design-vue/dist/antd.css'
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    '@/plugins/antd-ui',
-    '@/plugins/configs',
-    '@/plugins/requests'
+    { src: '@/plugins/antd-ui', ssr: true },
+    { src: '@/plugins/configs' },
+    { src: '@/plugins/requests' },
+    { src: '@/plugins/icons' }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -69,7 +70,23 @@ export default {
     vendor: ['ant-design-vue'],
     productionSourceMap: false,
     productionGzip: true,
-    productionGzipExtensions: ['js', 'css', 'svg']
+    productionGzipExtensions: ['js', 'css', 'svg'],
+    babel: {
+      plugins: [
+        [
+          'import',
+          {
+            libraryName: 'ant-design-vue',
+            libraryDirectory: 'es',
+            style: 'css'
+            // 默认不使用该选项，即不导入样式 , 注意 ant-design-vue 使用 js 文件引入样式
+            // true 表示 import  'ant-design-vue/es/component/style'
+            // 'css' 表示 import 'ant-design-vue/es/component/style/css'
+          }
+        ]
+      ]
+    },
+    transpile: [/ant-design-vue/]
   },
   render: {
     resourceHints: false
