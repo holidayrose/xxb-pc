@@ -62,12 +62,6 @@
   "IndexNews": {
     "description": "Auto imported from components/index/news.vue"
   },
-  "PopBanner": {
-    "description": "Auto imported from components/pop/banner.vue"
-  },
-  "PopModel": {
-    "description": "Auto imported from components/pop/model.vue"
-  },
   "ProductDetailContact": {
     "description": "Auto imported from components/productDetail/contact.vue"
   },
@@ -82,6 +76,12 @@
   },
   "ProductDetailUserRate": {
     "description": "Auto imported from components/productDetail/userRate.vue"
+  },
+  "PopBanner": {
+    "description": "Auto imported from components/pop/banner.vue"
+  },
+  "PopModel": {
+    "description": "Auto imported from components/pop/model.vue"
   },
   "RankList": {
     "description": "Auto imported from components/rank/list.vue"
