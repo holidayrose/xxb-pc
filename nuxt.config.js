@@ -1,3 +1,4 @@
+import path from 'path'
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -22,8 +23,7 @@ export default {
   plugins: [
     { src: '@/plugins/antd-ui', ssr: true },
     { src: '@/plugins/configs' },
-    { src: '@/plugins/requests' },
-    { src: '@/plugins/icons' }
+    { src: '@/plugins/requests' }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -65,8 +65,10 @@ export default {
           rule.use.push(sassResourcesLoader)
         }
       })
+      config.resolve.alias['@ant-design/icons/lib/dist$'] = path.resolve(__dirname, './plugins/antd-icon.js') // 引入需要的
+      config.resolve.alias['@'] = path.resolve(__dirname, '../plugins')
     },
-    // analyze: true, // 使用webpack-bundle-analyzer来可视化包以及如何优化它们
+    analyze: true, // 使用webpack-bundle-analyzer来可视化包以及如何优化它们
     vendor: ['ant-design-vue'],
     productionSourceMap: false,
     productionGzip: true,
