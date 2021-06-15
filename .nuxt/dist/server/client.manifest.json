@@ -4,38 +4,38 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app.56b53d3.js",
-    "components/auto-play.8117d54.js",
-    "components/bar-score.33955e5.js",
-    "components/bar-zoom-small.4f93e87.js",
-    "components/bar-zoom.1af0a9d.js",
-    "components/category-rank.92abb17.js",
-    "components/common-bread-crumb.8d40714.js",
-    "components/common-star-zoom.8ee0cb9.js",
-    "components/footer.6c8ece1.js",
-    "components/has-no-data.0b8bf56.js",
-    "components/header-p-header2.c58f1c3.js",
-    "components/header2.c536710.js",
-    "components/index-case.d145d0f.js",
-    "components/index-news.a45f9d0.js",
-    "components/logo.25c648c.js",
-    "components/pop-banner.165e721.js",
-    "components/pop-model.d798706.js",
-    "components/product-card.098e07a.js",
-    "components/product-detail-contact.c137bcf.js",
-    "components/product-detail-feature.fa085a7.js",
-    "components/product-detail-price.3fdc240.js",
-    "components/product-detail-reviews.c4136cf.js",
-    "components/product-detail-user-rate.f9c258d.js",
-    "components/product-order.cb53995.js",
-    "components/rank-list.ac24392.js",
-    "components/review.2288fa8.js",
-    "components/right-nav-qrcode.f7c8bf3.js",
-    "components/right-nav.969d932.js",
-    "components/search-box.eba1fc2.js",
-    "components/slider.127ffc3.js",
-    "components/swiper-ad-swiper.6fd84b8.js",
-    "components/swiper-review-swiper.ab55fe4.js",
+    "app.a57c7c5.js",
+    "components/auto-play.928e31c.js",
+    "components/bar-score.1743833.js",
+    "components/bar-zoom-small.ca315fb.js",
+    "components/bar-zoom.c0d2da2.js",
+    "components/category-rank.6bb1765.js",
+    "components/common-bread-crumb.a1d4a15.js",
+    "components/common-star-zoom.275e535.js",
+    "components/footer.53fd2a4.js",
+    "components/has-no-data.f1ffbbf.js",
+    "components/header-p-header2.392a43a.js",
+    "components/header2.3c033cb.js",
+    "components/index-case.2bfb75f.js",
+    "components/index-news.d7299f8.js",
+    "components/logo.894486b.js",
+    "components/pop-banner.a4ca674.js",
+    "components/pop-model.92ecc47.js",
+    "components/product-card.136ac14.js",
+    "components/product-detail-contact.6e13248.js",
+    "components/product-detail-feature.cbf0608.js",
+    "components/product-detail-price.e3fa7bb.js",
+    "components/product-detail-reviews.e01f87a.js",
+    "components/product-detail-user-rate.07cb4ca.js",
+    "components/product-order.01e5518.js",
+    "components/rank-list.fa08758.js",
+    "components/review.7940d75.js",
+    "components/right-nav-qrcode.15838c4.js",
+    "components/right-nav.9e789fa.js",
+    "components/search-box.efbed7c.js",
+    "components/slider.b6ce50b.js",
+    "components/swiper-ad-swiper.a3994e8.js",
+    "components/swiper-review-swiper.55ec581.js",
     "img/404.aa79a80.png",
     "img/banner2.2f29aeb.jpeg",
     "img/banner_3.4ac16e5.png",
@@ -58,70 +58,70 @@
     "img/qrcode_fw.8427576.jpg",
     "img/right.06b411f.png",
     "img/wx-yh.bffc413.jpg",
-    "pages/all/index.8f9f66e.js",
-    "pages/cctv/product_trial_info/_id.6e974a7.js",
-    "pages/company/_id.fc635e1.js",
-    "pages/company/_id/pages/product/_id.4d697af.js",
-    "pages/index.a0d67dc.js",
-    "pages/index/pages/productDetail/_id.34845c2.js",
-    "pages/newsCase/_id.1318f05.js",
-    "pages/product/_id.8d1084e.js",
-    "pages/productDetail/_id.a51b424.js",
-    "pages/reputation/_id.da6b641.js",
-    "pages/result/_status.7625fcd.js",
-    "pages/reviewDetail/_id.e4bc80f.js",
-    "runtime.5fe5292.js",
-    "vendors/app.e6f1b30.js"
+    "pages/all/index.5e97e62.js",
+    "pages/cctv/product_trial_info/_id.8c8199b.js",
+    "pages/company/_id.2128c80.js",
+    "pages/company/_id/pages/product/_id.f10a482.js",
+    "pages/index.7ac077d.js",
+    "pages/index/pages/productDetail/_id.5b8ee64.js",
+    "pages/newsCase/_id.2895287.js",
+    "pages/product/_id.900a17f.js",
+    "pages/productDetail/_id.10f32a9.js",
+    "pages/reputation/_id.61c3f9e.js",
+    "pages/result/_status.4601260.js",
+    "pages/reviewDetail/_id.978e29e.js",
+    "runtime.fad21d9.js",
+    "vendors/app.1e958d2.js"
   ],
   "initial": [
-    "runtime.5fe5292.js",
-    "vendors/app.e6f1b30.js",
-    "app.56b53d3.js"
+    "runtime.fad21d9.js",
+    "vendors/app.1e958d2.js",
+    "app.a57c7c5.js"
   ],
   "async": [
-    "components/auto-play.8117d54.js",
-    "components/bar-score.33955e5.js",
-    "components/bar-zoom-small.4f93e87.js",
-    "components/bar-zoom.1af0a9d.js",
-    "components/category-rank.92abb17.js",
-    "components/common-bread-crumb.8d40714.js",
-    "components/common-star-zoom.8ee0cb9.js",
-    "components/footer.6c8ece1.js",
-    "components/has-no-data.0b8bf56.js",
-    "components/header-p-header2.c58f1c3.js",
-    "components/header2.c536710.js",
-    "components/index-case.d145d0f.js",
-    "components/index-news.a45f9d0.js",
-    "components/logo.25c648c.js",
-    "components/pop-banner.165e721.js",
-    "components/pop-model.d798706.js",
-    "components/product-card.098e07a.js",
-    "components/product-detail-contact.c137bcf.js",
-    "components/product-detail-feature.fa085a7.js",
-    "components/product-detail-price.3fdc240.js",
-    "components/product-detail-reviews.c4136cf.js",
-    "components/product-detail-user-rate.f9c258d.js",
-    "components/product-order.cb53995.js",
-    "components/rank-list.ac24392.js",
-    "components/review.2288fa8.js",
-    "components/right-nav-qrcode.f7c8bf3.js",
-    "components/right-nav.969d932.js",
-    "components/search-box.eba1fc2.js",
-    "components/slider.127ffc3.js",
-    "components/swiper-ad-swiper.6fd84b8.js",
-    "components/swiper-review-swiper.ab55fe4.js",
-    "pages/all/index.8f9f66e.js",
-    "pages/cctv/product_trial_info/_id.6e974a7.js",
-    "pages/company/_id.fc635e1.js",
-    "pages/company/_id/pages/product/_id.4d697af.js",
-    "pages/index.a0d67dc.js",
-    "pages/index/pages/productDetail/_id.34845c2.js",
-    "pages/newsCase/_id.1318f05.js",
-    "pages/product/_id.8d1084e.js",
-    "pages/productDetail/_id.a51b424.js",
-    "pages/reputation/_id.da6b641.js",
-    "pages/result/_status.7625fcd.js",
-    "pages/reviewDetail/_id.e4bc80f.js"
+    "components/auto-play.928e31c.js",
+    "components/bar-score.1743833.js",
+    "components/bar-zoom-small.ca315fb.js",
+    "components/bar-zoom.c0d2da2.js",
+    "components/category-rank.6bb1765.js",
+    "components/common-bread-crumb.a1d4a15.js",
+    "components/common-star-zoom.275e535.js",
+    "components/footer.53fd2a4.js",
+    "components/has-no-data.f1ffbbf.js",
+    "components/header-p-header2.392a43a.js",
+    "components/header2.3c033cb.js",
+    "components/index-case.2bfb75f.js",
+    "components/index-news.d7299f8.js",
+    "components/logo.894486b.js",
+    "components/pop-banner.a4ca674.js",
+    "components/pop-model.92ecc47.js",
+    "components/product-card.136ac14.js",
+    "components/product-detail-contact.6e13248.js",
+    "components/product-detail-feature.cbf0608.js",
+    "components/product-detail-price.e3fa7bb.js",
+    "components/product-detail-reviews.e01f87a.js",
+    "components/product-detail-user-rate.07cb4ca.js",
+    "components/product-order.01e5518.js",
+    "components/rank-list.fa08758.js",
+    "components/review.7940d75.js",
+    "components/right-nav-qrcode.15838c4.js",
+    "components/right-nav.9e789fa.js",
+    "components/search-box.efbed7c.js",
+    "components/slider.b6ce50b.js",
+    "components/swiper-ad-swiper.a3994e8.js",
+    "components/swiper-review-swiper.55ec581.js",
+    "pages/all/index.5e97e62.js",
+    "pages/cctv/product_trial_info/_id.8c8199b.js",
+    "pages/company/_id.2128c80.js",
+    "pages/company/_id/pages/product/_id.f10a482.js",
+    "pages/index.7ac077d.js",
+    "pages/index/pages/productDetail/_id.5b8ee64.js",
+    "pages/newsCase/_id.2895287.js",
+    "pages/product/_id.900a17f.js",
+    "pages/productDetail/_id.10f32a9.js",
+    "pages/reputation/_id.61c3f9e.js",
+    "pages/result/_status.4601260.js",
+    "pages/reviewDetail/_id.978e29e.js"
   ],
   "modules": {
     "23300310": [
@@ -1490,13 +1490,40 @@
     "036c767c": [
       70
     ],
-    "0cf20e2d": [
+    "370ac7d7": [
       70
     ],
-    "426a22ce": [
+    "740e620a": [
       70
     ],
-    "b24238d8": [
+    "67561b14": [
+      70
+    ],
+    "b03a8b9a": [
+      70
+    ],
+    "79a1f6aa": [
+      70
+    ],
+    "271faa3c": [
+      70
+    ],
+    "9c468eb4": [
+      70
+    ],
+    "0b6e762a": [
+      70
+    ],
+    "402c5a6e": [
+      70
+    ],
+    "f23fe71a": [
+      70
+    ],
+    "75ff529c": [
+      70
+    ],
+    "90e27892": [
       70
     ],
     "1e4134f9": [
@@ -3305,7 +3332,7 @@
       51,
       54
     ],
-    "6b5f1436": [
+    "0a75c77b": [
       65,
       62,
       47
@@ -3428,12 +3455,12 @@
       64,
       60
     ],
-    "fde23240": [
+    "20259a25": [
       65,
       62,
       47
     ],
-    "676d77b8": [
+    "6b5ff769": [
       65,
       62,
       47
@@ -3715,7 +3742,7 @@
       62,
       47
     ],
-    "2368d60c": [
+    "fa30ab02": [
       65,
       62,
       47
@@ -3725,7 +3752,7 @@
       62,
       47
     ],
-    "1cdb4762": [
+    "9d114632": [
       65,
       62,
       47
@@ -3969,142 +3996,142 @@
   },
   "assetsMapping": {
     "75971258": [
-      "components/category-rank.92abb17.js"
+      "components/category-rank.6bb1765.js"
     ],
     "1a3ae26b": [
-      "app.56b53d3.js"
+      "app.a57c7c5.js"
     ],
     "23bc4462": [
-      "components/auto-play.8117d54.js"
+      "components/auto-play.928e31c.js"
     ],
     "e391e4d6": [
-      "components/bar-score.33955e5.js"
+      "components/bar-score.1743833.js"
     ],
     "291b7d6a": [
-      "components/bar-zoom-small.4f93e87.js"
+      "components/bar-zoom-small.ca315fb.js"
     ],
     "151de870": [
-      "components/bar-zoom.1af0a9d.js"
+      "components/bar-zoom.c0d2da2.js"
     ],
     "53846f67": [
-      "components/common-bread-crumb.8d40714.js"
+      "components/common-bread-crumb.a1d4a15.js"
     ],
     "0549fd2f": [
-      "components/common-star-zoom.8ee0cb9.js"
+      "components/common-star-zoom.275e535.js"
     ],
     "252fad7e": [
-      "components/footer.6c8ece1.js"
+      "components/footer.53fd2a4.js"
     ],
     "12c5a400": [
-      "components/has-no-data.0b8bf56.js"
+      "components/has-no-data.f1ffbbf.js"
     ],
     "6a3d586a": [
-      "components/header-p-header2.c58f1c3.js"
+      "components/header-p-header2.392a43a.js"
     ],
     "4e95187c": [
-      "components/header2.c536710.js"
+      "components/header2.3c033cb.js"
     ],
     "57bc75ae": [
-      "components/index-case.d145d0f.js"
+      "components/index-case.2bfb75f.js"
     ],
     "57c18551": [
-      "components/index-news.a45f9d0.js"
+      "components/index-news.d7299f8.js"
     ],
     "88d34b64": [
-      "components/logo.25c648c.js"
+      "components/logo.894486b.js"
     ],
     "78e90eea": [
-      "components/pop-banner.165e721.js"
+      "components/pop-banner.a4ca674.js"
     ],
     "23ac4c2c": [
-      "components/pop-model.d798706.js"
+      "components/pop-model.92ecc47.js"
     ],
     "4c5a625e": [
-      "components/product-card.098e07a.js"
+      "components/product-card.136ac14.js"
     ],
     "0e6ed5b6": [
-      "components/product-detail-contact.c137bcf.js"
+      "components/product-detail-contact.6e13248.js"
     ],
     "f498280a": [
-      "components/product-detail-feature.fa085a7.js"
+      "components/product-detail-feature.cbf0608.js"
     ],
     "6898c0e4": [
-      "components/product-detail-price.3fdc240.js"
+      "components/product-detail-price.e3fa7bb.js"
     ],
     "01a16520": [
-      "components/product-detail-reviews.c4136cf.js"
+      "components/product-detail-reviews.e01f87a.js"
     ],
     "12f46d67": [
-      "components/product-detail-user-rate.f9c258d.js"
+      "components/product-detail-user-rate.07cb4ca.js"
     ],
     "6137abad": [
-      "components/product-order.cb53995.js"
+      "components/product-order.01e5518.js"
     ],
     "64db1adc": [
-      "components/rank-list.ac24392.js"
+      "components/rank-list.fa08758.js"
     ],
     "391fef3b": [
-      "components/review.2288fa8.js"
+      "components/review.7940d75.js"
     ],
     "3337bfec": [
-      "components/right-nav-qrcode.f7c8bf3.js"
+      "components/right-nav-qrcode.15838c4.js"
     ],
     "30464b2f": [
-      "components/right-nav.969d932.js"
+      "components/right-nav.9e789fa.js"
     ],
     "03919289": [
-      "components/search-box.eba1fc2.js"
+      "components/search-box.efbed7c.js"
     ],
     "3b3170c4": [
-      "components/slider.127ffc3.js"
+      "components/slider.b6ce50b.js"
     ],
     "d7de9320": [
-      "components/swiper-ad-swiper.6fd84b8.js"
+      "components/swiper-ad-swiper.a3994e8.js"
     ],
     "61487e9b": [
-      "components/swiper-review-swiper.ab55fe4.js"
+      "components/swiper-review-swiper.55ec581.js"
     ],
     "028803a3": [
-      "pages/all/index.8f9f66e.js"
+      "pages/all/index.5e97e62.js"
     ],
     "e91c9404": [
-      "pages/cctv/product_trial_info/_id.6e974a7.js"
+      "pages/cctv/product_trial_info/_id.8c8199b.js"
     ],
     "54ed2bb2": [
-      "pages/company/_id.fc635e1.js"
+      "pages/company/_id.2128c80.js"
     ],
     "195ea4e7": [
-      "pages/company/_id/pages/product/_id.4d697af.js"
+      "pages/company/_id/pages/product/_id.f10a482.js"
     ],
     "2a130dde": [
-      "pages/index.a0d67dc.js"
+      "pages/index.7ac077d.js"
     ],
     "7fa5867c": [
-      "pages/index/pages/productDetail/_id.34845c2.js"
+      "pages/index/pages/productDetail/_id.5b8ee64.js"
     ],
     "78d74da2": [
-      "pages/newsCase/_id.1318f05.js"
+      "pages/newsCase/_id.2895287.js"
     ],
     "ca231cce": [
-      "pages/product/_id.8d1084e.js"
+      "pages/product/_id.900a17f.js"
     ],
     "fa0069ec": [
-      "pages/productDetail/_id.a51b424.js"
+      "pages/productDetail/_id.10f32a9.js"
     ],
     "16bfb5c5": [
-      "pages/reputation/_id.da6b641.js"
+      "pages/reputation/_id.61c3f9e.js"
     ],
     "f9a62880": [
-      "pages/result/_status.7625fcd.js"
+      "pages/result/_status.4601260.js"
     ],
     "776a3ed5": [
-      "pages/reviewDetail/_id.e4bc80f.js"
+      "pages/reviewDetail/_id.978e29e.js"
     ],
     "6fca0322": [
-      "runtime.5fe5292.js"
+      "runtime.fad21d9.js"
     ],
     "7ea24c87": [
-      "vendors/app.e6f1b30.js"
+      "vendors/app.1e958d2.js"
     ]
   }
 }

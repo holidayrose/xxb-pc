@@ -66,7 +66,6 @@ export default {
         }
       })
       config.resolve.alias['@ant-design/icons/lib/dist$'] = path.resolve(__dirname, './plugins/antd-icon.js') // 引入需要的
-      config.resolve.alias['@'] = path.resolve(__dirname, '../plugins')
     },
     analyze: true, // 使用webpack-bundle-analyzer来可视化包以及如何优化它们
     vendor: ['ant-design-vue'],
