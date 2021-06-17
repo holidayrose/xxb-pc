@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app.98bb043.js",
+    "app.653e289.js",
     "components/auto-play.928e31c.js",
     "components/bar-score.1743833.js",
     "components/bar-zoom-small.ca315fb.js",
@@ -62,7 +62,7 @@
     "pages/cctv/product_trial_info/_id.8c8199b.js",
     "pages/company/_id.2128c80.js",
     "pages/company/_id/pages/product/_id.fff152e.js",
-    "pages/index.007a3aa.js",
+    "pages/index.3b3f75f.js",
     "pages/index/pages/productDetail/_id.e8ef826.js",
     "pages/newsCase/_id.0154e54.js",
     "pages/product/_id.6eb390c.js",
@@ -70,13 +70,13 @@
     "pages/reputation/_id.b62b857.js",
     "pages/result/_status.37cb8ad.js",
     "pages/reviewDetail/_id.af09fa1.js",
-    "runtime.3da13fb.js",
+    "runtime.7a41276.js",
     "vendors/app.855e55c.js"
   ],
   "initial": [
-    "runtime.3da13fb.js",
+    "runtime.7a41276.js",
     "vendors/app.855e55c.js",
-    "app.98bb043.js"
+    "app.653e289.js"
   ],
   "async": [
     "components/auto-play.928e31c.js",
@@ -114,7 +114,7 @@
     "pages/cctv/product_trial_info/_id.8c8199b.js",
     "pages/company/_id.2128c80.js",
     "pages/company/_id/pages/product/_id.fff152e.js",
-    "pages/index.007a3aa.js",
+    "pages/index.3b3f75f.js",
     "pages/index/pages/productDetail/_id.e8ef826.js",
     "pages/newsCase/_id.0154e54.js",
     "pages/product/_id.6eb390c.js",
@@ -3368,7 +3368,7 @@
       39,
       46
     ],
-    "0abfb326": [
+    "674f3a22": [
       61,
       62,
       40,
@@ -3559,7 +3559,7 @@
       39,
       46
     ],
-    "3ce6b4d0": [
+    "cd138868": [
       61,
       62,
       40,
@@ -3567,7 +3567,7 @@
       37,
       36
     ],
-    "08efd814": [
+    "657f5f10": [
       61,
       62,
       40,
@@ -3925,7 +3925,7 @@
       37,
       36
     ],
-    "5d693602": [
+    "52ea07fe": [
       61,
       62,
       40,
@@ -3941,7 +3941,7 @@
       37,
       36
     ],
-    "b939772c": [
+    "ce37d334": [
       61,
       62,
       40,
@@ -3999,7 +3999,7 @@
       "components/category-rank.6bb1765.js"
     ],
     "1a3ae26b": [
-      "app.98bb043.js"
+      "app.653e289.js"
     ],
     "23bc4462": [
       "components/auto-play.928e31c.js"
@@ -4104,7 +4104,7 @@
       "pages/company/_id/pages/product/_id.fff152e.js"
     ],
     "2a130dde": [
-      "pages/index.007a3aa.js"
+      "pages/index.3b3f75f.js"
     ],
     "7fa5867c": [
       "pages/index/pages/productDetail/_id.e8ef826.js"
@@ -4128,7 +4128,7 @@
       "pages/reviewDetail/_id.af09fa1.js"
     ],
     "6fca0322": [
-      "runtime.3da13fb.js"
+      "runtime.7a41276.js"
     ],
     "7ea24c87": [
       "vendors/app.855e55c.js"
