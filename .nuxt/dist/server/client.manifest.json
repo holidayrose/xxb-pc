@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app.653e289.js",
+    "app.df7cfee.js",
     "components/auto-play.928e31c.js",
     "components/bar-score.1743833.js",
     "components/bar-zoom-small.ca315fb.js",
@@ -71,12 +71,12 @@
     "pages/result/_status.37cb8ad.js",
     "pages/reviewDetail/_id.af09fa1.js",
     "runtime.7a41276.js",
-    "vendors/app.855e55c.js"
+    "vendors/app.696936a.js"
   ],
   "initial": [
     "runtime.7a41276.js",
-    "vendors/app.855e55c.js",
-    "app.653e289.js"
+    "vendors/app.696936a.js",
+    "app.df7cfee.js"
   ],
   "async": [
     "components/auto-play.928e31c.js",
@@ -164,6 +164,9 @@
       70
     ],
     "50658248": [
+      70
+    ],
+    "51754000": [
       70
     ],
     "53604752": [
@@ -322,7 +325,7 @@
     "4312edf6": [
       70
     ],
-    "a7300ad6": [
+    "339ac718": [
       70
     ],
     "5645b09e": [
@@ -421,28 +424,28 @@
     "aae47be2": [
       70
     ],
-    "37382ee0": [
+    "ceea6902": [
       70
     ],
     "e3770614": [
       70
     ],
-    "573854f1": [
+    "1c4dd11c": [
       70
     ],
-    "697a5746": [
+    "f68b3c08": [
       70
     ],
-    "81b1e83c": [
+    "2600b37e": [
       70
     ],
-    "59d089da": [
+    "3284be0e": [
       70
     ],
-    "3f9c426a": [
+    "95d32eaa": [
       70
     ],
-    "024bd23a": [
+    "38a4b8c2": [
       70
     ],
     "ab15f266": [
@@ -490,9 +493,6 @@
     "5a7731c1": [
       70
     ],
-    "1dcdd261": [
-      70
-    ],
     "760d6bfd": [
       3,
       44,
@@ -522,10 +522,10 @@
     "ffee2a56": [
       70
     ],
-    "5e1bc91f": [
+    "179356be": [
       70
     ],
-    "63afe5c1": [
+    "48f15482": [
       70
     ],
     "7231fa2f": [
@@ -3999,7 +3999,7 @@
       "components/category-rank.6bb1765.js"
     ],
     "1a3ae26b": [
-      "app.653e289.js"
+      "app.df7cfee.js"
     ],
     "23bc4462": [
       "components/auto-play.928e31c.js"
@@ -4131,7 +4131,7 @@
       "runtime.7a41276.js"
     ],
     "7ea24c87": [
-      "vendors/app.855e55c.js"
+      "vendors/app.696936a.js"
     ]
   }
 }

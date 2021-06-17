@@ -5156,10 +5156,10 @@ const components = {
   HeaderMHeader: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 44)).then(c => wrapFunctional(c.default || c)),
   HeaderPHeader: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 68)).then(c => wrapFunctional(c.default || c)),
   HeaderPHeader2: () => __webpack_require__.e(/* import() | components/header-p-header2 */ 10).then(__webpack_require__.bind(null, 170)).then(c => wrapFunctional(c.default || c)),
-  IndexCase: () => __webpack_require__.e(/* import() | components/index-case */ 12).then(__webpack_require__.bind(null, 289)).then(c => wrapFunctional(c.default || c)),
-  IndexNews: () => __webpack_require__.e(/* import() | components/index-news */ 13).then(__webpack_require__.bind(null, 290)).then(c => wrapFunctional(c.default || c)),
   PopBanner: () => __webpack_require__.e(/* import() | components/pop-banner */ 15).then(__webpack_require__.bind(null, 292)).then(c => wrapFunctional(c.default || c)),
   PopModel: () => __webpack_require__.e(/* import() | components/pop-model */ 16).then(__webpack_require__.bind(null, 235)).then(c => wrapFunctional(c.default || c)),
+  IndexCase: () => __webpack_require__.e(/* import() | components/index-case */ 12).then(__webpack_require__.bind(null, 289)).then(c => wrapFunctional(c.default || c)),
+  IndexNews: () => __webpack_require__.e(/* import() | components/index-news */ 13).then(__webpack_require__.bind(null, 290)).then(c => wrapFunctional(c.default || c)),
   ProductDetailContact: () => __webpack_require__.e(/* import() | components/product-detail-contact */ 18).then(__webpack_require__.bind(null, 206)).then(c => wrapFunctional(c.default || c)),
   ProductDetailFeature: () => __webpack_require__.e(/* import() | components/product-detail-feature */ 19).then(__webpack_require__.bind(null, 287)).then(c => wrapFunctional(c.default || c)),
   ProductDetailPrice: () => __webpack_require__.e(/* import() | components/product-detail-price */ 20).then(__webpack_require__.bind(null, 339)).then(c => wrapFunctional(c.default || c)),
@@ -22961,7 +22961,15 @@ async function createApp(ssrContext, config = {}) {
 
 
   await new Promise((resolve, reject) => {
-    router.replace(app.context.route.fullPath, resolve, err => {
+    const {
+      route
+    } = router.resolve(app.context.route.fullPath); // Ignore 404s rather than blindly replacing URL
+
+    if (!route.matched.length && false) {
+      return resolve();
+    }
+
+    router.replace(route, resolve, err => {
       // https://github.com/vuejs/vue-router/blob/v3.4.3/src/util/errors.js
       if (!err._isRouter) return reject(err);
       if (err.type !== 2

@@ -3,60 +3,70 @@
     "name": "all",
     "path": "/all",
     "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\all\\\\index.vue",
-    "chunkName": "pages/all/index"
+    "chunkName": "pages/all/index",
+    "_name": "_86acd598"
   },
   {
     "name": "cctv-product_trial_info-id",
     "path": "/cctv/product_trial_info/:id?",
     "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\cctv\\\\product_trial_info\\\\_id.vue",
-    "chunkName": "pages/cctv/product_trial_info/_id"
+    "chunkName": "pages/cctv/product_trial_info/_id",
+    "_name": "_93fbe2c4"
   },
   {
     "name": "company-id",
     "path": "/company/:id?",
     "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\company\\\\_id.vue",
-    "chunkName": "pages/company/_id"
+    "chunkName": "pages/company/_id",
+    "_name": "_0b876bc0"
   },
   {
     "name": "newsCase-id",
     "path": "/newsCase/:id?",
     "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\newsCase\\\\_id.vue",
-    "chunkName": "pages/newsCase/_id"
+    "chunkName": "pages/newsCase/_id",
+    "_name": "_8c7a97b8"
   },
   {
     "name": "product-id",
     "path": "/product/:id?",
     "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\product\\\\_id.vue",
-    "chunkName": "pages/product/_id"
+    "chunkName": "pages/product/_id",
+    "_name": "_dc9188e4"
   },
   {
     "name": "productDetail-id",
     "path": "/productDetail/:id?",
     "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\productDetail\\\\_id.vue",
-    "chunkName": "pages/productDetail/_id"
+    "chunkName": "pages/productDetail/_id",
+    "_name": "_76202d86"
   },
   {
     "name": "reputation-id",
     "path": "/reputation/:id?",
     "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\reputation\\\\_id.vue",
-    "chunkName": "pages/reputation/_id"
+    "chunkName": "pages/reputation/_id",
+    "_name": "_2961b064"
   },
   {
     "name": "result-status",
     "path": "/result/:status?",
     "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\result\\\\_status.vue",
-    "chunkName": "pages/result/_status"
+    "chunkName": "pages/result/_status",
+    "_name": "_3a83c9fe"
   },
   {
     "name": "reviewDetail-id",
     "path": "/reviewDetail/:id?",
     "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\reviewDetail\\\\_id.vue",
-    "chunkName": "pages/reviewDetail/_id"
+    "chunkName": "pages/reviewDetail/_id",
+    "_name": "_b04ee984"
   },
   {
     "name": "index",
     "path": "/",
     "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_559650ff"
   }
 ]
