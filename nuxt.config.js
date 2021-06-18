@@ -23,7 +23,8 @@ export default {
   plugins: [
     { src: '@/plugins/antd-ui', ssr: true },
     { src: '@/plugins/configs' },
-    { src: '@/plugins/requests' }
+    { src: '@/plugins/requests' },
+    { src: '@/plugins/vue-lazyload' }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -87,7 +88,13 @@ export default {
         ]
       ]
     },
-    transpile: [/ant-design-vue/]
+    transpile: [/ant-design-vue/],
+    optimization: {
+      splitChunks: {
+        minSize: 10000,
+        maxSize: 250000
+      }
+    }
   },
   render: {
     resourceHints: false
