@@ -2003,7 +2003,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "5e3eaca2",
-  "c3dcd59e"
+  "78e37e50"
   
 )
 
@@ -2158,7 +2158,7 @@ var component = Object(_node_modules_vue_loader_15_9_7_vue_loader_lib_runtime_co
   false,
   injectStyles,
   null,
-  "a88037e4"
+  "0528a475"
   
 )
 
@@ -2640,7 +2640,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "6571abb2",
-  "5cbfad74"
+  "fb874dca"
   
 )
 
@@ -2747,7 +2747,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "6a0af174",
-  "48e2fc5a"
+  "7dc8c47a"
   
 )
 
@@ -4376,25 +4376,25 @@ function shouldScrollToTop(route) {
 
 
 
-const _86acd598 = () => interopDefault(__webpack_require__.e(/* import() | pages/all/index */ 32).then(__webpack_require__.bind(null, 330)));
+const _61e9c683 = () => interopDefault(__webpack_require__.e(/* import() | pages/all/index */ 32).then(__webpack_require__.bind(null, 330)));
 
-const _93fbe2c4 = () => interopDefault(__webpack_require__.e(/* import() | pages/cctv/product_trial_info/_id */ 33).then(__webpack_require__.bind(null, 331)));
+const _04893622 = () => interopDefault(__webpack_require__.e(/* import() | pages/cctv/product_trial_info/_id */ 33).then(__webpack_require__.bind(null, 331)));
 
-const _0b876bc0 = () => interopDefault(__webpack_require__.e(/* import() | pages/company/_id */ 34).then(__webpack_require__.bind(null, 332)));
+const _6180854f = () => interopDefault(__webpack_require__.e(/* import() | pages/company/_id */ 34).then(__webpack_require__.bind(null, 332)));
 
-const _8c7a97b8 = () => interopDefault(__webpack_require__.e(/* import() | pages/newsCase/_id */ 36).then(__webpack_require__.bind(null, 333)));
+const _22eccc75 = () => interopDefault(__webpack_require__.e(/* import() | pages/newsCase/_id */ 36).then(__webpack_require__.bind(null, 333)));
 
-const _dc9188e4 = () => interopDefault(__webpack_require__.e(/* import() | pages/product/_id */ 37).then(__webpack_require__.bind(null, 334)));
+const _309f55c6 = () => interopDefault(__webpack_require__.e(/* import() | pages/product/_id */ 37).then(__webpack_require__.bind(null, 334)));
 
-const _76202d86 = () => interopDefault(__webpack_require__.e(/* import() | pages/productDetail/_id */ 38).then(__webpack_require__.bind(null, 335)));
+const _048d5b8c = () => interopDefault(__webpack_require__.e(/* import() | pages/productDetail/_id */ 38).then(__webpack_require__.bind(null, 335)));
 
-const _2961b064 = () => interopDefault(__webpack_require__.e(/* import() | pages/reputation/_id */ 39).then(__webpack_require__.bind(null, 336)));
+const _9b572042 = () => interopDefault(__webpack_require__.e(/* import() | pages/reputation/_id */ 39).then(__webpack_require__.bind(null, 336)));
 
-const _3a83c9fe = () => interopDefault(__webpack_require__.e(/* import() | pages/result/_status */ 40).then(__webpack_require__.bind(null, 337)));
+const _ac7939dc = () => interopDefault(__webpack_require__.e(/* import() | pages/result/_status */ 40).then(__webpack_require__.bind(null, 337)));
 
-const _b04ee984 = () => interopDefault(__webpack_require__.e(/* import() | pages/reviewDetail/_id */ 41).then(__webpack_require__.bind(null, 338)));
+const _7aa7d9e2 = () => interopDefault(__webpack_require__.e(/* import() | pages/reviewDetail/_id */ 41).then(__webpack_require__.bind(null, 338)));
 
-const _559650ff = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 35).then(__webpack_require__.bind(null, 339)));
+const _00224a50 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 35).then(__webpack_require__.bind(null, 339)));
 
 const emptyFn = () => {};
 
@@ -4407,43 +4407,43 @@ const routerOptions = {
   scrollBehavior: router_scrollBehavior,
   routes: [{
     path: "/all",
-    component: _86acd598,
+    component: _61e9c683,
     name: "all"
   }, {
     path: "/cctv/product_trial_info/:id?",
-    component: _93fbe2c4,
+    component: _04893622,
     name: "cctv-product_trial_info-id"
   }, {
     path: "/company/:id?",
-    component: _0b876bc0,
+    component: _6180854f,
     name: "company-id"
   }, {
     path: "/newsCase/:id?",
-    component: _8c7a97b8,
+    component: _22eccc75,
     name: "newsCase-id"
   }, {
     path: "/product/:id?",
-    component: _dc9188e4,
+    component: _309f55c6,
     name: "product-id"
   }, {
     path: "/productDetail/:id?",
-    component: _76202d86,
+    component: _048d5b8c,
     name: "productDetail-id"
   }, {
     path: "/reputation/:id?",
-    component: _2961b064,
+    component: _9b572042,
     name: "reputation-id"
   }, {
     path: "/result/:status?",
-    component: _3a83c9fe,
+    component: _ac7939dc,
     name: "result-status"
   }, {
     path: "/reviewDetail/:id?",
-    component: _b04ee984,
+    component: _7aa7d9e2,
     name: "reviewDetail-id"
   }, {
     path: "/",
-    component: _559650ff,
+    component: _00224a50,
     name: "index"
   }],
   fallback: false
@@ -4613,7 +4613,7 @@ var error_component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "af3fee6c",
-  "5da1e4d6"
+  "22cabbbc"
   
 )
 
@@ -4921,7 +4921,7 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
   false,
   nuxt_loading_injectStyles,
   null,
-  "6662fb6d"
+  "3e7908d8"
   
 )
 
@@ -5144,40 +5144,40 @@ function wrapFunctional(options) {
 
 
 const components = {
-  AutoPlay: () => __webpack_require__.e(/* import() | components/auto-play */ 1).then(__webpack_require__.bind(null, 210)).then(c => wrapFunctional(c.default || c)),
-  BarScore: () => __webpack_require__.e(/* import() | components/bar-score */ 2).then(__webpack_require__.bind(null, 208)).then(c => wrapFunctional(c.default || c)),
-  BarZoom: () => __webpack_require__.e(/* import() | components/bar-zoom */ 3).then(__webpack_require__.bind(null, 237)).then(c => wrapFunctional(c.default || c)),
-  BarZoomSmall: () => __webpack_require__.e(/* import() | components/bar-zoom-small */ 4).then(__webpack_require__.bind(null, 285)).then(c => wrapFunctional(c.default || c)),
+  AutoPlay: () => __webpack_require__.e(/* import() | components/auto-play */ 1).then(__webpack_require__.bind(null, 217)).then(c => wrapFunctional(c.default || c)),
+  BarScore: () => __webpack_require__.e(/* import() | components/bar-score */ 2).then(__webpack_require__.bind(null, 215)).then(c => wrapFunctional(c.default || c)),
+  BarZoom: () => __webpack_require__.e(/* import() | components/bar-zoom */ 3).then(__webpack_require__.bind(null, 240)).then(c => wrapFunctional(c.default || c)),
+  BarZoomSmall: () => __webpack_require__.e(/* import() | components/bar-zoom-small */ 4).then(__webpack_require__.bind(null, 286)).then(c => wrapFunctional(c.default || c)),
   CategoryRank: () => __webpack_require__.e(/* import() | components/category-rank */ 5).then(__webpack_require__.bind(null, 296)).then(c => wrapFunctional(c.default || c)),
-  Footer: () => __webpack_require__.e(/* import() | components/footer */ 8).then(__webpack_require__.bind(null, 186)).then(c => wrapFunctional(c.default || c)),
+  Footer: () => __webpack_require__.e(/* import() | components/footer */ 8).then(__webpack_require__.bind(null, 194)).then(c => wrapFunctional(c.default || c)),
   Header: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 74)).then(c => wrapFunctional(c.default || c)),
-  Header2: () => __webpack_require__.e(/* import() | components/header2 */ 11).then(__webpack_require__.bind(null, 185)).then(c => wrapFunctional(c.default || c)),
+  Header2: () => __webpack_require__.e(/* import() | components/header2 */ 11).then(__webpack_require__.bind(null, 193)).then(c => wrapFunctional(c.default || c)),
   Logo: () => __webpack_require__.e(/* import() | components/logo */ 14).then(__webpack_require__.bind(null, 342)).then(c => wrapFunctional(c.default || c)),
   ProductCard: () => __webpack_require__.e(/* import() | components/product-card */ 17).then(__webpack_require__.bind(null, 297)).then(c => wrapFunctional(c.default || c)),
-  ProductOrder: () => __webpack_require__.e(/* import() | components/product-order */ 23).then(__webpack_require__.bind(null, 287)).then(c => wrapFunctional(c.default || c)),
-  Review: () => __webpack_require__.e(/* import() | components/review */ 25).then(__webpack_require__.bind(null, 209)).then(c => wrapFunctional(c.default || c)),
+  ProductOrder: () => __webpack_require__.e(/* import() | components/product-order */ 23).then(__webpack_require__.bind(null, 288)).then(c => wrapFunctional(c.default || c)),
+  Review: () => __webpack_require__.e(/* import() | components/review */ 25).then(__webpack_require__.bind(null, 216)).then(c => wrapFunctional(c.default || c)),
   SearchBox: () => __webpack_require__.e(/* import() | components/search-box */ 28).then(__webpack_require__.bind(null, 295)).then(c => wrapFunctional(c.default || c)),
-  Slider: () => __webpack_require__.e(/* import() | components/slider */ 29).then(__webpack_require__.bind(null, 194)).then(c => wrapFunctional(c.default || c)),
-  HasNoData: () => __webpack_require__.e(/* import() | components/has-no-data */ 9).then(__webpack_require__.bind(null, 191)).then(c => wrapFunctional(c.default || c)),
+  Slider: () => __webpack_require__.e(/* import() | components/slider */ 29).then(__webpack_require__.bind(null, 202)).then(c => wrapFunctional(c.default || c)),
+  HasNoData: () => __webpack_require__.e(/* import() | components/has-no-data */ 9).then(__webpack_require__.bind(null, 199)).then(c => wrapFunctional(c.default || c)),
   HeaderMHeader: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 45)).then(c => wrapFunctional(c.default || c)),
   HeaderPHeader: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 69)).then(c => wrapFunctional(c.default || c)),
-  HeaderPHeader2: () => __webpack_require__.e(/* import() | components/header-p-header2 */ 10).then(__webpack_require__.bind(null, 171)).then(c => wrapFunctional(c.default || c)),
-  PopBanner: () => __webpack_require__.e(/* import() | components/pop-banner */ 15).then(__webpack_require__.bind(null, 293)).then(c => wrapFunctional(c.default || c)),
-  PopModel: () => __webpack_require__.e(/* import() | components/pop-model */ 16).then(__webpack_require__.bind(null, 236)).then(c => wrapFunctional(c.default || c)),
-  IndexCase: () => __webpack_require__.e(/* import() | components/index-case */ 12).then(__webpack_require__.bind(null, 290)).then(c => wrapFunctional(c.default || c)),
-  IndexNews: () => __webpack_require__.e(/* import() | components/index-news */ 13).then(__webpack_require__.bind(null, 291)).then(c => wrapFunctional(c.default || c)),
-  ProductDetailContact: () => __webpack_require__.e(/* import() | components/product-detail-contact */ 18).then(__webpack_require__.bind(null, 207)).then(c => wrapFunctional(c.default || c)),
-  ProductDetailFeature: () => __webpack_require__.e(/* import() | components/product-detail-feature */ 19).then(__webpack_require__.bind(null, 288)).then(c => wrapFunctional(c.default || c)),
+  HeaderPHeader2: () => __webpack_require__.e(/* import() | components/header-p-header2 */ 10).then(__webpack_require__.bind(null, 176)).then(c => wrapFunctional(c.default || c)),
+  IndexCase: () => __webpack_require__.e(/* import() | components/index-case */ 12).then(__webpack_require__.bind(null, 291)).then(c => wrapFunctional(c.default || c)),
+  IndexNews: () => __webpack_require__.e(/* import() | components/index-news */ 13).then(__webpack_require__.bind(null, 292)).then(c => wrapFunctional(c.default || c)),
+  PopBanner: () => __webpack_require__.e(/* import() | components/pop-banner */ 15).then(__webpack_require__.bind(null, 192)).then(c => wrapFunctional(c.default || c)),
+  PopModel: () => __webpack_require__.e(/* import() | components/pop-model */ 16).then(__webpack_require__.bind(null, 175)).then(c => wrapFunctional(c.default || c)),
+  ProductDetailContact: () => __webpack_require__.e(/* import() | components/product-detail-contact */ 18).then(__webpack_require__.bind(null, 214)).then(c => wrapFunctional(c.default || c)),
+  ProductDetailFeature: () => __webpack_require__.e(/* import() | components/product-detail-feature */ 19).then(__webpack_require__.bind(null, 289)).then(c => wrapFunctional(c.default || c)),
   ProductDetailPrice: () => __webpack_require__.e(/* import() | components/product-detail-price */ 20).then(__webpack_require__.bind(null, 340)).then(c => wrapFunctional(c.default || c)),
-  ProductDetailReviews: () => __webpack_require__.e(/* import() | components/product-detail-reviews */ 21).then(__webpack_require__.bind(null, 289)).then(c => wrapFunctional(c.default || c)),
+  ProductDetailReviews: () => __webpack_require__.e(/* import() | components/product-detail-reviews */ 21).then(__webpack_require__.bind(null, 290)).then(c => wrapFunctional(c.default || c)),
   ProductDetailUserRate: () => __webpack_require__.e(/* import() | components/product-detail-user-rate */ 22).then(__webpack_require__.bind(null, 341)).then(c => wrapFunctional(c.default || c)),
-  RankList: () => __webpack_require__.e(/* import() | components/rank-list */ 24).then(__webpack_require__.bind(null, 201)).then(c => wrapFunctional(c.default || c)),
-  RightNav: () => __webpack_require__.e(/* import() | components/right-nav */ 26).then(__webpack_require__.bind(null, 183)).then(c => wrapFunctional(c.default || c)),
-  RightNavQrcode: () => __webpack_require__.e(/* import() | components/right-nav-qrcode */ 27).then(__webpack_require__.bind(null, 184)).then(c => wrapFunctional(c.default || c)),
+  RankList: () => __webpack_require__.e(/* import() | components/rank-list */ 24).then(__webpack_require__.bind(null, 208)).then(c => wrapFunctional(c.default || c)),
   SwiperAdSwiper: () => __webpack_require__.e(/* import() | components/swiper-ad-swiper */ 30).then(__webpack_require__.bind(null, 294)).then(c => wrapFunctional(c.default || c)),
-  SwiperReviewSwiper: () => __webpack_require__.e(/* import() | components/swiper-review-swiper */ 31).then(__webpack_require__.bind(null, 292)).then(c => wrapFunctional(c.default || c)),
-  CommonBreadCrumb: () => __webpack_require__.e(/* import() | components/common-bread-crumb */ 6).then(__webpack_require__.bind(null, 286)).then(c => wrapFunctional(c.default || c)),
-  CommonStarZoom: () => __webpack_require__.e(/* import() | components/common-star-zoom */ 7).then(__webpack_require__.bind(null, 163)).then(c => wrapFunctional(c.default || c))
+  SwiperReviewSwiper: () => __webpack_require__.e(/* import() | components/swiper-review-swiper */ 31).then(__webpack_require__.bind(null, 293)).then(c => wrapFunctional(c.default || c)),
+  CommonBreadCrumb: () => __webpack_require__.e(/* import() | components/common-bread-crumb */ 6).then(__webpack_require__.bind(null, 287)).then(c => wrapFunctional(c.default || c)),
+  RightNav: () => __webpack_require__.e(/* import() | components/right-nav */ 26).then(__webpack_require__.bind(null, 190)).then(c => wrapFunctional(c.default || c)),
+  RightNavQrcode: () => __webpack_require__.e(/* import() | components/right-nav-qrcode */ 27).then(__webpack_require__.bind(null, 191)).then(c => wrapFunctional(c.default || c)),
+  CommonStarZoom: () => __webpack_require__.e(/* import() | components/common-star-zoom */ 7).then(__webpack_require__.bind(null, 165)).then(c => wrapFunctional(c.default || c))
 };
 
 for (const name in components) {
@@ -22400,7 +22400,7 @@ const configs_config = {
     SEARCH_TEXT: '选企业软件? 来选型宝，看看CIO的实名点评吧！',
     INTRO: '选型宝是“B2B市场的大众点评”，为企业的IT决策者，提供了一个实名的选型经验交流社区。在选型宝，企业IT采购者不仅能看到其他用户的实名点评，还可以按产品，找到用过的人咨询，问问他们真实的使用感受。选型宝还提供面向厂商的企业账号，让企业可以发布自己的产品、方案、案例，给用户的IT选型提供全面的决策参考。'
   },
-  BANNERTXT: ['点评就给钱，最高100元！', '软件诚邀用户点评！马上去点评'],
+  BANNERTXT: ['点评就给钱，最高100元！', '软件诚邀用户点评！'],
   APPLY: {
     FORM: {
       ONE: '请留下联系方式',
