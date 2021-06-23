@@ -30,11 +30,11 @@ const components = {
   ProductDetailReviews: () => import('../..\\components\\productDetail\\reviews.vue' /* webpackChunkName: "components/product-detail-reviews" */).then(c => wrapFunctional(c.default || c)),
   ProductDetailUserRate: () => import('../..\\components\\productDetail\\userRate.vue' /* webpackChunkName: "components/product-detail-user-rate" */).then(c => wrapFunctional(c.default || c)),
   RankList: () => import('../..\\components\\rank\\list.vue' /* webpackChunkName: "components/rank-list" */).then(c => wrapFunctional(c.default || c)),
+  RightNav: () => import('../..\\components\\rightNav\\index.vue' /* webpackChunkName: "components/right-nav" */).then(c => wrapFunctional(c.default || c)),
+  RightNavQrcode: () => import('../..\\components\\rightNav\\qrcode.vue' /* webpackChunkName: "components/right-nav-qrcode" */).then(c => wrapFunctional(c.default || c)),
   SwiperAdSwiper: () => import('../..\\components\\swiper\\adSwiper.vue' /* webpackChunkName: "components/swiper-ad-swiper" */).then(c => wrapFunctional(c.default || c)),
   SwiperReviewSwiper: () => import('../..\\components\\swiper\\reviewSwiper.vue' /* webpackChunkName: "components/swiper-review-swiper" */).then(c => wrapFunctional(c.default || c)),
   CommonBreadCrumb: () => import('../..\\components\\common\\breadCrumb\\index.vue' /* webpackChunkName: "components/common-bread-crumb" */).then(c => wrapFunctional(c.default || c)),
-  RightNav: () => import('../..\\components\\rightNav\\index.vue' /* webpackChunkName: "components/right-nav" */).then(c => wrapFunctional(c.default || c)),
-  RightNavQrcode: () => import('../..\\components\\rightNav\\qrcode.vue' /* webpackChunkName: "components/right-nav-qrcode" */).then(c => wrapFunctional(c.default || c)),
   CommonStarZoom: () => import('../..\\components\\common\\starComp\\StarZoom.vue' /* webpackChunkName: "components/common-star-zoom" */).then(c => wrapFunctional(c.default || c))
 }
 

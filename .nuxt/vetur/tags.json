@@ -83,6 +83,12 @@
   "RankList": {
     "description": "Auto imported from components/rank/list.vue"
   },
+  "RightNav": {
+    "description": "Auto imported from components/rightNav/index.vue"
+  },
+  "RightNavQrcode": {
+    "description": "Auto imported from components/rightNav/qrcode.vue"
+  },
   "SwiperAdSwiper": {
     "description": "Auto imported from components/swiper/adSwiper.vue"
   },
@@ -91,12 +97,6 @@
   },
   "CommonBreadCrumb": {
     "description": "Auto imported from components/common/breadCrumb/index.vue"
-  },
-  "RightNav": {
-    "description": "Auto imported from components/rightNav/index.vue"
-  },
-  "RightNavQrcode": {
-    "description": "Auto imported from components/rightNav/qrcode.vue"
   },
   "CommonStarZoom": {
     "description": "Auto imported from components/common/starComp/StarZoom.vue"

@@ -1,11 +1,10 @@
 import Vue from 'vue'
 // import Antd from 'ant-design-vue/lib'
-import { Row, Col, Button, Carousel, Anchor, Layout, Input, Card, Breadcrumb, Form, Progress, Icon } from 'ant-design-vue'
+import { Row, Col, Button, Anchor, Layout, Input, Card, Breadcrumb, Form, Progress, Icon } from 'ant-design-vue'
 export default () => {
   Vue.use(Row)
   Vue.use(Col)
   Vue.use(Button)
-  Vue.use(Carousel)
   Vue.use(Anchor)
   Vue.use(Layout)
   Vue.use(Input)
