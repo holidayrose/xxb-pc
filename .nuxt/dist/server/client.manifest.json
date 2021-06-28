@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app/24120820.db0470e.js",
+    "app/24120820.f924676.js",
     "components/auto-play/f075b844.94f5593.js",
     "components/bar-score/dc0dd67d.414933f.js",
     "components/bar-zoom-small/1ffabd00.6c47673.js",
@@ -65,11 +65,11 @@
     "pages/index/f075b844.ac2748f.js",
     "pages/newsCase/_id/f075b844.c971646.js",
     "pages/product/_id/f075b844.6bcf535.js",
-    "pages/productDetail/_id/f075b844.3da1abf.js",
-    "pages/reputation/_id/f075b844.9bc050a.js",
+    "pages/productDetail/_id/f075b844.a8e4d7a.js",
+    "pages/reputation/_id/f075b844.4456bc4.js",
     "pages/result/_status/f075b844.87979a5.js",
     "pages/reviewDetail/_id/f075b844.b7b8f31.js",
-    "runtime.2775559.js",
+    "runtime.ffcc197.js",
     "vendors/app/020089fc.35acf05.js",
     "vendors/app/072ba7d1.a40254b.js",
     "vendors/app/10fd034b.ab4ef66.js",
@@ -91,7 +91,7 @@
     "vendors/app/fe93738b.5e28bdd.js"
   ],
   "initial": [
-    "runtime.2775559.js",
+    "runtime.ffcc197.js",
     "vendors/app/c913e6bf.f0fd562.js",
     "vendors/app/15a3c339.ecd1a81.js",
     "vendors/app/232e57b9.8e8acc8.js",
@@ -111,7 +111,7 @@
     "vendors/app/fe93738b.5e28bdd.js",
     "vendors/app/25783f63.6b4f53f.js",
     "vendors/app/020089fc.35acf05.js",
-    "app/24120820.db0470e.js"
+    "app/24120820.f924676.js"
   ],
   "async": [
     "components/auto-play/f075b844.94f5593.js",
@@ -152,8 +152,8 @@
     "pages/index/f075b844.ac2748f.js",
     "pages/newsCase/_id/f075b844.c971646.js",
     "pages/product/_id/f075b844.6bcf535.js",
-    "pages/productDetail/_id/f075b844.3da1abf.js",
-    "pages/reputation/_id/f075b844.9bc050a.js",
+    "pages/productDetail/_id/f075b844.a8e4d7a.js",
+    "pages/reputation/_id/f075b844.4456bc4.js",
     "pages/result/_status/f075b844.87979a5.js",
     "pages/reviewDetail/_id/f075b844.b7b8f31.js"
   ],
@@ -3409,12 +3409,12 @@
     "05196464": [
       24
     ],
-    "2c3f5f4e": [
+    "37109b42": [
       64,
       52,
       47
     ],
-    "644ce481": [
+    "77618fd7": [
       65,
       52,
       47,
@@ -3559,12 +3559,12 @@
     "f5f071f2": [
       24
     ],
-    "6a61a466": [
+    "7532e05a": [
       64,
       52,
       47
     ],
-    "7617f1f5": [
+    "fe2da42e": [
       64,
       52,
       47
@@ -3575,13 +3575,13 @@
       47,
       41
     ],
-    "da43132e": [
+    "b419bc82": [
       65,
       52,
       47,
       41
     ],
-    "5baaab3a": [
+    "6ebf5690": [
       65,
       52,
       47,
@@ -3793,7 +3793,7 @@
       52,
       47
     ],
-    "24b80b12": [
+    "819c2ff4": [
       64,
       52,
       47
@@ -3803,7 +3803,7 @@
       52,
       47
     ],
-    "6aa2b58c": [
+    "051c9280": [
       64,
       52,
       47
@@ -3819,7 +3819,7 @@
       47,
       41
     ],
-    "4357267d": [
+    "84d8355a": [
       65,
       52,
       47,
@@ -3831,7 +3831,7 @@
       47,
       41
     ],
-    "caa1c37a": [
+    "14ebdd19": [
       65,
       52,
       47,
@@ -3990,7 +3990,7 @@
       "vendors/app/10fd034b.ab4ef66.js"
     ],
     "4f598bcd": [
-      "app/24120820.db0470e.js"
+      "app/24120820.f924676.js"
     ],
     "3d6f663e": [
       "components/auto-play/f075b844.94f5593.js"
@@ -4107,10 +4107,10 @@
       "pages/product/_id/f075b844.6bcf535.js"
     ],
     "1bd92b63": [
-      "pages/productDetail/_id/f075b844.3da1abf.js"
+      "pages/productDetail/_id/f075b844.a8e4d7a.js"
     ],
     "3bf3b9f0": [
-      "pages/reputation/_id/f075b844.9bc050a.js"
+      "pages/reputation/_id/f075b844.4456bc4.js"
     ],
     "4eb31126": [
       "pages/result/_status/f075b844.87979a5.js"
@@ -4119,7 +4119,7 @@
       "pages/reviewDetail/_id/f075b844.b7b8f31.js"
     ],
     "6fca0322": [
-      "runtime.2775559.js"
+      "runtime.ffcc197.js"
     ],
     "5754d2f0": [
       "vendors/app/020089fc.35acf05.js"
