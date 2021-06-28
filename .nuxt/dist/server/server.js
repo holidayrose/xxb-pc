@@ -3995,11 +3995,11 @@ const components = {
   ProductDetailReviews: () => __webpack_require__.e(/* import() | components/product-detail-reviews */ 21).then(__webpack_require__.bind(null, 284)).then(c => wrapFunctional(c.default || c)),
   ProductDetailUserRate: () => __webpack_require__.e(/* import() | components/product-detail-user-rate */ 22).then(__webpack_require__.bind(null, 335)).then(c => wrapFunctional(c.default || c)),
   RankList: () => __webpack_require__.e(/* import() | components/rank-list */ 24).then(__webpack_require__.bind(null, 202)).then(c => wrapFunctional(c.default || c)),
+  CommonBreadCrumb: () => __webpack_require__.e(/* import() | components/common-bread-crumb */ 6).then(__webpack_require__.bind(null, 281)).then(c => wrapFunctional(c.default || c)),
   RightNav: () => __webpack_require__.e(/* import() | components/right-nav */ 26).then(__webpack_require__.bind(null, 184)).then(c => wrapFunctional(c.default || c)),
   RightNavQrcode: () => __webpack_require__.e(/* import() | components/right-nav-qrcode */ 27).then(__webpack_require__.bind(null, 185)).then(c => wrapFunctional(c.default || c)),
   SwiperAdSwiper: () => __webpack_require__.e(/* import() | components/swiper-ad-swiper */ 30).then(__webpack_require__.bind(null, 288)).then(c => wrapFunctional(c.default || c)),
   SwiperReviewSwiper: () => __webpack_require__.e(/* import() | components/swiper-review-swiper */ 31).then(__webpack_require__.bind(null, 287)).then(c => wrapFunctional(c.default || c)),
-  CommonBreadCrumb: () => __webpack_require__.e(/* import() | components/common-bread-crumb */ 6).then(__webpack_require__.bind(null, 281)).then(c => wrapFunctional(c.default || c)),
   CommonStarZoom: () => __webpack_require__.e(/* import() | components/common-star-zoom */ 7).then(__webpack_require__.bind(null, 159)).then(c => wrapFunctional(c.default || c))
 };
 
