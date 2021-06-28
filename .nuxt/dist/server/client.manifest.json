@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app/24120820.b74a941.js",
+    "app/24120820.66d513d.js",
     "components/auto-play/f075b844.d8239cf.js",
     "components/bar-score/dc0dd67d.414933f.js",
     "components/bar-zoom-small/1ffabd00.6c47673.js",
@@ -14,9 +14,9 @@
     "components/common-star-zoom/f77741c3.2c68975.js",
     "components/footer/f075b844.f854efd.js",
     "components/has-no-data/56345252.fd650b9.js",
-    "components/header-p-header2/b0dc8e57.63c8912.js",
+    "components/header-p-header2/b0dc8e57.56dd7c3.js",
     "components/header2/246743c9.da3e730.js",
-    "components/index-case/f075b844.5c3f5f8.js",
+    "components/index-case/f075b844.a697ca7.js",
     "components/index-news/f075b844.44f0558.js",
     "components/logo/c0def66a.df6e9fb.js",
     "components/pop-banner/37bbf9f1.351aaa9.js",
@@ -62,14 +62,14 @@
     "pages/cctv/product_trial_info/_id/a0009a8f.8f9dff0.js",
     "pages/company/_id/f075b844.81ea753.js",
     "pages/company/_id/pages/product/_id/f075b844.59e13ca.js",
-    "pages/index/f075b844.c83040f.js",
+    "pages/index/f075b844.6c9a6e4.js",
     "pages/newsCase/_id/f075b844.c971646.js",
     "pages/product/_id/f075b844.afaa0c2.js",
     "pages/productDetail/_id/f075b844.dde35f4.js",
     "pages/reputation/_id/f075b844.5591bf2.js",
     "pages/result/_status/f075b844.cbd46ac.js",
     "pages/reviewDetail/_id/f075b844.5f41b38.js",
-    "runtime.6e980d7.js",
+    "runtime.3954e14.js",
     "vendors/app/020089fc.35acf05.js",
     "vendors/app/072ba7d1.a40254b.js",
     "vendors/app/10fd034b.ab4ef66.js",
@@ -91,7 +91,7 @@
     "vendors/app/fe93738b.5e28bdd.js"
   ],
   "initial": [
-    "runtime.6e980d7.js",
+    "runtime.3954e14.js",
     "vendors/app/c913e6bf.f0fd562.js",
     "vendors/app/15a3c339.ecd1a81.js",
     "vendors/app/232e57b9.8e8acc8.js",
@@ -111,7 +111,7 @@
     "vendors/app/fe93738b.5e28bdd.js",
     "vendors/app/25783f63.6b4f53f.js",
     "vendors/app/020089fc.35acf05.js",
-    "app/24120820.b74a941.js"
+    "app/24120820.66d513d.js"
   ],
   "async": [
     "components/auto-play/f075b844.d8239cf.js",
@@ -123,9 +123,9 @@
     "components/common-star-zoom/f77741c3.2c68975.js",
     "components/footer/f075b844.f854efd.js",
     "components/has-no-data/56345252.fd650b9.js",
-    "components/header-p-header2/b0dc8e57.63c8912.js",
+    "components/header-p-header2/b0dc8e57.56dd7c3.js",
     "components/header2/246743c9.da3e730.js",
-    "components/index-case/f075b844.5c3f5f8.js",
+    "components/index-case/f075b844.a697ca7.js",
     "components/index-news/f075b844.44f0558.js",
     "components/logo/c0def66a.df6e9fb.js",
     "components/pop-banner/37bbf9f1.351aaa9.js",
@@ -149,7 +149,7 @@
     "pages/cctv/product_trial_info/_id/a0009a8f.8f9dff0.js",
     "pages/company/_id/f075b844.81ea753.js",
     "pages/company/_id/pages/product/_id/f075b844.59e13ca.js",
-    "pages/index/f075b844.c83040f.js",
+    "pages/index/f075b844.6c9a6e4.js",
     "pages/newsCase/_id/f075b844.c971646.js",
     "pages/product/_id/f075b844.afaa0c2.js",
     "pages/productDetail/_id/f075b844.dde35f4.js",
@@ -1619,7 +1619,7 @@
     "41a96486": [
       79
     ],
-    "495bdb62": [
+    "1f9b69c6": [
       3,
       44,
       42,
@@ -2028,7 +2028,7 @@
       35,
       45
     ],
-    "6226258a": [
+    "5ff6f305": [
       3,
       44,
       42,
@@ -2044,7 +2044,7 @@
       35,
       45
     ],
-    "4fdfccf8": [
+    "543e3202": [
       3,
       44,
       42,
@@ -2345,7 +2345,7 @@
     "7b1d9a4a": [
       79
     ],
-    "effd8b0c": [
+    "2ed7aa35": [
       3,
       44,
       42,
@@ -2353,7 +2353,7 @@
       35,
       45
     ],
-    "7f5a6049": [
+    "2630d004": [
       3,
       44,
       42,
@@ -3303,13 +3303,13 @@
     "753318b2": [
       13
     ],
-    "76e29688": [
+    "138a9986": [
       13
     ],
     "e9315ba8": [
       13
     ],
-    "8391bc64": [
+    "5adf24cc": [
       13
     ],
     "53f20398": [
@@ -3366,7 +3366,7 @@
       52,
       47
     ],
-    "099c0a8a": [
+    "7892e808": [
       13
     ],
     "09754eb4": [
@@ -3452,7 +3452,7 @@
     "7b3d42e1": [
       28
     ],
-    "fb5189e0": [
+    "37abc462": [
       61,
       52,
       40,
@@ -3480,10 +3480,10 @@
       52,
       47
     ],
-    "c0bae31c": [
+    "0e996bf0": [
       13
     ],
-    "d923bafa": [
+    "02650001": [
       13
     ],
     "4d93e498": [
@@ -3645,7 +3645,7 @@
     "e6711e28": [
       28
     ],
-    "66a66428": [
+    "1bfaed7a": [
       61,
       52,
       40,
@@ -3653,7 +3653,7 @@
       37,
       36
     ],
-    "249d5f92": [
+    "b9f44cee": [
       61,
       52,
       40,
@@ -3916,7 +3916,7 @@
       37,
       36
     ],
-    "73d4e76c": [
+    "02738f3e": [
       61,
       52,
       40,
@@ -3932,7 +3932,7 @@
       37,
       36
     ],
-    "57400e34": [
+    "62fea0b8": [
       61,
       52,
       40,
@@ -3990,7 +3990,7 @@
       "vendors/app/10fd034b.ab4ef66.js"
     ],
     "4f598bcd": [
-      "app/24120820.b74a941.js"
+      "app/24120820.66d513d.js"
     ],
     "3d6f663e": [
       "components/auto-play/f075b844.d8239cf.js"
@@ -4020,13 +4020,13 @@
       "components/has-no-data/56345252.fd650b9.js"
     ],
     "004a16e0": [
-      "components/header-p-header2/b0dc8e57.63c8912.js"
+      "components/header-p-header2/b0dc8e57.56dd7c3.js"
     ],
     "3e0ffcb6": [
       "components/header2/246743c9.da3e730.js"
     ],
     "1ec8393f": [
-      "components/index-case/f075b844.5c3f5f8.js"
+      "components/index-case/f075b844.a697ca7.js"
     ],
     "2cc710fc": [
       "components/index-news/f075b844.44f0558.js"
@@ -4098,7 +4098,7 @@
       "pages/company/_id/pages/product/_id/f075b844.59e13ca.js"
     ],
     "3cef5588": [
-      "pages/index/f075b844.c83040f.js"
+      "pages/index/f075b844.6c9a6e4.js"
     ],
     "4d21b6de": [
       "pages/newsCase/_id/f075b844.c971646.js"
@@ -4119,7 +4119,7 @@
       "pages/reviewDetail/_id/f075b844.5f41b38.js"
     ],
     "6fca0322": [
-      "runtime.6e980d7.js"
+      "runtime.3954e14.js"
     ],
     "5754d2f0": [
       "vendors/app/020089fc.35acf05.js"
