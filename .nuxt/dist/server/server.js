@@ -3989,17 +3989,17 @@ const components = {
   IndexNews: () => __webpack_require__.e(/* import() | components/index-news */ 13).then(__webpack_require__.bind(null, 286)).then(c => wrapFunctional(c.default || c)),
   PopBanner: () => __webpack_require__.e(/* import() | components/pop-banner */ 15).then(__webpack_require__.bind(null, 186)).then(c => wrapFunctional(c.default || c)),
   PopModel: () => __webpack_require__.e(/* import() | components/pop-model */ 16).then(__webpack_require__.bind(null, 169)).then(c => wrapFunctional(c.default || c)),
-  RankList: () => __webpack_require__.e(/* import() | components/rank-list */ 24).then(__webpack_require__.bind(null, 202)).then(c => wrapFunctional(c.default || c)),
   ProductDetailContact: () => __webpack_require__.e(/* import() | components/product-detail-contact */ 18).then(__webpack_require__.bind(null, 208)).then(c => wrapFunctional(c.default || c)),
   ProductDetailFeature: () => __webpack_require__.e(/* import() | components/product-detail-feature */ 19).then(__webpack_require__.bind(null, 283)).then(c => wrapFunctional(c.default || c)),
   ProductDetailPrice: () => __webpack_require__.e(/* import() | components/product-detail-price */ 20).then(__webpack_require__.bind(null, 334)).then(c => wrapFunctional(c.default || c)),
   ProductDetailReviews: () => __webpack_require__.e(/* import() | components/product-detail-reviews */ 21).then(__webpack_require__.bind(null, 284)).then(c => wrapFunctional(c.default || c)),
   ProductDetailUserRate: () => __webpack_require__.e(/* import() | components/product-detail-user-rate */ 22).then(__webpack_require__.bind(null, 335)).then(c => wrapFunctional(c.default || c)),
+  RankList: () => __webpack_require__.e(/* import() | components/rank-list */ 24).then(__webpack_require__.bind(null, 202)).then(c => wrapFunctional(c.default || c)),
   RightNav: () => __webpack_require__.e(/* import() | components/right-nav */ 26).then(__webpack_require__.bind(null, 184)).then(c => wrapFunctional(c.default || c)),
   RightNavQrcode: () => __webpack_require__.e(/* import() | components/right-nav-qrcode */ 27).then(__webpack_require__.bind(null, 185)).then(c => wrapFunctional(c.default || c)),
-  CommonBreadCrumb: () => __webpack_require__.e(/* import() | components/common-bread-crumb */ 6).then(__webpack_require__.bind(null, 281)).then(c => wrapFunctional(c.default || c)),
   SwiperAdSwiper: () => __webpack_require__.e(/* import() | components/swiper-ad-swiper */ 30).then(__webpack_require__.bind(null, 288)).then(c => wrapFunctional(c.default || c)),
   SwiperReviewSwiper: () => __webpack_require__.e(/* import() | components/swiper-review-swiper */ 31).then(__webpack_require__.bind(null, 287)).then(c => wrapFunctional(c.default || c)),
+  CommonBreadCrumb: () => __webpack_require__.e(/* import() | components/common-bread-crumb */ 6).then(__webpack_require__.bind(null, 281)).then(c => wrapFunctional(c.default || c)),
   CommonStarZoom: () => __webpack_require__.e(/* import() | components/common-star-zoom */ 7).then(__webpack_require__.bind(null, 159)).then(c => wrapFunctional(c.default || c))
 };
 
