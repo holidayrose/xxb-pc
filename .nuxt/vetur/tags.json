@@ -83,9 +83,6 @@
   "RankList": {
     "description": "Auto imported from components/rank/list.vue"
   },
-  "CommonBreadCrumb": {
-    "description": "Auto imported from components/common/breadCrumb/index.vue"
-  },
   "RightNav": {
     "description": "Auto imported from components/rightNav/index.vue"
   },
@@ -97,6 +94,9 @@
   },
   "SwiperReviewSwiper": {
     "description": "Auto imported from components/swiper/reviewSwiper.vue"
+  },
+  "CommonBreadCrumb": {
+    "description": "Auto imported from components/common/breadCrumb/index.vue"
   },
   "CommonStarZoom": {
     "description": "Auto imported from components/common/starComp/StarZoom.vue"

@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app/24120820.7ede259.js",
+    "app/24120820.cef925b.js",
     "components/auto-play/f075b844.94f5593.js",
     "components/bar-score/dc0dd67d.414933f.js",
     "components/bar-zoom-small/1ffabd00.6c47673.js",
@@ -14,7 +14,7 @@
     "components/common-star-zoom/f77741c3.2c68975.js",
     "components/footer/f075b844.f854efd.js",
     "components/has-no-data/56345252.fd650b9.js",
-    "components/header-p-header2/b0dc8e57.56dd7c3.js",
+    "components/header-p-header2/b0dc8e57.70ae46f.js",
     "components/header2/246743c9.da3e730.js",
     "components/index-case/f075b844.cd4be9b.js",
     "components/index-news/f075b844.44f0558.js",
@@ -69,7 +69,7 @@
     "pages/reputation/_id/f075b844.9bc050a.js",
     "pages/result/_status/f075b844.87979a5.js",
     "pages/reviewDetail/_id/f075b844.b7b8f31.js",
-    "runtime.fa1aa61.js",
+    "runtime.d4958f8.js",
     "vendors/app/020089fc.35acf05.js",
     "vendors/app/072ba7d1.a40254b.js",
     "vendors/app/10fd034b.ab4ef66.js",
@@ -91,7 +91,7 @@
     "vendors/app/fe93738b.5e28bdd.js"
   ],
   "initial": [
-    "runtime.fa1aa61.js",
+    "runtime.d4958f8.js",
     "vendors/app/c913e6bf.f0fd562.js",
     "vendors/app/15a3c339.ecd1a81.js",
     "vendors/app/232e57b9.8e8acc8.js",
@@ -111,7 +111,7 @@
     "vendors/app/fe93738b.5e28bdd.js",
     "vendors/app/25783f63.6b4f53f.js",
     "vendors/app/020089fc.35acf05.js",
-    "app/24120820.7ede259.js"
+    "app/24120820.cef925b.js"
   ],
   "async": [
     "components/auto-play/f075b844.94f5593.js",
@@ -123,7 +123,7 @@
     "components/common-star-zoom/f77741c3.2c68975.js",
     "components/footer/f075b844.f854efd.js",
     "components/has-no-data/56345252.fd650b9.js",
-    "components/header-p-header2/b0dc8e57.56dd7c3.js",
+    "components/header-p-header2/b0dc8e57.70ae46f.js",
     "components/header2/246743c9.da3e730.js",
     "components/index-case/f075b844.cd4be9b.js",
     "components/index-news/f075b844.44f0558.js",
@@ -1607,7 +1607,7 @@
     "41a96486": [
       79
     ],
-    "1f9b69c6": [
+    "d1488748": [
       3,
       44,
       42,
@@ -2016,7 +2016,7 @@
       35,
       45
     ],
-    "5ff6f305": [
+    "0ca21704": [
       3,
       44,
       42,
@@ -2032,7 +2032,7 @@
       35,
       45
     ],
-    "543e3202": [
+    "fae7ea04": [
       3,
       44,
       42,
@@ -2333,7 +2333,7 @@
     "7b1d9a4a": [
       79
     ],
-    "2ed7aa35": [
+    "53fdc918": [
       3,
       44,
       42,
@@ -2341,7 +2341,7 @@
       35,
       45
     ],
-    "2630d004": [
+    "654b7d7a": [
       3,
       44,
       42,
@@ -3291,13 +3291,13 @@
     "753318b2": [
       13
     ],
-    "138a9986": [
+    "f0d56b30": [
       13
     ],
     "e9315ba8": [
       13
     ],
-    "5adf24cc": [
+    "622c54a4": [
       13
     ],
     "53f20398": [
@@ -3354,7 +3354,7 @@
       52,
       47
     ],
-    "7892e808": [
+    "d631332c": [
       13
     ],
     "09754eb4": [
@@ -3469,10 +3469,10 @@
       52,
       47
     ],
-    "0e996bf0": [
+    "2aedea52": [
       13
     ],
-    "02650001": [
+    "1eb97e63": [
       13
     ],
     "4d93e498": [
@@ -3990,7 +3990,7 @@
       "vendors/app/10fd034b.ab4ef66.js"
     ],
     "4f598bcd": [
-      "app/24120820.7ede259.js"
+      "app/24120820.cef925b.js"
     ],
     "3d6f663e": [
       "components/auto-play/f075b844.94f5593.js"
@@ -4020,7 +4020,7 @@
       "components/has-no-data/56345252.fd650b9.js"
     ],
     "004a16e0": [
-      "components/header-p-header2/b0dc8e57.56dd7c3.js"
+      "components/header-p-header2/b0dc8e57.70ae46f.js"
     ],
     "3e0ffcb6": [
       "components/header2/246743c9.da3e730.js"
@@ -4119,7 +4119,7 @@
       "pages/reviewDetail/_id/f075b844.b7b8f31.js"
     ],
     "6fca0322": [
-      "runtime.fa1aa61.js"
+      "runtime.d4958f8.js"
     ],
     "5754d2f0": [
       "vendors/app/020089fc.35acf05.js"
