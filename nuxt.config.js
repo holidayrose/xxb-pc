@@ -11,7 +11,7 @@ export default {
       { name: 'applicable-device', content: 'pc,mobile' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/static/images/xxb_mark.png' }
+      { rel: 'icon', type: 'image/x-icon', href: 'https://www.xuanxingbao.com/xxb_mark.png' }
     ]
   },
 

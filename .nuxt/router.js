@@ -10,13 +10,10 @@ const _947ce9d8 = () => interopDefault(import('..\\pages\\company\\rank\\_id.vue
 const _29a21246 = () => interopDefault(import('..\\pages\\product\\detail\\_id.vue' /* webpackChunkName: "pages/product/detail/_id" */))
 const _57ddc862 = () => interopDefault(import('..\\pages\\product\\rank\\_id.vue' /* webpackChunkName: "pages/product/rank/_id" */))
 const _9311c6c4 = () => interopDefault(import('..\\pages\\review\\detail\\_id.vue' /* webpackChunkName: "pages/review/detail/_id" */))
-const _0b876bc0 = () => interopDefault(import('..\\pages\\company\\_id.vue' /* webpackChunkName: "pages/company/_id" */))
-const _8c7a97b8 = () => interopDefault(import('..\\pages\\newsCase\\_id.vue' /* webpackChunkName: "pages/newsCase/_id" */))
-const _dc9188e4 = () => interopDefault(import('..\\pages\\product\\_id.vue' /* webpackChunkName: "pages/product/_id" */))
-const _76202d86 = () => interopDefault(import('..\\pages\\productDetail\\_id.vue' /* webpackChunkName: "pages/productDetail/_id" */))
+const _6c1fb2b7 = () => interopDefault(import('..\\pages\\case\\_id.vue' /* webpackChunkName: "pages/case/_id" */))
+const _7a1e8a74 = () => interopDefault(import('..\\pages\\news\\_id.vue' /* webpackChunkName: "pages/news/_id" */))
 const _2961b064 = () => interopDefault(import('..\\pages\\reputation\\_id.vue' /* webpackChunkName: "pages/reputation/_id" */))
 const _3a83c9fe = () => interopDefault(import('..\\pages\\result\\_status.vue' /* webpackChunkName: "pages/result/_status" */))
-const _b04ee984 = () => interopDefault(import('..\\pages\\reviewDetail\\_id.vue' /* webpackChunkName: "pages/reviewDetail/_id" */))
 const _559650ff = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -55,21 +52,13 @@ export const routerOptions = {
     component: _9311c6c4,
     name: "review-detail-id"
   }, {
-    path: "/company/:id?",
-    component: _0b876bc0,
-    name: "company-id"
+    path: "/case/:id?",
+    component: _6c1fb2b7,
+    name: "case-id"
   }, {
-    path: "/newsCase/:id?",
-    component: _8c7a97b8,
-    name: "newsCase-id"
-  }, {
-    path: "/product/:id?",
-    component: _dc9188e4,
-    name: "product-id"
-  }, {
-    path: "/productDetail/:id?",
-    component: _76202d86,
-    name: "productDetail-id"
+    path: "/news/:id?",
+    component: _7a1e8a74,
+    name: "news-id"
   }, {
     path: "/reputation/:id?",
     component: _2961b064,
@@ -78,10 +67,6 @@ export const routerOptions = {
     path: "/result/:status?",
     component: _3a83c9fe,
     name: "result-status"
-  }, {
-    path: "/reviewDetail/:id?",
-    component: _b04ee984,
-    name: "reviewDetail-id"
   }, {
     path: "/",
     component: _559650ff,

@@ -42,32 +42,18 @@
     "_name": "_9311c6c4"
   },
   {
-    "name": "company-id",
-    "path": "/company/:id?",
-    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\company\\\\_id.vue",
-    "chunkName": "pages/company/_id",
-    "_name": "_0b876bc0"
+    "name": "case-id",
+    "path": "/case/:id?",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\case\\\\_id.vue",
+    "chunkName": "pages/case/_id",
+    "_name": "_6c1fb2b7"
   },
   {
-    "name": "newsCase-id",
-    "path": "/newsCase/:id?",
-    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\newsCase\\\\_id.vue",
-    "chunkName": "pages/newsCase/_id",
-    "_name": "_8c7a97b8"
-  },
-  {
-    "name": "product-id",
-    "path": "/product/:id?",
-    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\product\\\\_id.vue",
-    "chunkName": "pages/product/_id",
-    "_name": "_dc9188e4"
-  },
-  {
-    "name": "productDetail-id",
-    "path": "/productDetail/:id?",
-    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\productDetail\\\\_id.vue",
-    "chunkName": "pages/productDetail/_id",
-    "_name": "_76202d86"
+    "name": "news-id",
+    "path": "/news/:id?",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\news\\\\_id.vue",
+    "chunkName": "pages/news/_id",
+    "_name": "_7a1e8a74"
   },
   {
     "name": "reputation-id",
@@ -82,13 +68,6 @@
     "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\result\\\\_status.vue",
     "chunkName": "pages/result/_status",
     "_name": "_3a83c9fe"
-  },
-  {
-    "name": "reviewDetail-id",
-    "path": "/reviewDetail/:id?",
-    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\reviewDetail\\\\_id.vue",
-    "chunkName": "pages/reviewDetail/_id",
-    "_name": "_b04ee984"
   },
   {
     "name": "index",

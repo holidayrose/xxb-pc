@@ -86,13 +86,13 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 164:
+/***/ 163:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(169);
+var content = __webpack_require__(170);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -104,19 +104,19 @@ module.exports.__inject__ = function (context) {
 
 /***/ }),
 
-/***/ 168:
+/***/ 169:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_4_1_3_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_4_3_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_15_9_7_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_sass_loader_10_2_0_sass_loader_dist_cjs_js_ref_6_oneOf_1_3_node_modules_nuxt_components_2_1_8_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_15_9_7_vue_loader_lib_index_js_vue_loader_options_BarScore_vue_vue_type_style_index_0_id_41038052_lang_sass_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(164);
+/* harmony import */ var _node_modules_vue_style_loader_4_1_3_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_4_3_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_15_9_7_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_sass_loader_10_2_0_sass_loader_dist_cjs_js_ref_6_oneOf_1_3_node_modules_nuxt_components_2_1_8_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_15_9_7_vue_loader_lib_index_js_vue_loader_options_BarScore_vue_vue_type_style_index_0_id_41038052_lang_sass_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(163);
 /* harmony import */ var _node_modules_vue_style_loader_4_1_3_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_4_3_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_15_9_7_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_sass_loader_10_2_0_sass_loader_dist_cjs_js_ref_6_oneOf_1_3_node_modules_nuxt_components_2_1_8_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_15_9_7_vue_loader_lib_index_js_vue_loader_options_BarScore_vue_vue_type_style_index_0_id_41038052_lang_sass_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_4_1_3_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_4_3_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_15_9_7_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_sass_loader_10_2_0_sass_loader_dist_cjs_js_ref_6_oneOf_1_3_node_modules_nuxt_components_2_1_8_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_15_9_7_vue_loader_lib_index_js_vue_loader_options_BarScore_vue_vue_type_style_index_0_id_41038052_lang_sass_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_4_1_3_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_4_3_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_15_9_7_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_sass_loader_10_2_0_sass_loader_dist_cjs_js_ref_6_oneOf_1_3_node_modules_nuxt_components_2_1_8_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_15_9_7_vue_loader_lib_index_js_vue_loader_options_BarScore_vue_vue_type_style_index_0_id_41038052_lang_sass_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_4_1_3_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_4_3_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_15_9_7_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_sass_loader_10_2_0_sass_loader_dist_cjs_js_ref_6_oneOf_1_3_node_modules_nuxt_components_2_1_8_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_15_9_7_vue_loader_lib_index_js_vue_loader_options_BarScore_vue_vue_type_style_index_0_id_41038052_lang_sass_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 169:
+/***/ 170:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -130,7 +130,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 171:
+/***/ 173:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -210,7 +210,7 @@ var componentNormalizer = __webpack_require__(13);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(168)
+  var style0 = __webpack_require__(169)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -232,22 +232,22 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 190:
+/***/ 198:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/productDetail/reviews.vue?vue&type=template&id=82800c30&
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/productDetail/reviews.vue?vue&type=template&id=5fa947e2&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"panel"},[_c('a-row',[_c('a-col',{attrs:{"lg":12,"md":12,"sm":24}},[_c('h3',{staticClass:"title"},[_vm._v("\n        共"+_vm._s(_vm.productDetailObj.productKbObj.dpnum)+"条评论\n      ")]),_vm._v(" "),_c('div',{staticClass:"content"},_vm._l((_vm.productDetailObj.reviewArr),function(item,index){return _c('div',{key:index,staticClass:"item g-flex"},[_c('div',{staticClass:"col col-1 "},[_c('span',{staticClass:"spe"},[_vm._v(_vm._s(item.branchnum))]),_vm._v("人认为\n          ")]),_vm._v(" "),_c('div',{staticClass:"col col-2"},[_vm._v("\n            "+_vm._s(item.levelTxt)+"\n          ")]),_vm._v(" "),_c('div',{staticClass:"col col-3"},[_c('Star',{attrs:{"out-width":100,"out-height":20,"decimal":(5-index)/5}})],1)])}),0)]),_vm._v(" "),_c('a-col',{attrs:{"lg":12,"md":12,"sm":24}},[_c('h3',{staticClass:"title"},[_vm._v("\n        【专项指标评分】\n      ")]),_vm._v(" "),_c('div',{staticClass:"content earmarked"},_vm._l((_vm.productDetailObj.earmarked),function(item,index){return _c('div',{key:index,staticClass:"item g-flex"},[_c('div',{staticClass:"col col-1",staticStyle:{"width":"160px"}},[_vm._v("\n            "+_vm._s(item.text)+"\n          ")]),_vm._v(" "),_c('div',{staticClass:"col col-4"},[_c('bar',{attrs:{"score":item.levelAvgNum,"index":index + 1}})],1),_vm._v(" "),_c('div',{staticClass:"col col-3"},[_vm._v("\n            "+_vm._s(item.levelAvgNum)+"分\n          ")])])}),0)])],1),_vm._ssrNode(" "),_c('a-row',[_c('a-col',[_c('div',{staticClass:"tops-list"},[_c('span',{staticClass:"tops-item",class:_vm.analysisDimensionId === null?'on':'',staticStyle:{"margin-right":"0"},on:{"click":_vm.handleGetAllReview}},[_vm._v("全部点评")]),_vm._v(" "),_vm._l((_vm.tabsList),function(item){return _c('span',{key:item.id,staticClass:"tops-item",class:item.dimension_id === _vm.analysisDimensionId ? 'on' : '',on:{"click":function($event){return _vm.changeTags(item)}}},[_vm._v(_vm._s(item.title)+"("+_vm._s(item.num)+")")])})],2),_vm._v(" "),(_vm.allReviewsShow)?_c('div',{staticClass:"comment-list"},[_vm._l((_vm.reviewsList),function(item,index){return _c('div',{key:index,staticClass:"comment-item",on:{"click":function($event){return _vm.navigateToDetail(item.scoreid)}}},[_c('div',{staticClass:"comment-info"},[_c('div',{staticClass:"g-flex"},[_c('div',{staticClass:"head-img"},[_c('img',{attrs:{"src":item.userheadimages,"alt":"","width":"100%"}})]),_vm._v(" "),_c('div',{staticClass:"info"},[_c('div',{staticClass:"name"},[_vm._v("\n                  "+_vm._s(item.realname)+"\n                ")]),_vm._v(" "),_c('div',{staticClass:"title"},[_vm._v("\n                  "+_vm._s(item.company)+" "+_vm._s(item.office)+"\n                ")]),_vm._v(" "),_c('div',{staticClass:"count g-flex"},[_c('span',[_vm._v(_vm._s(item.ztgsnum)+"分")]),_vm._v(" "),_c('Star',{attrs:{"out-width":100,"out-height":20,"decimal":item.ztgsnum/5}})],1)])]),_vm._v(" "),_c('div',{staticClass:"publish-time"},[_vm._v("\n              "+_vm._s(item.operaTime)+"\n            ")])]),_vm._v(" "),_c('div',{staticClass:"comment-content"},[_c('p',[_vm._v("【优点】"+_vm._s(item.advantages))]),_vm._v(" "),_c('p',[_vm._v("【缺点】"+_vm._s(item.disadvantages))]),_vm._v(" "),_c('div',{staticClass:"note text-c"},[_vm._v("\n              进入点评详情页\n            ")])]),_vm._v(" "),_c('div',{staticClass:"g-flex icon-list-wrap"},[_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"message"}}),_vm._v(_vm._s(item.commentnum)+"\n            ")],1),_vm._v(" "),_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"like"}}),_vm._v(_vm._s(item.praisenum)+"\n            ")],1)])])}),_vm._v(" "),(_vm.currentPage < _vm.totalPage)?_c('div',{staticClass:"getMoreBtn g-flex center pad-40",on:{"click":_vm.handleMoreReviews}},[_c('span',{staticClass:"check-comment"},[_vm._v("查看更多的评价")])]):_c('div',{staticClass:"noMore pad-10",staticStyle:{"text-align":"center"}},[_vm._v("\n          没有更多评价了~\n        ")])],2):_vm._e(),_vm._v(" "),(_vm.partReviewsShow)?_c('div',{staticClass:"comment-list"},[_c('div',{staticClass:"vs-wrap"},[_c('div',{staticClass:"round good"},[_vm._v("\n            好\n          ")]),_vm._v(" "),_c('div',{staticClass:"number-bar"},[_c('div',{staticClass:"t-box"},[_c('span',{staticClass:"pros"},[_vm._v(_vm._s(_vm.advantageLen)+"人认为")]),_vm._v(" "),_c('span',{staticClass:"cons"},[_vm._v(_vm._s(_vm.disadvantageLen)+"人认为")])]),_vm._v(" "),_c('div',{staticClass:"b-box"},[_c('div',{staticClass:"bar pros",style:({width: _vm.advantageLen/_vm.totalReviews*100 + '%'})}),_vm._v(" "),_c('div',{staticClass:"bar cons",style:({width: _vm.disadvantageLen/_vm.totalReviews*100 + '%'})})]),_vm._v(" "),_c('div',{staticStyle:{"text-align":"center"}},[_vm._v("\n              共"+_vm._s(_vm.totalReviews)+"条点评\n            ")])]),_vm._v(" "),_c('div',{staticClass:"round bad"},[_vm._v("\n            不好\n          ")])]),_vm._v(" "),(_vm.advantageLen !== 0)?_c('div',{staticClass:"advantage-wrap"},[_c('div',{staticClass:"area-title"},[_vm._v("\n            "+_vm._s(_vm.advantageLen)+"人说好，他们这么说\n          ")]),_vm._v(" "),_c('div',{staticClass:"advantage-list-wrap"},_vm._l((_vm.advantageReviews),function(item,index){return _c('div',{key:index,staticClass:"comment-item"},[_c('div',{staticClass:"comment-info"},[_c('div',{staticClass:"g-flex"},[_c('div',{staticClass:"head-img"},[_c('img',{attrs:{"src":item.userheadimages,"alt":"","width":"100%"}})]),_vm._v(" "),_c('div',{staticClass:"info"},[_c('div',{staticClass:"name"},[_vm._v("\n                      "+_vm._s(item.realname)+"\n                    ")]),_vm._v(" "),_c('div',{staticClass:"title"},[_vm._v("\n                      "+_vm._s(item.company)+" "+_vm._s(item.office)+"\n                    ")]),_vm._v(" "),_c('div',{staticClass:"count g-flex"},[_c('span',[_vm._v(_vm._s(item.ztgsnum)+"分")]),_vm._v(" "),_c('Star',{attrs:{"out-width":100,"out-height":20,"decimal":item.ztgsnum/5}})],1)])]),_vm._v(" "),_c('div',{staticClass:"publish-time"},[_vm._v("\n                  "+_vm._s(item.operaTime)+"\n                ")])]),_vm._v(" "),_c('div',{staticClass:"comment-content"},[_c('p',[_vm._v(_vm._s(item.advantages))])]),_vm._v(" "),_c('div',{staticClass:"g-flex icon-list-wrap"},[_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"message"}}),_vm._v(_vm._s(item.commentnum)+"\n                ")],1),_vm._v(" "),_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"like"}}),_vm._v(_vm._s(item.praisenum)+"\n                ")],1)])])}),0),_vm._v(" "),(_vm.advantageReviewsCurPage < _vm.advantageReviewsTotalPage)?_c('div',{staticClass:"getMoreBtn g-flex center pad-40",on:{"click":_vm.getMoreAdvantage}},[_c('span',{staticClass:"check-comment"},[_vm._v("查看更多评价")])]):_c('div',{staticClass:"noMore text-c pad-10"},[_vm._v("\n            没有更多评价了~\n          ")])]):_vm._e(),_vm._v(" "),(_vm.disadvantageLen !== 0)?_c('div',{staticClass:"disadvantage-wrap"},[_c('div',{staticClass:"area-title"},[_vm._v("\n            "+_vm._s(_vm.disadvantageLen)+"人说不好，他们这么说\n          ")]),_vm._v(" "),_c('div',{staticClass:"disadvantage-list-wrap"},_vm._l((_vm.disadvantageReviews),function(item,index){return _c('div',{key:index,staticClass:"comment-item"},[_c('div',{staticClass:"comment-info"},[_c('div',{staticClass:"g-flex"},[_c('div',{staticClass:"head-img"},[_c('img',{attrs:{"src":item.userheadimages,"alt":"","width":"100%"}})]),_vm._v(" "),_c('div',{staticClass:"info"},[_c('div',{staticClass:"name"},[_vm._v("\n                      "+_vm._s(item.realname)+"\n                    ")]),_vm._v(" "),_c('div',{staticClass:"title"},[_vm._v("\n                      "+_vm._s(item.company)+" "+_vm._s(item.office)+"\n                    ")]),_vm._v(" "),_c('div',{staticClass:"count g-flex"},[_c('span',[_vm._v(_vm._s(item.ztgsnum)+"分")]),_vm._v(" "),_c('Star',{attrs:{"out-width":100,"out-height":20,"decimal":item.ztgsnum/5}})],1)])]),_vm._v(" "),_c('div',{staticClass:"publish-time"},[_vm._v("\n                  "+_vm._s(item.operaTime)+"\n                ")])]),_vm._v(" "),_c('div',{staticClass:"comment-content"},[_c('p',[_vm._v(_vm._s(item.disadvantages))])]),_vm._v(" "),_c('div',{staticClass:"g-flex icon-list-wrap"},[_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"message"}}),_vm._v(_vm._s(item.commentnum)+"\n                ")],1),_vm._v(" "),_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"like"}}),_vm._v(_vm._s(item.praisenum)+"\n                ")],1)])])}),0),_vm._v(" "),(_vm.disadvantageReviewsCurPage < _vm.disadvantageReviewsTotalPage)?_c('div',{staticClass:"getMoreBtn g-flex center pad-40",on:{"click":_vm.getMoreDisadvantage}},[_c('span',{staticClass:"check-comment"},[_vm._v("查看更多评价")])]):_c('div',{staticClass:"noMore text-c pad-10"},[_vm._v("\n            没有更多评价了~\n          ")])]):_vm._e()]):_vm._e()]),_vm._v(" "),_c('a-col',{staticClass:"display-pc"},[_c('div',{staticClass:"contact-btn",on:{"click":_vm.contact}},[_vm._v("\n        请厂商联系我\n      ")])])],1)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/productDetail/reviews.vue?vue&type=template&id=82800c30&
+// CONCATENATED MODULE: ./components/productDetail/reviews.vue?vue&type=template&id=5fa947e2&
 
 // EXTERNAL MODULE: ./components/BarScore.vue + 4 modules
-var BarScore = __webpack_require__(171);
+var BarScore = __webpack_require__(173);
 
 // EXTERNAL MODULE: ./components/common/starComp/StarZoom.vue + 4 modules
 var StarZoom = __webpack_require__(150);
@@ -635,8 +635,8 @@ var StarZoom = __webpack_require__(150);
     },
 
     navigateToDetail(id) {
-      let routeUrl = this.$router.push({
-        name: 'reviewDetail-id',
+      let routeUrl = this.$router.resolve({
+        name: 'review-detail-id',
         params: {
           id
         }

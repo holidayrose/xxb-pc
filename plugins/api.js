@@ -28,6 +28,13 @@ const api = {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
         }
+      },
+      // 某类别信息
+      categoryInfo: {
+        url: `${base}/szhzx/category/info`,
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        }
       }
     },
     // 某类别厂商

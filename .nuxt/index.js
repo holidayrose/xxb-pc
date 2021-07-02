@@ -68,7 +68,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"选型宝_企业软件的大众点评-ERP_BI_CRM_OA_企业邮箱怎么选？","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"ERP系统_BI_CRM系统_OA系统_数据库软件_BPM系统_企业邮箱...想了解各种企业软件的用户口碑?就上选型宝, 企业级软件的大众点评，实名制的CIO选型经验交流社区"},{"hid":"keywords","name":"keywords","content":"ERP_BI_CRM_OA_数据库_BPM_企业邮箱"},{"name":"applicable-device","content":"pc,mobile"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fstatic\u002Fimages\u002Fxxb_mark.png"}],"style":[],"script":[]},
+    head: {"title":"选型宝_企业软件的大众点评-ERP_BI_CRM_OA_企业邮箱怎么选？","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"ERP系统_BI_CRM系统_OA系统_数据库软件_BPM系统_企业邮箱...想了解各种企业软件的用户口碑?就上选型宝, 企业级软件的大众点评，实名制的CIO选型经验交流社区"},{"hid":"keywords","name":"keywords","content":"ERP_BI_CRM_OA_数据库_BPM_企业邮箱"},{"name":"applicable-device","content":"pc,mobile"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"https:\u002F\u002Fwww.xuanxingbao.com\u002Fxxb_mark.png"}],"style":[],"script":[]},
 
     router,
     nuxt: {
