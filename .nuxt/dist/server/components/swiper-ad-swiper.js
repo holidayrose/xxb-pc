@@ -1,14 +1,14 @@
 exports.ids = [28];
 exports.modules = {
 
-/***/ 187:
+/***/ 188:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/banner_4.20c163e.jpg";
 
 /***/ }),
 
-/***/ 188:
+/***/ 189:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/banner_3.e5e0b87.jpg";
@@ -23,7 +23,7 @@ module.exports = __webpack_require__.p + "img/banner_3.e5e0b87.jpg";
 __webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/swiper/adSwiper.vue?vue&type=template&id=59ef0506&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{directives:[{name:"swiper",rawName:"v-swiper:mySwiper",value:(_vm.swiperOption),expression:"swiperOption",arg:"mySwiper"}],staticClass:"adBanner",on:{"click":_vm.handleBannerPopShow}},[_vm._ssrNode("<div class=\"swiper-wrap swiper-wrapper g-flex\"><div data-swiper-autoplay=\"5000\" class=\"swiper-item swiper-slide\"><img"+(_vm._ssrAttr("src",__webpack_require__(187)))+" alt> <div class=\"txt text-c\">"+((_vm.recommendCate)?("<p>"+_vm._ssrEscape("\n          "+_vm._s(_vm.recommendCate)+"软件\n        ")+"</p>"):("<p>\n          选型宝\n        </p>"))+" <p>诚邀您的点评！</p></div></div> <div data-swiper-autoplay=\"5000\" class=\"swiper-item swiper-slide\"><img"+(_vm._ssrAttr("src",__webpack_require__(188)))+" alt></div></div>")])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{directives:[{name:"swiper",rawName:"v-swiper:mySwiper",value:(_vm.swiperOption),expression:"swiperOption",arg:"mySwiper"}],staticClass:"adBanner",on:{"click":_vm.handleBannerPopShow}},[_vm._ssrNode("<div class=\"swiper-wrap swiper-wrapper g-flex\"><div data-swiper-autoplay=\"5000\" class=\"swiper-item swiper-slide\"><img"+(_vm._ssrAttr("src",__webpack_require__(188)))+" alt> <div class=\"txt text-c\">"+((_vm.recommendCate)?("<p>"+_vm._ssrEscape("\n          "+_vm._s(_vm.recommendCate)+"软件\n        ")+"</p>"):("<p>\n          选型宝\n        </p>"))+" <p>诚邀您的点评！</p></div></div> <div data-swiper-autoplay=\"5000\" class=\"swiper-item swiper-slide\"><img"+(_vm._ssrAttr("src",__webpack_require__(189)))+" alt></div></div>")])}
 var staticRenderFns = []
 
 
