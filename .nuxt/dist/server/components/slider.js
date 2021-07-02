@@ -1,7 +1,7 @@
-exports.ids = [29];
+exports.ids = [27];
 exports.modules = {
 
-/***/ 196:
+/***/ 163:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16,7 +16,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/Slider.vue?vue&type=template&id=187e41cc&
 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(15);
+var componentNormalizer = __webpack_require__(13);
 
 // CONCATENATED MODULE: ./components/Slider.vue
 
@@ -32,7 +32,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "49d910ce"
+  "b0c263b2"
   
 )
 

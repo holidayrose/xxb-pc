@@ -7,10 +7,11 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'ERP系统_BI_CRM系统_OA系统_数据库软件_BPM系统_企业邮箱...想了解各种企业软件的用户口碑?就上选型宝, 企业级软件的大众点评，实名制的CIO选型经验交流社区' },
-      { hid: 'keywords', name: 'keywords', content: 'ERP_BI_CRM_OA_数据库_BPM_企业邮箱' }
+      { hid: 'keywords', name: 'keywords', content: 'ERP_BI_CRM_OA_数据库_BPM_企业邮箱' },
+      { name: 'applicable-device', content: 'pc,mobile' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/images/xxb_mark.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/static/images/xxb_mark.png' }
     ]
   },
 
@@ -50,7 +51,7 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     extend (config, ctx) {
-      const sassResourcesLoader = {
+      /* const sassResourcesLoader = {
         loader: 'sass-resources-loader',
         options: {
           resources: [
@@ -67,8 +68,9 @@ export default {
         if (['/\\.sass$/', '/\\.scss$/'].includes(rule.test.toString())) {
           rule.use.push(sassResourcesLoader)
         }
-      })
+      }) */
       config.resolve.alias['@ant-design/icons/lib/dist$'] = path.resolve(__dirname, './plugins/antd-icon.js') // 引入需要的
+      config.resolve.alias['@/static'] = path.resolve(__dirname, './static')
     },
     analyze: true, // 使用webpack-bundle-analyzer来可视化包以及如何优化它们
     vendor: ['ant-design-vue'],

@@ -2,71 +2,99 @@
   {
     "name": "all",
     "path": "/all",
-    "component": "D:\\\\xxb-pc\\\\pages\\\\all\\\\index.vue",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\all\\\\index.vue",
     "chunkName": "pages/all/index",
-    "_name": "_61e9c683"
+    "_name": "_86acd598"
   },
   {
     "name": "cctv-product_trial_info-id",
     "path": "/cctv/product_trial_info/:id?",
-    "component": "D:\\\\xxb-pc\\\\pages\\\\cctv\\\\product_trial_info\\\\_id.vue",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\cctv\\\\product_trial_info\\\\_id.vue",
     "chunkName": "pages/cctv/product_trial_info/_id",
-    "_name": "_04893622"
+    "_name": "_93fbe2c4"
+  },
+  {
+    "name": "company-rank-id",
+    "path": "/company/rank/:id?",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\company\\\\rank\\\\_id.vue",
+    "chunkName": "pages/company/rank/_id",
+    "_name": "_947ce9d8"
+  },
+  {
+    "name": "product-detail-id",
+    "path": "/product/detail/:id?",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\product\\\\detail\\\\_id.vue",
+    "chunkName": "pages/product/detail/_id",
+    "_name": "_29a21246"
+  },
+  {
+    "name": "product-rank-id",
+    "path": "/product/rank/:id?",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\product\\\\rank\\\\_id.vue",
+    "chunkName": "pages/product/rank/_id",
+    "_name": "_57ddc862"
+  },
+  {
+    "name": "review-detail-id",
+    "path": "/review/detail/:id?",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\review\\\\detail\\\\_id.vue",
+    "chunkName": "pages/review/detail/_id",
+    "_name": "_9311c6c4"
   },
   {
     "name": "company-id",
     "path": "/company/:id?",
-    "component": "D:\\\\xxb-pc\\\\pages\\\\company\\\\_id.vue",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\company\\\\_id.vue",
     "chunkName": "pages/company/_id",
-    "_name": "_6180854f"
+    "_name": "_0b876bc0"
   },
   {
     "name": "newsCase-id",
     "path": "/newsCase/:id?",
-    "component": "D:\\\\xxb-pc\\\\pages\\\\newsCase\\\\_id.vue",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\newsCase\\\\_id.vue",
     "chunkName": "pages/newsCase/_id",
-    "_name": "_22eccc75"
+    "_name": "_8c7a97b8"
   },
   {
     "name": "product-id",
     "path": "/product/:id?",
-    "component": "D:\\\\xxb-pc\\\\pages\\\\product\\\\_id.vue",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\product\\\\_id.vue",
     "chunkName": "pages/product/_id",
-    "_name": "_309f55c6"
+    "_name": "_dc9188e4"
   },
   {
     "name": "productDetail-id",
     "path": "/productDetail/:id?",
-    "component": "D:\\\\xxb-pc\\\\pages\\\\productDetail\\\\_id.vue",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\productDetail\\\\_id.vue",
     "chunkName": "pages/productDetail/_id",
-    "_name": "_048d5b8c"
+    "_name": "_76202d86"
   },
   {
     "name": "reputation-id",
     "path": "/reputation/:id?",
-    "component": "D:\\\\xxb-pc\\\\pages\\\\reputation\\\\_id.vue",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\reputation\\\\_id.vue",
     "chunkName": "pages/reputation/_id",
-    "_name": "_9b572042"
+    "_name": "_2961b064"
   },
   {
     "name": "result-status",
     "path": "/result/:status?",
-    "component": "D:\\\\xxb-pc\\\\pages\\\\result\\\\_status.vue",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\result\\\\_status.vue",
     "chunkName": "pages/result/_status",
-    "_name": "_ac7939dc"
+    "_name": "_3a83c9fe"
   },
   {
     "name": "reviewDetail-id",
     "path": "/reviewDetail/:id?",
-    "component": "D:\\\\xxb-pc\\\\pages\\\\reviewDetail\\\\_id.vue",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\reviewDetail\\\\_id.vue",
     "chunkName": "pages/reviewDetail/_id",
-    "_name": "_7aa7d9e2"
+    "_name": "_b04ee984"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\xxb-pc\\\\pages\\\\index.vue",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_00224a50"
+    "_name": "_559650ff"
   }
 ]
