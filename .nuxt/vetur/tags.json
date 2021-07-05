@@ -41,15 +41,6 @@
   "Slider": {
     "description": "Auto imported from components/Slider.vue"
   },
-  "HeaderMHeader": {
-    "description": "Auto imported from components/header/mHeader.vue"
-  },
-  "HeaderPHeader": {
-    "description": "Auto imported from components/header/pHeader.vue"
-  },
-  "HeaderPHeader2": {
-    "description": "Auto imported from components/header/pHeader2.vue"
-  },
   "HasNoData": {
     "description": "Auto imported from components/hasNoData/noData.vue"
   },
@@ -59,11 +50,14 @@
   "IndexNews": {
     "description": "Auto imported from components/index/news.vue"
   },
-  "PopBanner": {
-    "description": "Auto imported from components/pop/banner.vue"
+  "HeaderMHeader": {
+    "description": "Auto imported from components/header/mHeader.vue"
   },
-  "PopModel": {
-    "description": "Auto imported from components/pop/model.vue"
+  "HeaderPHeader": {
+    "description": "Auto imported from components/header/pHeader.vue"
+  },
+  "HeaderPHeader2": {
+    "description": "Auto imported from components/header/pHeader2.vue"
   },
   "ProductDetailContact": {
     "description": "Auto imported from components/productDetail/contact.vue"
@@ -79,6 +73,12 @@
   },
   "ProductDetailUserRate": {
     "description": "Auto imported from components/productDetail/userRate.vue"
+  },
+  "PopBanner": {
+    "description": "Auto imported from components/pop/banner.vue"
+  },
+  "PopModel": {
+    "description": "Auto imported from components/pop/model.vue"
   },
   "RankList": {
     "description": "Auto imported from components/rank/list.vue"

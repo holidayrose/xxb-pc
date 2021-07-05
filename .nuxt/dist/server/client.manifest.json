@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app/24120820.e126d47.js",
+    "app/24120820.9cd1888.js",
     "components/auto-play/be03499d.c24ef4c.js",
     "components/bar-score/dc0dd67d.d46b138.js",
     "components/bar-zoom-small/1ffabd00.ae13b4a.js",
@@ -12,12 +12,12 @@
     "components/category-rank/f075b844.a3a7ec9.js",
     "components/common-bread-crumb/dc5cb093.fb3c7cc.js",
     "components/common-star-zoom/f4c3dc19.ccef406.js",
-    "components/footer/f075b844.3b67bd9.js",
+    "components/footer/f075b844.9738b91.js",
     "components/has-no-data/c7b51040.72a935d.js",
     "components/header-p-header2/b0dc8e57.0d8f8c1.js",
     "components/header2/246743c9.17da2c0.js",
-    "components/index-case/f075b844.5c2dbc1.js",
-    "components/index-news/f075b844.03d7126.js",
+    "components/index-case/f075b844.94ff1cc.js",
+    "components/index-news/f075b844.e98e909.js",
     "components/logo/c0def66a.9f93555.js",
     "components/product-card/7d4f1ab2.0d22cec.js",
     "components/product-detail-contact/dfa834da.b7ab22a.js",
@@ -56,20 +56,20 @@
     "img/qrcode_fw.8427576.jpg",
     "img/right.06b411f.png",
     "img/wx-yh.bffc413.jpg",
-    "pages/all/index/f075b844.ed1710d.js",
-    "pages/case/_id/f075b844.d72ff97.js",
+    "pages/all/index/f075b844.3dc6d38.js",
+    "pages/case/_id/f075b844.c79c893.js",
     "pages/cctv/product_trial_info/_id/a0009a8f.13a332c.js",
-    "pages/company/rank/_id/f075b844.876db77.js",
-    "pages/company/rank/_id/pages/product/rank/_id/f075b844.634b513.js",
-    "pages/index/f075b844.9bfb845.js",
-    "pages/index/pages/product/detail/_id/f075b844.01d5b1e.js",
-    "pages/news/_id/f075b844.0fc0567.js",
-    "pages/product/detail/_id/f075b844.61813a7.js",
-    "pages/product/rank/_id/f075b844.9e6b280.js",
-    "pages/reputation/_id/f075b844.66b76f1.js",
-    "pages/result/_status/f075b844.3d3a6f6.js",
-    "pages/review/detail/_id/f075b844.6462f7c.js",
-    "runtime.6c9532b.js",
+    "pages/company/rank/_id/f075b844.ce934b1.js",
+    "pages/company/rank/_id/pages/product/rank/_id/f075b844.f9a4318.js",
+    "pages/index/f075b844.437451c.js",
+    "pages/index/pages/product/detail/_id/f075b844.06dfe35.js",
+    "pages/news/_id/f075b844.00c0903.js",
+    "pages/product/detail/_id/f075b844.9abcba9.js",
+    "pages/product/rank/_id/f075b844.b0ffa30.js",
+    "pages/reputation/_id/f075b844.aba0418.js",
+    "pages/result/_status/f075b844.151552f.js",
+    "pages/review/detail/_id/f075b844.dc1a534.js",
+    "runtime.5dbfba7.js",
     "vendors/app/020089fc.d3d43dd.js",
     "vendors/app/072ba7d1.3ed4bd9.js",
     "vendors/app/125bbc46.672b57a.js",
@@ -92,7 +92,7 @@
     "vendors/app/fe93738b.8a05799.js"
   ],
   "initial": [
-    "runtime.6c9532b.js",
+    "runtime.5dbfba7.js",
     "vendors/app/c913e6bf.507516a.js",
     "vendors/app/9e5f9a13.7738135.js",
     "vendors/app/3b1d96bd.815914e.js",
@@ -113,7 +113,7 @@
     "vendors/app/fe93738b.8a05799.js",
     "vendors/app/25783f63.61645b2.js",
     "vendors/app/020089fc.d3d43dd.js",
-    "app/24120820.e126d47.js"
+    "app/24120820.9cd1888.js"
   ],
   "async": [
     "components/auto-play/be03499d.c24ef4c.js",
@@ -123,12 +123,12 @@
     "components/category-rank/f075b844.a3a7ec9.js",
     "components/common-bread-crumb/dc5cb093.fb3c7cc.js",
     "components/common-star-zoom/f4c3dc19.ccef406.js",
-    "components/footer/f075b844.3b67bd9.js",
+    "components/footer/f075b844.9738b91.js",
     "components/has-no-data/c7b51040.72a935d.js",
     "components/header-p-header2/b0dc8e57.0d8f8c1.js",
     "components/header2/246743c9.17da2c0.js",
-    "components/index-case/f075b844.5c2dbc1.js",
-    "components/index-news/f075b844.03d7126.js",
+    "components/index-case/f075b844.94ff1cc.js",
+    "components/index-news/f075b844.e98e909.js",
     "components/logo/c0def66a.9f93555.js",
     "components/product-card/7d4f1ab2.0d22cec.js",
     "components/product-detail-contact/dfa834da.b7ab22a.js",
@@ -145,19 +145,19 @@
     "components/slider/efdfd39a.e331f44.js",
     "components/swiper-ad-swiper/f075b844.6b36bbe.js",
     "components/swiper-review-swiper/82a47355.2bb9283.js",
-    "pages/all/index/f075b844.ed1710d.js",
-    "pages/case/_id/f075b844.d72ff97.js",
+    "pages/all/index/f075b844.3dc6d38.js",
+    "pages/case/_id/f075b844.c79c893.js",
     "pages/cctv/product_trial_info/_id/a0009a8f.13a332c.js",
-    "pages/company/rank/_id/f075b844.876db77.js",
-    "pages/company/rank/_id/pages/product/rank/_id/f075b844.634b513.js",
-    "pages/index/f075b844.9bfb845.js",
-    "pages/index/pages/product/detail/_id/f075b844.01d5b1e.js",
-    "pages/news/_id/f075b844.0fc0567.js",
-    "pages/product/detail/_id/f075b844.61813a7.js",
-    "pages/product/rank/_id/f075b844.9e6b280.js",
-    "pages/reputation/_id/f075b844.66b76f1.js",
-    "pages/result/_status/f075b844.3d3a6f6.js",
-    "pages/review/detail/_id/f075b844.6462f7c.js"
+    "pages/company/rank/_id/f075b844.ce934b1.js",
+    "pages/company/rank/_id/pages/product/rank/_id/f075b844.f9a4318.js",
+    "pages/index/f075b844.437451c.js",
+    "pages/index/pages/product/detail/_id/f075b844.06dfe35.js",
+    "pages/news/_id/f075b844.00c0903.js",
+    "pages/product/detail/_id/f075b844.9abcba9.js",
+    "pages/product/rank/_id/f075b844.b0ffa30.js",
+    "pages/reputation/_id/f075b844.aba0418.js",
+    "pages/result/_status/f075b844.151552f.js",
+    "pages/review/detail/_id/f075b844.dc1a534.js"
   ],
   "modules": {
     "17642127": [
@@ -166,31 +166,11 @@
     "19090052": [
       75
     ],
-    "23066384": [
-      3,
-      42,
-      43,
-      40,
-      41,
-      45,
-      34,
-      44,
-      33
-    ],
     "23300310": [
       78
     ],
     "23699884": [
       74
-    ],
-    "25351584": [
-      67,
-      50,
-      54,
-      51,
-      49,
-      52,
-      37
     ],
     "25999264": [
       79
@@ -227,15 +207,6 @@
     ],
     "61657848": [
       71
-    ],
-    "61755314": [
-      65,
-      50,
-      54,
-      51,
-      49,
-      52,
-      39
     ],
     "67961082": [
       75
@@ -2225,7 +2196,7 @@
       44,
       33
     ],
-    "73564f1c": [
+    "529f800b": [
       3,
       42,
       43,
@@ -2237,6 +2208,17 @@
       33
     ],
     "2601651e": [
+      3,
+      42,
+      43,
+      40,
+      41,
+      45,
+      34,
+      44,
+      33
+    ],
+    "024f9473": [
       3,
       42,
       43,
@@ -3827,7 +3809,7 @@
       58,
       53
     ],
-    "79bc016a": [
+    "baf8e52a": [
       58,
       53
     ],
@@ -3835,7 +3817,7 @@
       58,
       53
     ],
-    "62daf3fc": [
+    "114bdbfa": [
       58,
       53
     ],
@@ -3846,13 +3828,13 @@
     "35f7c4e4": [
       63
     ],
-    "3093081f": [
+    "91705fc6": [
       63
     ],
     "433c75c1": [
       63
     ],
-    "ac4a7292": [
+    "308f8eb5": [
       63
     ],
     "4f5e07d0": [
@@ -3861,13 +3843,13 @@
     "1ea85e02": [
       64
     ],
-    "7bca56f3": [
+    "75f3954d": [
       64
     ],
     "96b033f4": [
       64
     ],
-    "5ebe48ea": [
+    "6a6bcc36": [
       64
     ],
     "18d4afd5": [
@@ -3882,7 +3864,7 @@
       52,
       37
     ],
-    "b1293254": [
+    "36aea5d1": [
       67,
       50,
       54,
@@ -3892,6 +3874,15 @@
       37
     ],
     "1973168a": [
+      67,
+      50,
+      54,
+      51,
+      49,
+      52,
+      37
+    ],
+    "7ca8b439": [
       67,
       50,
       54,
@@ -3917,7 +3908,7 @@
       49,
       52
     ],
-    "2e3e4f43": [
+    "2fbc22ca": [
       56,
       50,
       54,
@@ -3933,7 +3924,7 @@
       49,
       52
     ],
-    "56ceebdb": [
+    "584cbf62": [
       56,
       50,
       54,
@@ -3957,7 +3948,7 @@
       49,
       52
     ],
-    "6fad7df6": [
+    "69f48904": [
       62,
       50,
       54,
@@ -3973,7 +3964,7 @@
       49,
       52
     ],
-    "cf83cae4": [
+    "daf5b4c8": [
       62,
       50,
       54,
@@ -3998,6 +3989,15 @@
       52,
       39
     ],
+    "8f9ee0d8": [
+      65,
+      50,
+      54,
+      51,
+      49,
+      52,
+      39
+    ],
     "548b1486": [
       65,
       50,
@@ -4007,7 +4007,7 @@
       52,
       39
     ],
-    "da57c4a8": [
+    "2ce14ba8": [
       65,
       50,
       54,
@@ -4142,7 +4142,7 @@
       "components/common-star-zoom/f4c3dc19.ccef406.js"
     ],
     "4f598bcd": [
-      "app/24120820.e126d47.js"
+      "app/24120820.9cd1888.js"
     ],
     "f51c1154": [
       "components/auto-play/be03499d.c24ef4c.js"
@@ -4163,7 +4163,7 @@
       "components/common-bread-crumb/dc5cb093.fb3c7cc.js"
     ],
     "05aecb6f": [
-      "components/footer/f075b844.3b67bd9.js"
+      "components/footer/f075b844.9738b91.js"
     ],
     "6ea2585e": [
       "components/has-no-data/c7b51040.72a935d.js"
@@ -4175,10 +4175,10 @@
       "components/header2/246743c9.17da2c0.js"
     ],
     "1ec8393f": [
-      "components/index-case/f075b844.5c2dbc1.js"
+      "components/index-case/f075b844.94ff1cc.js"
     ],
     "2cc710fc": [
-      "components/index-news/f075b844.03d7126.js"
+      "components/index-news/f075b844.e98e909.js"
     ],
     "2d82488a": [
       "components/logo/c0def66a.9f93555.js"
@@ -4229,46 +4229,46 @@
       "components/swiper-review-swiper/82a47355.2bb9283.js"
     ],
     "b416e22c": [
-      "pages/all/index/f075b844.ed1710d.js"
+      "pages/all/index/f075b844.3dc6d38.js"
     ],
     "18a758f1": [
-      "pages/case/_id/f075b844.d72ff97.js"
+      "pages/case/_id/f075b844.c79c893.js"
     ],
     "3383efd4": [
       "pages/cctv/product_trial_info/_id/a0009a8f.13a332c.js"
     ],
     "62654d63": [
-      "pages/company/rank/_id/f075b844.876db77.js"
+      "pages/company/rank/_id/f075b844.ce934b1.js"
     ],
     "0b4c6b06": [
-      "pages/company/rank/_id/pages/product/rank/_id/f075b844.634b513.js"
+      "pages/company/rank/_id/pages/product/rank/_id/f075b844.f9a4318.js"
     ],
     "3cef5588": [
-      "pages/index/f075b844.9bfb845.js"
+      "pages/index/f075b844.437451c.js"
     ],
     "3503fd48": [
-      "pages/index/pages/product/detail/_id/f075b844.01d5b1e.js"
+      "pages/index/pages/product/detail/_id/f075b844.06dfe35.js"
     ],
     "506beba4": [
-      "pages/news/_id/f075b844.0fc0567.js"
+      "pages/news/_id/f075b844.00c0903.js"
     ],
     "56615ce0": [
-      "pages/product/detail/_id/f075b844.61813a7.js"
+      "pages/product/detail/_id/f075b844.9abcba9.js"
     ],
     "56a76555": [
-      "pages/product/rank/_id/f075b844.9e6b280.js"
+      "pages/product/rank/_id/f075b844.b0ffa30.js"
     ],
     "3bf3b9f0": [
-      "pages/reputation/_id/f075b844.66b76f1.js"
+      "pages/reputation/_id/f075b844.aba0418.js"
     ],
     "4eb31126": [
-      "pages/result/_status/f075b844.3d3a6f6.js"
+      "pages/result/_status/f075b844.151552f.js"
     ],
     "cb4078ca": [
-      "pages/review/detail/_id/f075b844.6462f7c.js"
+      "pages/review/detail/_id/f075b844.dc1a534.js"
     ],
     "6fca0322": [
-      "runtime.6c9532b.js"
+      "runtime.5dbfba7.js"
     ],
     "5754d2f0": [
       "vendors/app/020089fc.d3d43dd.js"

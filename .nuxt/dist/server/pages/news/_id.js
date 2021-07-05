@@ -558,14 +558,21 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/Footer.vue?vue&type=template&id=0ae2cb2e&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('a-layout-footer',{staticClass:"footer"},[_c('a-row',[_c('a-col',[_c('a-row',{staticClass:"g-wrapper",attrs:{"getter":"16"}},_vm._l((_vm.cateInfo),function(item,index){return _c('a-col',{key:index,staticClass:"gutter-row footerInfo",attrs:{"span":"6"}},[_c('a',{staticClass:"ca_text",attrs:{"href":item.path,"title":item.text}},[_vm._v(_vm._s(item.text))]),_vm._v(" "),_c('p',{staticClass:"qc_text"},[_vm._v("\n            "+_vm._s(item.title)+"\n          ")]),_vm._v(" "),_c('img',{staticClass:"qcrodeImg",attrs:{"src":item.img,"alt":""}})])}),1)],1),_vm._v(" "),_c('a-col',{staticClass:"beian"},[_c('div',{staticClass:"site-width"},[_c('p',[_vm._v("© 2021 选型宝，All Rights Reserved.")]),_vm._v(" "),_c('p',[_c('a',{attrs:{"href":"#"}},[_vm._v("京ICP备14045422号-2 北京众智优选科技有限公司")])])]),_vm._v(" "),_c('div',{staticClass:"site-width"},[_c('p',[_vm._v("地址：北京市朝阳区百子湾西里435号创富港436")])])])],1)],1)}
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/Footer.vue?vue&type=template&id=243480b1&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('a-layout-footer',{staticClass:"footer"},[_c('a-row',[_c('a-col',[_c('a-row',{staticClass:"g-wrapper",attrs:{"getter":"16"}},[_c('a-col',{staticClass:"gutter-row footerInfo",attrs:{"span":"6"}},[_c('a',{staticClass:"ca_text",attrs:{"href":"/all/","title":"微信群"}},[_vm._v("热门类别")]),_vm._v(" "),_c('p',{staticClass:"qc_text"},[_vm._v("\n            微信群\n          ")]),_vm._v(" "),_c('img',{staticClass:"qcrodeImg",attrs:{"src":__webpack_require__(153),"alt":""}})]),_vm._v(" "),_vm._l((_vm.cateInfo),function(item,index){return _c('a-col',{key:index,staticClass:"gutter-row footerInfo",attrs:{"span":"6"}},[_c('a',{staticClass:"ca_text",attrs:{"href":item.path,"title":item.text,"rel":"nofollow"}},[_vm._v(_vm._s(item.text))]),_vm._v(" "),_c('p',{staticClass:"qc_text"},[_vm._v("\n            "+_vm._s(item.title)+"\n          ")]),_vm._v(" "),_c('img',{staticClass:"qcrodeImg",attrs:{"src":item.img,"alt":""}})])})],2)],1),_vm._v(" "),_c('a-col',{staticClass:"beian"},[_c('div',{staticClass:"site-width"},[_c('p',[_vm._v("© 2021 选型宝，All Rights Reserved.")]),_vm._v(" "),_c('p',[_c('a',{attrs:{"href":"#"}},[_vm._v("京ICP备14045422号-2 北京众智优选科技有限公司")])])]),_vm._v(" "),_c('div',{staticClass:"site-width"},[_c('p',[_vm._v("地址：北京市朝阳区百子湾西里435号创富港436")])])])],1)],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Footer.vue?vue&type=template&id=0ae2cb2e&
+// CONCATENATED MODULE: ./components/Footer.vue?vue&type=template&id=243480b1&
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.2.2@babel-loader/lib??ref--2-0!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/Footer.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -599,11 +606,6 @@ var staticRenderFns = []
   data() {
     return {
       cateInfo: [{
-        text: '热门类别',
-        title: '微信群',
-        img: __webpack_require__(153),
-        path: '/all'
-      }, {
         text: '关于我们',
         title: '选型宝订阅号',
         img: __webpack_require__(154),
@@ -736,12 +738,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./pages/news/_id.vue?vue&type=template&id=0280af6c&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"main news"},[_c('a-anchor',{staticClass:"default"},[_c('Header2',{on:{"handleBannerPopShow":_vm.handleBannerPopShow}})],1),_vm._ssrNode(" "),_vm._ssrNode("<div>","</div>",[_c('a-row',{staticClass:"g-wrapper"},[_c('a-col',{staticClass:"g-flex center left-item",attrs:{"span":"12"}},[_c('div',{staticClass:"content"},[_c('div',{staticClass:"title"},[_vm._v("\n            "+_vm._s(_vm.detail.title)+"\n          ")]),_vm._v(" "),_c('div',{staticClass:"industry"},[_c('span',[_vm._v(_vm._s(_vm.detail.industry_name))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(_vm.detail.factory_short_name))])]),_vm._v(" "),_c('div',{staticClass:"info"},[_c('span',{staticClass:"type"},[_vm._v("案例")]),_vm._v(" "),_c('span',{staticClass:"time"},[_vm._v(_vm._s(_vm.detail.createtime || _vm.detail.UPDATETIME))])]),_vm._v(" "),_c('div',{staticClass:"summary"},[_vm._v("\n            "+_vm._s(_vm.detail.summary)+"\n          ")])])]),_vm._v(" "),_c('a-col',{staticClass:"img-col",attrs:{"span":"12"}},[_c('div',{staticClass:"img-wrap"},[_c('img',{attrs:{"src":_vm.detail.head_image,"alt":""}})])])],1)],1),_vm._ssrNode(" <div class=\"container-index article\"><div class=\"parse-content\"><div>"+(_vm._s(_vm.detail.content))+"</div></div></div> "),_c('banner-pop',{directives:[{name:"show",rawName:"v-show",value:(_vm.bannerPopShow),expression:"bannerPopShow"}],on:{"handleBannerPopHide":_vm.handleBannerPopHide}}),_vm._ssrNode(" "),_c('rightNav',[_c('qrcode')],1),_vm._ssrNode(" "),_c('Footer')],2)}
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./pages/news/_id.vue?vue&type=template&id=1460bc77&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"main news"},[_c('a-anchor',{staticClass:"default"},[_c('Header2',{on:{"handleBannerPopShow":_vm.handleBannerPopShow}})],1),_vm._ssrNode(" "),_vm._ssrNode("<div>","</div>",[_c('a-row',{staticClass:"g-wrapper"},[_c('a-col',{staticClass:"g-flex center left-item",attrs:{"span":"12"}},[_c('div',{staticClass:"content"},[_c('h1',{staticClass:"title"},[_vm._v("\n            "+_vm._s(_vm.detail.title)+"\n          ")]),_vm._v(" "),_c('div',{staticClass:"industry"},[_c('span',[_vm._v(_vm._s(_vm.detail.industry_name))]),_vm._v(" "),_c('span',[_vm._v(_vm._s(_vm.detail.factory_short_name))])]),_vm._v(" "),_c('div',{staticClass:"info"},[_c('span',{staticClass:"type"},[_vm._v("案例")]),_vm._v(" "),_c('span',{staticClass:"time"},[_vm._v(_vm._s(_vm.detail.createtime || _vm.detail.UPDATETIME))])]),_vm._v(" "),_c('div',{staticClass:"summary"},[_vm._v("\n            "+_vm._s(_vm.detail.summary)+"\n          ")])])]),_vm._v(" "),_c('a-col',{staticClass:"img-col",attrs:{"span":"12"}},[_c('div',{staticClass:"img-wrap"},[_c('img',{attrs:{"src":_vm.detail.head_image,"alt":_vm.detail.title}})])])],1)],1),_vm._ssrNode(" <div class=\"container-index article\"><div class=\"parse-content\"><div>"+(_vm._s(_vm.detail.content))+"</div></div></div> "),_c('banner-pop',{directives:[{name:"show",rawName:"v-show",value:(_vm.bannerPopShow),expression:"bannerPopShow"}],on:{"handleBannerPopHide":_vm.handleBannerPopHide}}),_vm._ssrNode(" "),_c('rightNav',[_c('qrcode')],1),_vm._ssrNode(" "),_c('Footer')],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/news/_id.vue?vue&type=template&id=0280af6c&
+// CONCATENATED MODULE: ./pages/news/_id.vue?vue&type=template&id=1460bc77&
 
 // EXTERNAL MODULE: ./components/rightNav/index.vue + 2 modules
 var rightNav = __webpack_require__(159);
