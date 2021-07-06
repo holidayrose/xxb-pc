@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{797:function(e,r,t){"use strict";t.r(r);var n={},c=t(46),component=Object(c.a)(n,(function(){var e=this,r=e.$createElement,t=e._self._c||r;return t("a-row",[t("a-col",[t("div",{staticClass:"g-wrapper breadcrumb"},[t("a-breadcrumb",[e._t("default")],2)],1)])],1)}),[],!1,null,null,null);r.default=component.exports}}]);

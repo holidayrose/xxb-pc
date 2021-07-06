@@ -1,7 +1,7 @@
 exports.ids = [11,10];
 exports.modules = {
 
-/***/ 151:
+/***/ 153:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -424,7 +424,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 157:
+/***/ 159:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -439,7 +439,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/Header2.vue?vue&type=template&id=0b16849e&
 
 // EXTERNAL MODULE: ./components/header/pHeader2.vue + 4 modules
-var pHeader2 = __webpack_require__(151);
+var pHeader2 = __webpack_require__(153);
 
 // EXTERNAL MODULE: ./components/header/mHeader.vue + 4 modules
 var mHeader = __webpack_require__(37);
