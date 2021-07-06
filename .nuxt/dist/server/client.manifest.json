@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app/24120820.d04f0d9.js",
+    "app/24120820.429417a.js",
     "components/auto-play/be03499d.7b7c2c1.js",
     "components/bar-score/dc0dd67d.406329f.js",
     "components/bar-zoom-small/1ffabd00.43b5c6c.js",
@@ -64,12 +64,12 @@
     "pages/index/f075b844.689b4cb.js",
     "pages/index/pages/product/detail/_id/f075b844.493d4ea.js",
     "pages/news/_id/f075b844.e75a621.js",
-    "pages/product/detail/_id/f075b844.93280cd.js",
-    "pages/product/rank/_id/f075b844.ce13d79.js",
+    "pages/product/detail/_id/f075b844.a4560c8.js",
+    "pages/product/rank/_id/f075b844.9dbaf8d.js",
     "pages/reputation/_id/f075b844.d1f4cdd.js",
     "pages/result/_status/f075b844.5430118.js",
     "pages/review/detail/_id/f075b844.306998b.js",
-    "runtime.95fbf11.js",
+    "runtime.ffa9c9b.js",
     "vendors/app/020089fc.64c9612.js",
     "vendors/app/072ba7d1.b8bf4d1.js",
     "vendors/app/125bbc46.36fb225.js",
@@ -93,7 +93,7 @@
     "vendors/app/fe93738b.3969bb3.js"
   ],
   "initial": [
-    "runtime.95fbf11.js",
+    "runtime.ffa9c9b.js",
     "vendors/app/c913e6bf.bac30bb.js",
     "vendors/app/9e5f9a13.486337b.js",
     "vendors/app/3b1d96bd.825e4d3.js",
@@ -115,7 +115,7 @@
     "vendors/app/fe93738b.3969bb3.js",
     "vendors/app/25783f63.3952afc.js",
     "vendors/app/020089fc.64c9612.js",
-    "app/24120820.d04f0d9.js"
+    "app/24120820.429417a.js"
   ],
   "async": [
     "components/auto-play/be03499d.7b7c2c1.js",
@@ -155,8 +155,8 @@
     "pages/index/f075b844.689b4cb.js",
     "pages/index/pages/product/detail/_id/f075b844.493d4ea.js",
     "pages/news/_id/f075b844.e75a621.js",
-    "pages/product/detail/_id/f075b844.93280cd.js",
-    "pages/product/rank/_id/f075b844.ce13d79.js",
+    "pages/product/detail/_id/f075b844.a4560c8.js",
+    "pages/product/rank/_id/f075b844.9dbaf8d.js",
     "pages/reputation/_id/f075b844.d1f4cdd.js",
     "pages/result/_status/f075b844.5430118.js",
     "pages/review/detail/_id/f075b844.306998b.js"
@@ -188,6 +188,9 @@
     ],
     "37592864": [
       82
+    ],
+    "38140896": [
+      63
     ],
     "39774937": [
       82
@@ -3854,13 +3857,10 @@
     "35f7c4e4": [
       63
     ],
-    "91705fc6": [
-      63
-    ],
     "433c75c1": [
       63
     ],
-    "308f8eb5": [
+    "5d3dba4d": [
       63
     ],
     "4f5e07d0": [
@@ -3869,13 +3869,13 @@
     "1ea85e02": [
       64
     ],
-    "75f3954d": [
+    "1237442a": [
       64
     ],
     "96b033f4": [
       64
     ],
-    "6a6bcc36": [
+    "670dc8c2": [
       64
     ],
     "18d4afd5": [
@@ -4168,7 +4168,7 @@
       "components/common-star-zoom/f4c3dc19.dd3528b.js"
     ],
     "4f598bcd": [
-      "app/24120820.d04f0d9.js"
+      "app/24120820.429417a.js"
     ],
     "f51c1154": [
       "components/auto-play/be03499d.7b7c2c1.js"
@@ -4279,10 +4279,10 @@
       "pages/news/_id/f075b844.e75a621.js"
     ],
     "56615ce0": [
-      "pages/product/detail/_id/f075b844.93280cd.js"
+      "pages/product/detail/_id/f075b844.a4560c8.js"
     ],
     "56a76555": [
-      "pages/product/rank/_id/f075b844.ce13d79.js"
+      "pages/product/rank/_id/f075b844.9dbaf8d.js"
     ],
     "3bf3b9f0": [
       "pages/reputation/_id/f075b844.d1f4cdd.js"
@@ -4294,7 +4294,7 @@
       "pages/review/detail/_id/f075b844.306998b.js"
     ],
     "6fca0322": [
-      "runtime.95fbf11.js"
+      "runtime.ffa9c9b.js"
     ],
     "5754d2f0": [
       "vendors/app/020089fc.64c9612.js"
