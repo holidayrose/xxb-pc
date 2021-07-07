@@ -15,11 +15,11 @@ export { default as Review } from '../..\\components\\Review.vue'
 export { default as SearchBox } from '../..\\components\\SearchBox.vue'
 export { default as Slider } from '../..\\components\\Slider.vue'
 export { default as HasNoData } from '../..\\components\\hasNoData\\noData.vue'
-export { default as IndexCase } from '../..\\components\\index\\case.vue'
-export { default as IndexNews } from '../..\\components\\index\\news.vue'
 export { default as HeaderMHeader } from '../..\\components\\header\\mHeader.vue'
 export { default as HeaderPHeader } from '../..\\components\\header\\pHeader.vue'
 export { default as HeaderPHeader2 } from '../..\\components\\header\\pHeader2.vue'
+export { default as IndexCase } from '../..\\components\\index\\case.vue'
+export { default as IndexNews } from '../..\\components\\index\\news.vue'
 export { default as PopBanner } from '../..\\components\\pop\\banner.vue'
 export { default as PopModel } from '../..\\components\\pop\\model.vue'
 export { default as ProductDetailContact } from '../..\\components\\productDetail\\contact.vue'
@@ -50,11 +50,11 @@ export const LazyReview = import('../..\\components\\Review.vue' /* webpackChunk
 export const LazySearchBox = import('../..\\components\\SearchBox.vue' /* webpackChunkName: "components/search-box" */).then(c => wrapFunctional(c.default || c))
 export const LazySlider = import('../..\\components\\Slider.vue' /* webpackChunkName: "components/slider" */).then(c => wrapFunctional(c.default || c))
 export const LazyHasNoData = import('../..\\components\\hasNoData\\noData.vue' /* webpackChunkName: "components/has-no-data" */).then(c => wrapFunctional(c.default || c))
-export const LazyIndexCase = import('../..\\components\\index\\case.vue' /* webpackChunkName: "components/index-case" */).then(c => wrapFunctional(c.default || c))
-export const LazyIndexNews = import('../..\\components\\index\\news.vue' /* webpackChunkName: "components/index-news" */).then(c => wrapFunctional(c.default || c))
 export const LazyHeaderMHeader = import('../..\\components\\header\\mHeader.vue' /* webpackChunkName: "components/header-m-header" */).then(c => wrapFunctional(c.default || c))
 export const LazyHeaderPHeader = import('../..\\components\\header\\pHeader.vue' /* webpackChunkName: "components/header-p-header" */).then(c => wrapFunctional(c.default || c))
 export const LazyHeaderPHeader2 = import('../..\\components\\header\\pHeader2.vue' /* webpackChunkName: "components/header-p-header2" */).then(c => wrapFunctional(c.default || c))
+export const LazyIndexCase = import('../..\\components\\index\\case.vue' /* webpackChunkName: "components/index-case" */).then(c => wrapFunctional(c.default || c))
+export const LazyIndexNews = import('../..\\components\\index\\news.vue' /* webpackChunkName: "components/index-news" */).then(c => wrapFunctional(c.default || c))
 export const LazyPopBanner = import('../..\\components\\pop\\banner.vue' /* webpackChunkName: "components/pop-banner" */).then(c => wrapFunctional(c.default || c))
 export const LazyPopModel = import('../..\\components\\pop\\model.vue' /* webpackChunkName: "components/pop-model" */).then(c => wrapFunctional(c.default || c))
 export const LazyProductDetailContact = import('../..\\components\\productDetail\\contact.vue' /* webpackChunkName: "components/product-detail-contact" */).then(c => wrapFunctional(c.default || c))

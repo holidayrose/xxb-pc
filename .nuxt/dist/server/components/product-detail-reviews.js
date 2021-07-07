@@ -1,7 +1,7 @@
 exports.ids = [19,2,7];
 exports.modules = {
 
-/***/ 152:
+/***/ 160:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -86,13 +86,13 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 165:
+/***/ 173:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(173);
+var content = __webpack_require__(181);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -104,19 +104,19 @@ module.exports.__inject__ = function (context) {
 
 /***/ }),
 
-/***/ 172:
+/***/ 180:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_4_1_3_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_4_3_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_15_9_7_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_sass_loader_10_2_0_sass_loader_dist_cjs_js_ref_6_oneOf_1_3_node_modules_nuxt_components_2_1_8_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_15_9_7_vue_loader_lib_index_js_vue_loader_options_BarScore_vue_vue_type_style_index_0_id_41038052_lang_sass_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(165);
+/* harmony import */ var _node_modules_vue_style_loader_4_1_3_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_4_3_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_15_9_7_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_sass_loader_10_2_0_sass_loader_dist_cjs_js_ref_6_oneOf_1_3_node_modules_nuxt_components_2_1_8_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_15_9_7_vue_loader_lib_index_js_vue_loader_options_BarScore_vue_vue_type_style_index_0_id_41038052_lang_sass_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(173);
 /* harmony import */ var _node_modules_vue_style_loader_4_1_3_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_4_3_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_15_9_7_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_sass_loader_10_2_0_sass_loader_dist_cjs_js_ref_6_oneOf_1_3_node_modules_nuxt_components_2_1_8_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_15_9_7_vue_loader_lib_index_js_vue_loader_options_BarScore_vue_vue_type_style_index_0_id_41038052_lang_sass_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_4_1_3_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_4_3_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_15_9_7_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_sass_loader_10_2_0_sass_loader_dist_cjs_js_ref_6_oneOf_1_3_node_modules_nuxt_components_2_1_8_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_15_9_7_vue_loader_lib_index_js_vue_loader_options_BarScore_vue_vue_type_style_index_0_id_41038052_lang_sass_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_4_1_3_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_4_3_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_15_9_7_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_sass_loader_10_2_0_sass_loader_dist_cjs_js_ref_6_oneOf_1_3_node_modules_nuxt_components_2_1_8_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_15_9_7_vue_loader_lib_index_js_vue_loader_options_BarScore_vue_vue_type_style_index_0_id_41038052_lang_sass_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_4_1_3_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_4_3_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_15_9_7_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_sass_loader_10_2_0_sass_loader_dist_cjs_js_ref_6_oneOf_1_3_node_modules_nuxt_components_2_1_8_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_15_9_7_vue_loader_lib_index_js_vue_loader_options_BarScore_vue_vue_type_style_index_0_id_41038052_lang_sass_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 173:
+/***/ 181:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -130,7 +130,190 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 176:
+/***/ 182:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return handleAvatar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return timestamp2date; });
+/* unused harmony export validate */
+function formatNumber(n) {
+  const str = n.toString();
+  return str[1] ? str : `0${str}`;
+}
+
+function handleAvatar(attrName, item) {
+  const defaultAvatar = '/static/images/avatar.jpg';
+
+  if (item[attrName]) {
+    if (!item[attrName].includes('http')) {
+      if (!item[attrName].includes('jpg') && !item[attrName].includes('JPG') && !item[attrName].includes('PNG')) {
+        item[attrName] = defaultAvatar;
+      } else {
+        item[attrName] = 'https://www.xuanxingbao.com/' + item[attrName];
+      }
+    }
+  } else {
+    item[attrName] = defaultAvatar;
+  }
+
+  return item;
+}
+function timestamp2date(timestamp) {
+  let date = new Date(timestamp);
+  const year = date.getFullYear();
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
+  const t1 = [year, month, day].map(formatNumber).join('-');
+  return `${t1}`;
+}
+/**
+ * 合法性检查
+ * @param {*} form 被检查的数据
+ * @param {*}
+ */
+
+function validate(form) {
+  let validator = {
+    REALNAME: {
+      rules: {
+        required: true,
+        min: 2,
+        max: 8
+      },
+      messages: {
+        require: '请输入您的姓名!',
+        min: '请按要求输入您的姓名!',
+        max: '请按要求输入您的姓名!'
+      }
+    },
+    NICKNAME: {
+      rules: {
+        required: true,
+        min: 2,
+        max: 8
+      },
+      messages: {
+        require: '请输入您的姓名!',
+        min: '请按要求输入您的姓名!',
+        max: '请按要求输入您的姓名!'
+      }
+    },
+    COMPANY: {
+      rules: {
+        required: true
+      },
+      messages: {
+        require: '请填写公司!'
+      }
+    },
+    POSITION: {
+      rules: {
+        required: true
+      },
+      messages: {
+        require: '请填写职位!'
+      }
+    },
+    PHONE: {
+      rules: {
+        required: true,
+        mobile: true
+      },
+      messages: {
+        require: '请填写手机号!',
+        mobile: '手机号码格式不合法!'
+      }
+    },
+    USER_EMAIL: {
+      rules: {
+        required: true,
+        email: true
+      },
+      messages: {
+        require: '请填写邮箱!',
+        email: '您输入的邮箱不合法!'
+      }
+    }
+  };
+  let isValid = true;
+  let data = null;
+
+  for (let key in form) {
+    if (!isValid) {
+      break;
+    }
+
+    let value = form[key];
+
+    for (let rule in validator[key].rules) {
+      let reg = null;
+
+      switch (rule) {
+        case 'required':
+          if (!value) {
+            isValid = false;
+          }
+
+          break;
+
+        case 'min':
+          if (value === null || value.length < validator[key].rules[rule]) {
+            isValid = false;
+          }
+
+          break;
+
+        case 'max':
+          if (value === null || value.length > validator[key].rules[rule]) {
+            isValid = false;
+          }
+
+          break;
+
+        case 'mobile':
+          reg = new RegExp('^[1]([3-9])[0-9]{9}$');
+
+          if (!reg.test(value)) {
+            isValid = false;
+          }
+
+          break;
+
+        case 'captcha':
+          reg = new RegExp('^[\\d]{4}$');
+
+          if (!reg.test(value)) {
+            isValid = false;
+          }
+
+          break;
+
+        case 'email':
+          reg = new RegExp('^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,})$');
+
+          if (!reg.test(value)) {
+            isValid = false;
+          }
+
+          break;
+      }
+
+      if (!isValid) {
+        data = {
+          name: key,
+          msg: validator[key].messages[rule]
+        };
+      }
+    }
+  }
+
+  return data;
+}
+
+/***/ }),
+
+/***/ 185:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -210,7 +393,7 @@ var componentNormalizer = __webpack_require__(13);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(172)
+  var style0 = __webpack_require__(180)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -232,25 +415,28 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 200:
+/***/ 208:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/productDetail/reviews.vue?vue&type=template&id=5fa947e2&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"panel"},[_c('a-row',[_c('a-col',{attrs:{"lg":12,"md":12,"sm":24}},[_c('h3',{staticClass:"title"},[_vm._v("\n        共"+_vm._s(_vm.productDetailObj.productKbObj.dpnum)+"条评论\n      ")]),_vm._v(" "),_c('div',{staticClass:"content"},_vm._l((_vm.productDetailObj.reviewArr),function(item,index){return _c('div',{key:index,staticClass:"item g-flex"},[_c('div',{staticClass:"col col-1 "},[_c('span',{staticClass:"spe"},[_vm._v(_vm._s(item.branchnum))]),_vm._v("人认为\n          ")]),_vm._v(" "),_c('div',{staticClass:"col col-2"},[_vm._v("\n            "+_vm._s(item.levelTxt)+"\n          ")]),_vm._v(" "),_c('div',{staticClass:"col col-3"},[_c('Star',{attrs:{"out-width":100,"out-height":20,"decimal":(5-index)/5}})],1)])}),0)]),_vm._v(" "),_c('a-col',{attrs:{"lg":12,"md":12,"sm":24}},[_c('h3',{staticClass:"title"},[_vm._v("\n        【专项指标评分】\n      ")]),_vm._v(" "),_c('div',{staticClass:"content earmarked"},_vm._l((_vm.productDetailObj.earmarked),function(item,index){return _c('div',{key:index,staticClass:"item g-flex"},[_c('div',{staticClass:"col col-1",staticStyle:{"width":"160px"}},[_vm._v("\n            "+_vm._s(item.text)+"\n          ")]),_vm._v(" "),_c('div',{staticClass:"col col-4"},[_c('bar',{attrs:{"score":item.levelAvgNum,"index":index + 1}})],1),_vm._v(" "),_c('div',{staticClass:"col col-3"},[_vm._v("\n            "+_vm._s(item.levelAvgNum)+"分\n          ")])])}),0)])],1),_vm._ssrNode(" "),_c('a-row',[_c('a-col',[_c('div',{staticClass:"tops-list"},[_c('span',{staticClass:"tops-item",class:_vm.analysisDimensionId === null?'on':'',staticStyle:{"margin-right":"0"},on:{"click":_vm.handleGetAllReview}},[_vm._v("全部点评")]),_vm._v(" "),_vm._l((_vm.tabsList),function(item){return _c('span',{key:item.id,staticClass:"tops-item",class:item.dimension_id === _vm.analysisDimensionId ? 'on' : '',on:{"click":function($event){return _vm.changeTags(item)}}},[_vm._v(_vm._s(item.title)+"("+_vm._s(item.num)+")")])})],2),_vm._v(" "),(_vm.allReviewsShow)?_c('div',{staticClass:"comment-list"},[_vm._l((_vm.reviewsList),function(item,index){return _c('div',{key:index,staticClass:"comment-item",on:{"click":function($event){return _vm.navigateToDetail(item.scoreid)}}},[_c('div',{staticClass:"comment-info"},[_c('div',{staticClass:"g-flex"},[_c('div',{staticClass:"head-img"},[_c('img',{attrs:{"src":item.userheadimages,"alt":"","width":"100%"}})]),_vm._v(" "),_c('div',{staticClass:"info"},[_c('div',{staticClass:"name"},[_vm._v("\n                  "+_vm._s(item.realname)+"\n                ")]),_vm._v(" "),_c('div',{staticClass:"title"},[_vm._v("\n                  "+_vm._s(item.company)+" "+_vm._s(item.office)+"\n                ")]),_vm._v(" "),_c('div',{staticClass:"count g-flex"},[_c('span',[_vm._v(_vm._s(item.ztgsnum)+"分")]),_vm._v(" "),_c('Star',{attrs:{"out-width":100,"out-height":20,"decimal":item.ztgsnum/5}})],1)])]),_vm._v(" "),_c('div',{staticClass:"publish-time"},[_vm._v("\n              "+_vm._s(item.operaTime)+"\n            ")])]),_vm._v(" "),_c('div',{staticClass:"comment-content"},[_c('p',[_vm._v("【优点】"+_vm._s(item.advantages))]),_vm._v(" "),_c('p',[_vm._v("【缺点】"+_vm._s(item.disadvantages))]),_vm._v(" "),_c('div',{staticClass:"note text-c"},[_vm._v("\n              进入点评详情页\n            ")])]),_vm._v(" "),_c('div',{staticClass:"g-flex icon-list-wrap"},[_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"message"}}),_vm._v(_vm._s(item.commentnum)+"\n            ")],1),_vm._v(" "),_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"like"}}),_vm._v(_vm._s(item.praisenum)+"\n            ")],1)])])}),_vm._v(" "),(_vm.currentPage < _vm.totalPage)?_c('div',{staticClass:"getMoreBtn g-flex center pad-40",on:{"click":_vm.handleMoreReviews}},[_c('span',{staticClass:"check-comment"},[_vm._v("查看更多的评价")])]):_c('div',{staticClass:"noMore pad-10",staticStyle:{"text-align":"center"}},[_vm._v("\n          没有更多评价了~\n        ")])],2):_vm._e(),_vm._v(" "),(_vm.partReviewsShow)?_c('div',{staticClass:"comment-list"},[_c('div',{staticClass:"vs-wrap"},[_c('div',{staticClass:"round good"},[_vm._v("\n            好\n          ")]),_vm._v(" "),_c('div',{staticClass:"number-bar"},[_c('div',{staticClass:"t-box"},[_c('span',{staticClass:"pros"},[_vm._v(_vm._s(_vm.advantageLen)+"人认为")]),_vm._v(" "),_c('span',{staticClass:"cons"},[_vm._v(_vm._s(_vm.disadvantageLen)+"人认为")])]),_vm._v(" "),_c('div',{staticClass:"b-box"},[_c('div',{staticClass:"bar pros",style:({width: _vm.advantageLen/_vm.totalReviews*100 + '%'})}),_vm._v(" "),_c('div',{staticClass:"bar cons",style:({width: _vm.disadvantageLen/_vm.totalReviews*100 + '%'})})]),_vm._v(" "),_c('div',{staticStyle:{"text-align":"center"}},[_vm._v("\n              共"+_vm._s(_vm.totalReviews)+"条点评\n            ")])]),_vm._v(" "),_c('div',{staticClass:"round bad"},[_vm._v("\n            不好\n          ")])]),_vm._v(" "),(_vm.advantageLen !== 0)?_c('div',{staticClass:"advantage-wrap"},[_c('div',{staticClass:"area-title"},[_vm._v("\n            "+_vm._s(_vm.advantageLen)+"人说好，他们这么说\n          ")]),_vm._v(" "),_c('div',{staticClass:"advantage-list-wrap"},_vm._l((_vm.advantageReviews),function(item,index){return _c('div',{key:index,staticClass:"comment-item"},[_c('div',{staticClass:"comment-info"},[_c('div',{staticClass:"g-flex"},[_c('div',{staticClass:"head-img"},[_c('img',{attrs:{"src":item.userheadimages,"alt":"","width":"100%"}})]),_vm._v(" "),_c('div',{staticClass:"info"},[_c('div',{staticClass:"name"},[_vm._v("\n                      "+_vm._s(item.realname)+"\n                    ")]),_vm._v(" "),_c('div',{staticClass:"title"},[_vm._v("\n                      "+_vm._s(item.company)+" "+_vm._s(item.office)+"\n                    ")]),_vm._v(" "),_c('div',{staticClass:"count g-flex"},[_c('span',[_vm._v(_vm._s(item.ztgsnum)+"分")]),_vm._v(" "),_c('Star',{attrs:{"out-width":100,"out-height":20,"decimal":item.ztgsnum/5}})],1)])]),_vm._v(" "),_c('div',{staticClass:"publish-time"},[_vm._v("\n                  "+_vm._s(item.operaTime)+"\n                ")])]),_vm._v(" "),_c('div',{staticClass:"comment-content"},[_c('p',[_vm._v(_vm._s(item.advantages))])]),_vm._v(" "),_c('div',{staticClass:"g-flex icon-list-wrap"},[_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"message"}}),_vm._v(_vm._s(item.commentnum)+"\n                ")],1),_vm._v(" "),_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"like"}}),_vm._v(_vm._s(item.praisenum)+"\n                ")],1)])])}),0),_vm._v(" "),(_vm.advantageReviewsCurPage < _vm.advantageReviewsTotalPage)?_c('div',{staticClass:"getMoreBtn g-flex center pad-40",on:{"click":_vm.getMoreAdvantage}},[_c('span',{staticClass:"check-comment"},[_vm._v("查看更多评价")])]):_c('div',{staticClass:"noMore text-c pad-10"},[_vm._v("\n            没有更多评价了~\n          ")])]):_vm._e(),_vm._v(" "),(_vm.disadvantageLen !== 0)?_c('div',{staticClass:"disadvantage-wrap"},[_c('div',{staticClass:"area-title"},[_vm._v("\n            "+_vm._s(_vm.disadvantageLen)+"人说不好，他们这么说\n          ")]),_vm._v(" "),_c('div',{staticClass:"disadvantage-list-wrap"},_vm._l((_vm.disadvantageReviews),function(item,index){return _c('div',{key:index,staticClass:"comment-item"},[_c('div',{staticClass:"comment-info"},[_c('div',{staticClass:"g-flex"},[_c('div',{staticClass:"head-img"},[_c('img',{attrs:{"src":item.userheadimages,"alt":"","width":"100%"}})]),_vm._v(" "),_c('div',{staticClass:"info"},[_c('div',{staticClass:"name"},[_vm._v("\n                      "+_vm._s(item.realname)+"\n                    ")]),_vm._v(" "),_c('div',{staticClass:"title"},[_vm._v("\n                      "+_vm._s(item.company)+" "+_vm._s(item.office)+"\n                    ")]),_vm._v(" "),_c('div',{staticClass:"count g-flex"},[_c('span',[_vm._v(_vm._s(item.ztgsnum)+"分")]),_vm._v(" "),_c('Star',{attrs:{"out-width":100,"out-height":20,"decimal":item.ztgsnum/5}})],1)])]),_vm._v(" "),_c('div',{staticClass:"publish-time"},[_vm._v("\n                  "+_vm._s(item.operaTime)+"\n                ")])]),_vm._v(" "),_c('div',{staticClass:"comment-content"},[_c('p',[_vm._v(_vm._s(item.disadvantages))])]),_vm._v(" "),_c('div',{staticClass:"g-flex icon-list-wrap"},[_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"message"}}),_vm._v(_vm._s(item.commentnum)+"\n                ")],1),_vm._v(" "),_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"like"}}),_vm._v(_vm._s(item.praisenum)+"\n                ")],1)])])}),0),_vm._v(" "),(_vm.disadvantageReviewsCurPage < _vm.disadvantageReviewsTotalPage)?_c('div',{staticClass:"getMoreBtn g-flex center pad-40",on:{"click":_vm.getMoreDisadvantage}},[_c('span',{staticClass:"check-comment"},[_vm._v("查看更多评价")])]):_c('div',{staticClass:"noMore text-c pad-10"},[_vm._v("\n            没有更多评价了~\n          ")])]):_vm._e()]):_vm._e()]),_vm._v(" "),_c('a-col',{staticClass:"display-pc"},[_c('div',{staticClass:"contact-btn",on:{"click":_vm.contact}},[_vm._v("\n        请厂商联系我\n      ")])])],1)],2)}
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/productDetail/reviews.vue?vue&type=template&id=b2344392&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"panel"},[_c('a-row',[_c('a-col',{attrs:{"lg":12,"md":12,"sm":24}},[_c('h3',{staticClass:"title"},[_vm._v("\n        共"+_vm._s(_vm.productDetailObj.productKbObj.dpnum)+"条评论\n      ")]),_vm._v(" "),_c('div',{staticClass:"content"},_vm._l((_vm.productDetailObj.reviewArr),function(item,index){return _c('div',{key:index,staticClass:"item g-flex"},[_c('div',{staticClass:"col col-1 "},[_c('span',{staticClass:"spe"},[_vm._v(_vm._s(item.branchnum))]),_vm._v("人认为\n          ")]),_vm._v(" "),_c('div',{staticClass:"col col-2"},[_vm._v("\n            "+_vm._s(item.levelTxt)+"\n          ")]),_vm._v(" "),_c('div',{staticClass:"col col-3"},[_c('Star',{attrs:{"out-width":100,"out-height":20,"decimal":(5-index)/5}})],1)])}),0)]),_vm._v(" "),_c('a-col',{attrs:{"lg":12,"md":12,"sm":24}},[_c('h3',{staticClass:"title"},[_vm._v("\n        【专项指标评分】\n      ")]),_vm._v(" "),_c('div',{staticClass:"content earmarked"},_vm._l((_vm.productDetailObj.earmarked),function(item,index){return _c('div',{key:index,staticClass:"item g-flex"},[_c('div',{staticClass:"col col-1",staticStyle:{"width":"160px"}},[_vm._v("\n            "+_vm._s(item.text)+"\n          ")]),_vm._v(" "),_c('div',{staticClass:"col col-4"},[_c('bar',{attrs:{"score":item.levelAvgNum,"index":index + 1}})],1),_vm._v(" "),_c('div',{staticClass:"col col-3"},[_vm._v("\n            "+_vm._s(item.levelAvgNum)+"分\n          ")])])}),0)])],1),_vm._ssrNode(" "),_c('a-row',[_c('a-col',[_c('div',{staticClass:"tops-list"},[_c('span',{staticClass:"tops-item",class:_vm.analysisDimensionId === null?'on':'',staticStyle:{"margin-right":"0"},on:{"click":_vm.handleGetAllReview}},[_vm._v("全部点评")]),_vm._v(" "),_vm._l((_vm.tabsList),function(item){return _c('span',{key:item.id,staticClass:"tops-item",class:item.dimension_id === _vm.analysisDimensionId ? 'on' : '',on:{"click":function($event){return _vm.changeTags(item)}}},[_vm._v(_vm._s(item.title)+"("+_vm._s(item.num)+")")])})],2),_vm._v(" "),(_vm.allReviewsShow)?_c('div',{staticClass:"comment-list"},[_vm._l((_vm.reviewsList),function(item,index){return _c('div',{key:index,staticClass:"comment-item"},[_c('div',{staticClass:"comment-info"},[_c('div',{staticClass:"g-flex"},[_c('div',{staticClass:"head-img"},[_c('img',{attrs:{"src":item.userheadimages,"alt":"","width":"100%"}})]),_vm._v(" "),_c('div',{staticClass:"info"},[_c('div',{staticClass:"name"},[_c('strong',[_vm._v(_vm._s(item.realname))]),_vm._v(" 对 "),_c('strong',[_vm._v(_vm._s(_vm.productDetailObj.productObj.NAME))]),_vm._v(" 的点评\n                ")]),_vm._v(" "),_c('div',{staticClass:"title"},[_vm._v("\n                  "+_vm._s(item.company)+" "+_vm._s(item.office)+"\n                ")]),_vm._v(" "),_c('div',{staticClass:"count g-flex"},[_c('span',[_vm._v(_vm._s(item.ztgsnum)+"分")]),_vm._v(" "),_c('Star',{attrs:{"out-width":100,"out-height":20,"decimal":item.ztgsnum/5}})],1)])]),_vm._v(" "),_c('div',{staticClass:"publish-time"},[_vm._v("\n              "+_vm._s(item.operaTime)+"\n            ")])]),_vm._v(" "),_c('div',{staticClass:"comment-content"},[_c('p',[_vm._v("【优点】"+_vm._s(item.advantages))]),_vm._v(" "),_c('p',[_vm._v("【缺点】"+_vm._s(item.disadvantages))])]),_vm._v(" "),_c('div',{staticClass:"g-flex icon-list-wrap"},[_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"message"}}),_vm._v(_vm._s(item.commentnum)+"\n            ")],1),_vm._v(" "),_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"like"}}),_vm._v(_vm._s(item.praisenum)+"\n            ")],1)])])}),_vm._v(" "),_c('div',{staticClass:"m-t-20 m-b-20"},[_c('a-pagination',{attrs:{"total":_vm.allReviewTotalNumber},on:{"change":_vm.totalReviewsChange},model:{value:(_vm.allReviewCurPage),callback:function ($$v) {_vm.allReviewCurPage=$$v},expression:"allReviewCurPage"}})],1)],2):_vm._e(),_vm._v(" "),(_vm.partReviewsShow)?_c('div',{staticClass:"comment-list"},[_c('div',{staticClass:"vs-wrap"},[_c('div',{staticClass:"round good"},[_vm._v("\n            好\n          ")]),_vm._v(" "),_c('div',{staticClass:"number-bar"},[_c('div',{staticClass:"t-box"},[_c('span',{staticClass:"pros"},[_vm._v(_vm._s(_vm.advantageLen)+"人认为")]),_vm._v(" "),_c('span',{staticClass:"cons"},[_vm._v(_vm._s(_vm.disadvantageLen)+"人认为")])]),_vm._v(" "),_c('div',{staticClass:"b-box"},[_c('div',{staticClass:"bar pros",style:({width: _vm.advantageLen/_vm.totalReviews*100 + '%'})}),_vm._v(" "),_c('div',{staticClass:"bar cons",style:({width: _vm.disadvantageLen/_vm.totalReviews*100 + '%'})})]),_vm._v(" "),_c('div',{staticStyle:{"text-align":"center"}},[_vm._v("\n              共"+_vm._s(_vm.totalReviews)+"条点评\n            ")])]),_vm._v(" "),_c('div',{staticClass:"round bad"},[_vm._v("\n            不好\n          ")])]),_vm._v(" "),(_vm.advantageLen !== 0)?_c('div',{staticClass:"advantage-wrap"},[_c('div',{staticClass:"area-title"},[_vm._v("\n            "+_vm._s(_vm.advantageLen)+"人说好，他们这么说\n          ")]),_vm._v(" "),_c('div',{staticClass:"advantage-list-wrap"},_vm._l((_vm.advantageReviews),function(item,index){return _c('div',{key:index,staticClass:"comment-item"},[_c('div',{staticClass:"comment-info"},[_c('div',{staticClass:"g-flex"},[_c('div',{staticClass:"head-img"},[_c('img',{attrs:{"src":item.userheadimages,"alt":"","width":"100%"}})]),_vm._v(" "),_c('div',{staticClass:"info"},[_c('div',{staticClass:"name"},[_c('strong',[_vm._v(_vm._s(item.realname))]),_vm._v(" 对 "),_c('strong',[_vm._v(_vm._s(_vm.productDetailObj.productObj.NAME))]),_vm._v(" 的点评\n                    ")]),_vm._v(" "),_c('div',{staticClass:"title"},[_vm._v("\n                      "+_vm._s(item.company)+" "+_vm._s(item.office)+"\n                    ")]),_vm._v(" "),_c('div',{staticClass:"count g-flex"},[_c('span',[_vm._v(_vm._s(item.ztgsnum)+"分")]),_vm._v(" "),_c('Star',{attrs:{"out-width":100,"out-height":20,"decimal":item.ztgsnum/5}})],1)])]),_vm._v(" "),_c('div',{staticClass:"publish-time"},[_vm._v("\n                  "+_vm._s(item.operaTime)+"\n                ")])]),_vm._v(" "),_c('div',{staticClass:"comment-content"},[_c('p',[_vm._v(_vm._s(item.advantages))])]),_vm._v(" "),_c('div',{staticClass:"g-flex icon-list-wrap"},[_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"message"}}),_vm._v(_vm._s(item.commentnum)+"\n                ")],1),_vm._v(" "),_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"like"}}),_vm._v(_vm._s(item.praisenum)+"\n                ")],1)])])}),0),_vm._v(" "),_c('div',{staticClass:"m-t-20 m-b-20"},[_c('a-pagination',{attrs:{"total":_vm.advantageReviewsTotalNumber},on:{"change":_vm.advantageReviewsChange},model:{value:(_vm.advantageReviewsCurPage),callback:function ($$v) {_vm.advantageReviewsCurPage=$$v},expression:"advantageReviewsCurPage"}})],1)]):_vm._e(),_vm._v(" "),(_vm.disadvantageLen !== 0)?_c('div',{staticClass:"disadvantage-wrap"},[_c('div',{staticClass:"area-title"},[_vm._v("\n            "+_vm._s(_vm.disadvantageLen)+"人说不好，他们这么说\n          ")]),_vm._v(" "),_c('div',{staticClass:"disadvantage-list-wrap"},_vm._l((_vm.disadvantageReviews),function(item,index){return _c('div',{key:index,staticClass:"comment-item"},[_c('div',{staticClass:"comment-info"},[_c('div',{staticClass:"g-flex"},[_c('div',{staticClass:"head-img"},[_c('img',{attrs:{"src":item.userheadimages,"alt":"","width":"100%"}})]),_vm._v(" "),_c('div',{staticClass:"info"},[_c('div',{staticClass:"name"},[_c('strong',[_vm._v(_vm._s(item.realname))]),_vm._v(" 对 "),_c('strong',[_vm._v(_vm._s(_vm.productDetailObj.productObj.NAME))]),_vm._v(" 的点评\n                    ")]),_vm._v(" "),_c('div',{staticClass:"title"},[_vm._v("\n                      "+_vm._s(item.company)+" "+_vm._s(item.office)+"\n                    ")]),_vm._v(" "),_c('div',{staticClass:"count g-flex"},[_c('span',[_vm._v(_vm._s(item.ztgsnum)+"分")]),_vm._v(" "),_c('Star',{attrs:{"out-width":100,"out-height":20,"decimal":item.ztgsnum/5}})],1)])]),_vm._v(" "),_c('div',{staticClass:"publish-time"},[_vm._v("\n                  "+_vm._s(item.operaTime)+"\n                ")])]),_vm._v(" "),_c('div',{staticClass:"comment-content"},[_c('p',[_vm._v(_vm._s(item.disadvantages))])]),_vm._v(" "),_c('div',{staticClass:"g-flex icon-list-wrap"},[_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"message"}}),_vm._v(_vm._s(item.commentnum)+"\n                ")],1),_vm._v(" "),_c('div',{staticClass:"icon-item"},[_c('a-icon',{attrs:{"type":"like"}}),_vm._v(_vm._s(item.praisenum)+"\n                ")],1)])])}),0),_vm._v(" "),_c('div',{staticClass:"m-t-20 m-b-20"},[_c('a-pagination',{attrs:{"total":_vm.disadvantageReviewsTotalNumber},on:{"change":_vm.disadvantageReviewsChange},model:{value:(_vm.disadvantageReviewsCurPage),callback:function ($$v) {_vm.disadvantageReviewsCurPage=$$v},expression:"disadvantageReviewsCurPage"}})],1)]):_vm._e()]):_vm._e()]),_vm._v(" "),_c('a-col',{staticClass:"display-pc"},[_c('div',{staticClass:"contact-btn",on:{"click":_vm.contact}},[_vm._v("\n        请厂商联系我\n      ")])])],1)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/productDetail/reviews.vue?vue&type=template&id=5fa947e2&
+// CONCATENATED MODULE: ./components/productDetail/reviews.vue?vue&type=template&id=b2344392&
 
 // EXTERNAL MODULE: ./components/BarScore.vue + 4 modules
-var BarScore = __webpack_require__(176);
+var BarScore = __webpack_require__(185);
 
 // EXTERNAL MODULE: ./components/common/starComp/StarZoom.vue + 4 modules
-var StarZoom = __webpack_require__(152);
+var StarZoom = __webpack_require__(160);
+
+// EXTERNAL MODULE: ./static/lib/utils.js
+var utils = __webpack_require__(182);
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.2.2@babel-loader/lib??ref--2-0!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/productDetail/reviews.vue?vue&type=script&lang=js&
 //
@@ -481,6 +667,19 @@ var StarZoom = __webpack_require__(152);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 
 
 /* harmony default export */ var reviewsvue_type_script_lang_js_ = ({
@@ -497,98 +696,6 @@ var StarZoom = __webpack_require__(152);
         return {};
       }
 
-    },
-    tabsList: {
-      type: Array,
-
-      default() {
-        return [];
-      }
-
-    },
-    analysisDimensionId: {
-      type: String,
-
-      default() {
-        return null;
-      }
-
-    },
-    reviewsList: {
-      type: Array,
-
-      default() {
-        return [];
-      }
-
-    },
-    disadvantageReviews: {
-      type: Array,
-
-      default() {
-        return [];
-      }
-
-    },
-    advantageReviews: {
-      type: Array,
-
-      default() {
-        return [];
-      }
-
-    },
-    currentPage: {
-      type: Number,
-
-      default() {
-        return 1;
-      }
-
-    },
-    totalPage: {
-      type: Number,
-
-      default() {
-        return 1;
-      }
-
-    },
-    // 优点总页数
-    advantageReviewsTotalPage: {
-      type: Number,
-
-      default() {
-        return 1;
-      }
-
-    },
-    // 缺点总页数
-    disadvantageReviewsTotalPage: {
-      type: Number,
-
-      default() {
-        return 1;
-      }
-
-    },
-    // 优点当前页
-    advantageReviewsCurPage: {
-      type: Number,
-
-      default() {
-        return 1;
-      }
-
-    },
-    // 缺点当前页
-    disadvantageReviewsCurPage: {
-      type: Number,
-
-      default() {
-        return 1;
-      }
-
     }
   },
 
@@ -597,7 +704,32 @@ var StarZoom = __webpack_require__(152);
       allReviewsShow: true,
       partReviewsShow: false,
       advantageLen: 0,
-      disadvantageLen: 0
+      disadvantageLen: 0,
+      tabsList: [],
+      // 维度数组
+      analysisDimensionId: null,
+      // 标签ID
+      curTitle: '',
+      // 选中的维度
+      reviewsList: [],
+      advantageReviews: [],
+      disadvantageReviews: [],
+      allReviewCurPage: 1,
+      // 全部点评当前页码数
+      allReviewTotalPage: 1,
+      // 全部点评当前页码数
+      allReviewTotalNumber: 1,
+      // 全部点评当前页码数
+      advantageReviewsCurPage: 1,
+      // 优点当前页
+      disadvantageReviewsCurPage: 1,
+      // 缺点当前页
+      advantageReviewsTotalPage: 1,
+      // 优点总页数
+      disadvantageReviewsTotalPage: 1,
+      // 缺点总页数
+      advantageReviewsTotalNumber: 1,
+      disadvantageReviewsTotalNumber: 1
     };
   },
 
@@ -607,7 +739,61 @@ var StarZoom = __webpack_require__(152);
     }
 
   },
+
+  mounted() {
+    this.getTabs();
+    this.getReviewsList();
+  },
+
   methods: {
+    // 获取tabsList
+    getTabs() {
+      this.$requests.productGetAllDimensions({
+        PRODUCT_ID: this.productDetailObj.productObj.ID
+      }).then(res => {
+        if (res.status === 200 && res.data.dimensions) {
+          this.tabsList = res.data.dimensions;
+        }
+      });
+    },
+
+    // 获取所有点评
+    getReviewsList() {
+      this.$requests.productReviews({
+        PRODUCT_ID: this.productDetailObj.productObj.ID,
+        CUR_PAGE: this.allReviewCurPage,
+        TYPE: 1
+      }).then(res => {
+        if (res.status === 200 && res.data.result === 'success') {
+          this.reviewsList = res.data.productScoreList;
+          this.allReviewTotalPage = res.data.TOTAL_PAGE;
+          this.allReviewTotalNumber = res.data.TOTAL_NUM;
+
+          if (this.reviewsList.length) {
+            this.reviewsList = this.reviewsList.map(item => {
+              item.operaTime = Object(utils["b" /* timestamp2date */])(item.operaTime);
+              return item;
+            });
+          }
+        }
+      });
+    },
+
+    totalReviewsChange(page, pageSize) {
+      this.allReviewCurPage = page;
+      this.getReviewsList();
+    },
+
+    disadvantageReviewsChange(page) {
+      this.disadvantageReviewsCurPage = page;
+      this.getProsAnalysis();
+    },
+
+    advantageReviewsChange(page) {
+      this.advantageReviewsCurPage = page;
+      this.getProsAnalysis();
+    },
+
     contact() {
       this.$emit('formHandleShow');
     },
@@ -617,7 +803,61 @@ var StarZoom = __webpack_require__(152);
       this.partReviewsShow = true;
       this.advantageLen = parseInt(item.advantagenum);
       this.disadvantageLen = parseInt(item.disadvantagenum);
-      this.$emit('changeTags', item);
+      this.analysisDimensionId = item.dimension_id;
+      this.curTitle = item.title; // 当前选中的维度
+
+      this.advantageReviewsCurPage = 1;
+      this.disadvantageReviewsCurPage = 1;
+      this.getProsAnalysis();
+      this.getConsAnalysis();
+    },
+
+    // 优点
+    getProsAnalysis() {
+      let partReviewsList = [];
+      this.$requests.productProsAnalysis({
+        PRODUCT_ID: this.productDetailObj.productObj.ID,
+        CUR_PAGE: this.advantageReviewsCurPage,
+        DIMENSION_TITLE: this.curTitle,
+        USER_ID: 'pcadmin'
+      }).then(res => {
+        if (res.status === 200 && res.data.result === 'success') {
+          partReviewsList = res.data.pdScoreList;
+          this.advantageReviewsTotalPage = res.data.TOTAL_PAGE;
+          this.advantageReviewsTotalNumber = res.data.TOTAL_NUM;
+
+          if (partReviewsList.length) {
+            this.advantageReviews = partReviewsList.map(item => {
+              item.operaTime = Object(utils["b" /* timestamp2date */])(item.operaTime);
+              return item;
+            });
+          }
+        }
+      });
+    },
+
+    // 缺点
+    getConsAnalysis() {
+      let partReviewsList = [];
+      this.$requests.productConsAnalysis({
+        PRODUCT_ID: this.productDetailObj.productObj.ID,
+        CUR_PAGE: this.disadvantageReviewsCurPage,
+        DIMENSION_TITLE: this.curTitle,
+        USER_ID: 'pcadmin'
+      }).then(res => {
+        if (res.status === 200 && res.data.result === 'success') {
+          partReviewsList = res.data.pdScoreList;
+          this.disadvantageReviewsTotalPage = res.data.TOTAL_PAGE;
+          this.disadvantageReviewsTotalNumber = res.data.TOTAL_NUM;
+
+          if (partReviewsList.length) {
+            this.disadvantageReviews = partReviewsList.map(item => {
+              item.operaTime = Object(utils["b" /* timestamp2date */])(item.operaTime);
+              return item;
+            });
+          }
+        }
+      });
     },
 
     handleGetAllReview() {
@@ -627,11 +867,9 @@ var StarZoom = __webpack_require__(152);
 
       this.allReviewsShow = true;
       this.partReviewsShow = false;
-      this.$emit('handleGetAllReview');
-    },
-
-    handleMoreReviews() {
-      this.$emit('handleMoreReviews');
+      this.analysisDimensionId = null;
+      this.allReviewCurPage = 1;
+      this.getReviewsList();
     },
 
     navigateToDetail(id) {
@@ -642,16 +880,6 @@ var StarZoom = __webpack_require__(152);
         }
       });
       window.open(routeUrl.href, '_blank');
-    },
-
-    // 获取更多优点
-    getMoreAdvantage() {
-      this.$emit('getMoreAdvantage');
-    },
-
-    // 获取更多缺点
-    getMoreDisadvantage() {
-      this.$emit('getMoreDisadvantage');
     }
 
   }
