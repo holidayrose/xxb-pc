@@ -1,6 +1,6 @@
 const base = 'https://sr.xuanxingbao.com'
 const testUrl = 'https://sr.xuanxingbao.com/ep'
-// const testBase = 'https://eapi.xuanxingbao.com'
+const testBase = 'http://eapi.xuanxingbao.com'
 
 const api = {
   API: {
@@ -58,6 +58,13 @@ const api = {
       noComment: {
         url: `${base}/sr/sr_search_category_nocomment`,
         method: 'post',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        }
+      },
+      // 对比产品列表
+      vsProduct: {
+        url: `${testBase}/productc/getproductcontrastlist`,
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
         }

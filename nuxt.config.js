@@ -27,7 +27,8 @@ export default {
     { src: '@/plugins/configs' },
     { src: '@/plugins/requests' },
     { src: '@/plugins/vue-lazyload', ssr: false },
-    { src: '@/plugins/vue-awesome-swiper', ssr: false }
+    { src: '@/plugins/vue-awesome-swiper', ssr: false },
+    { src: '@/plugins/echarts', ssr: false }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)

@@ -20,6 +20,7 @@ You can directly use them in pages and other components without the need to impo
 - `<Review>` | `<review>` (components/Review.vue)
 - `<SearchBox>` | `<search-box>` (components/SearchBox.vue)
 - `<Slider>` | `<slider>` (components/Slider.vue)
+- `<Echarts>` | `<echarts>` (components/echarts/index.vue)
 - `<HasNoData>` | `<has-no-data>` (components/hasNoData/noData.vue)
 - `<HeaderMHeader>` | `<header-m-header>` (components/header/mHeader.vue)
 - `<HeaderPHeader>` | `<header-p-header>` (components/header/pHeader.vue)

@@ -1,7 +1,7 @@
-exports.ids = [26,1];
+exports.ids = [27,1];
 exports.modules = {
 
-/***/ 187:
+/***/ 199:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -62,7 +62,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/AutoPlay.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_AutoPlayvue_type_script_lang_js_ = (AutoPlayvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(13);
+var componentNormalizer = __webpack_require__(14);
 
 // CONCATENATED MODULE: ./components/AutoPlay.vue
 
@@ -87,7 +87,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 214:
+/***/ 227:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -102,10 +102,10 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/SearchBox.vue?vue&type=template&id=34463337&
 
 // EXTERNAL MODULE: ./static/lib/storage.js
-var storage = __webpack_require__(18);
+var storage = __webpack_require__(19);
 
 // EXTERNAL MODULE: ./components/AutoPlay.vue + 4 modules
-var AutoPlay = __webpack_require__(187);
+var AutoPlay = __webpack_require__(199);
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.2.2@babel-loader/lib??ref--2-0!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/SearchBox.vue?vue&type=script&lang=js&
 //
@@ -464,7 +464,7 @@ var AutoPlay = __webpack_require__(187);
 // CONCATENATED MODULE: ./components/SearchBox.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_SearchBoxvue_type_script_lang_js_ = (SearchBoxvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(13);
+var componentNormalizer = __webpack_require__(14);
 
 // CONCATENATED MODULE: ./components/SearchBox.vue
 
@@ -488,7 +488,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var SearchBox = __webpack_exports__["default"] = (component.exports);
 
 /* nuxt-component-imports */
-installComponents(component, {AutoPlay: __webpack_require__(187).default})
+installComponents(component, {AutoPlay: __webpack_require__(199).default})
 
 
 /***/ })

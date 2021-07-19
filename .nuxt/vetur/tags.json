@@ -41,6 +41,9 @@
   "Slider": {
     "description": "Auto imported from components/Slider.vue"
   },
+  "Echarts": {
+    "description": "Auto imported from components/echarts/index.vue"
+  },
   "HasNoData": {
     "description": "Auto imported from components/hasNoData/noData.vue"
   },

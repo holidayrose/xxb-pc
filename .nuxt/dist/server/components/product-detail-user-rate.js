@@ -1,7 +1,7 @@
-exports.ids = [20];
+exports.ids = [21];
 exports.modules = {
 
-/***/ 241:
+/***/ 256:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -98,7 +98,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/productDetail/userRate.vue?vue&type=script&lang=js&
  /* harmony default export */ var productDetail_userRatevue_type_script_lang_js_ = (userRatevue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(13);
+var componentNormalizer = __webpack_require__(14);
 
 // CONCATENATED MODULE: ./components/productDetail/userRate.vue
 

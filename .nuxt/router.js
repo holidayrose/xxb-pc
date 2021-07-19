@@ -11,7 +11,9 @@ const _29a21246 = () => interopDefault(import('..\\pages\\product\\detail\\_id.v
 const _57ddc862 = () => interopDefault(import('..\\pages\\product\\rank\\_id.vue' /* webpackChunkName: "pages/product/rank/_id" */))
 const _9311c6c4 = () => interopDefault(import('..\\pages\\review\\detail\\_id.vue' /* webpackChunkName: "pages/review/detail/_id" */))
 const _6c1fb2b7 = () => interopDefault(import('..\\pages\\case\\_id.vue' /* webpackChunkName: "pages/case/_id" */))
+const _495d6058 = () => interopDefault(import('..\\pages\\compare\\_id.vue' /* webpackChunkName: "pages/compare/_id" */))
 const _7a1e8a74 = () => interopDefault(import('..\\pages\\news\\_id.vue' /* webpackChunkName: "pages/news/_id" */))
+const _3a162bf3 = () => interopDefault(import('..\\pages\\report\\_id.vue' /* webpackChunkName: "pages/report/_id" */))
 const _2961b064 = () => interopDefault(import('..\\pages\\reputation\\_id.vue' /* webpackChunkName: "pages/reputation/_id" */))
 const _3a83c9fe = () => interopDefault(import('..\\pages\\result\\_status.vue' /* webpackChunkName: "pages/result/_status" */))
 const _559650ff = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
@@ -56,9 +58,17 @@ export const routerOptions = {
     component: _6c1fb2b7,
     name: "case-id"
   }, {
+    path: "/compare/:id?",
+    component: _495d6058,
+    name: "compare-id"
+  }, {
     path: "/news/:id?",
     component: _7a1e8a74,
     name: "news-id"
+  }, {
+    path: "/report/:id?",
+    component: _3a162bf3,
+    name: "report-id"
   }, {
     path: "/reputation/:id?",
     component: _2961b064,

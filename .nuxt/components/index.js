@@ -14,6 +14,7 @@ export { default as ProductOrder } from '../..\\components\\ProductOrder.vue'
 export { default as Review } from '../..\\components\\Review.vue'
 export { default as SearchBox } from '../..\\components\\SearchBox.vue'
 export { default as Slider } from '../..\\components\\Slider.vue'
+export { default as Echarts } from '../..\\components\\echarts\\index.vue'
 export { default as HasNoData } from '../..\\components\\hasNoData\\noData.vue'
 export { default as HeaderMHeader } from '../..\\components\\header\\mHeader.vue'
 export { default as HeaderPHeader } from '../..\\components\\header\\pHeader.vue'
@@ -49,6 +50,7 @@ export const LazyProductOrder = import('../..\\components\\ProductOrder.vue' /* 
 export const LazyReview = import('../..\\components\\Review.vue' /* webpackChunkName: "components/review" */).then(c => wrapFunctional(c.default || c))
 export const LazySearchBox = import('../..\\components\\SearchBox.vue' /* webpackChunkName: "components/search-box" */).then(c => wrapFunctional(c.default || c))
 export const LazySlider = import('../..\\components\\Slider.vue' /* webpackChunkName: "components/slider" */).then(c => wrapFunctional(c.default || c))
+export const LazyEcharts = import('../..\\components\\echarts\\index.vue' /* webpackChunkName: "components/echarts" */).then(c => wrapFunctional(c.default || c))
 export const LazyHasNoData = import('../..\\components\\hasNoData\\noData.vue' /* webpackChunkName: "components/has-no-data" */).then(c => wrapFunctional(c.default || c))
 export const LazyHeaderMHeader = import('../..\\components\\header\\mHeader.vue' /* webpackChunkName: "components/header-m-header" */).then(c => wrapFunctional(c.default || c))
 export const LazyHeaderPHeader = import('../..\\components\\header\\pHeader.vue' /* webpackChunkName: "components/header-p-header" */).then(c => wrapFunctional(c.default || c))

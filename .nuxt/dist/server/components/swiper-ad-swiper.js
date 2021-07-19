@@ -1,21 +1,21 @@
-exports.ids = [28];
+exports.ids = [29];
 exports.modules = {
 
-/***/ 198:
+/***/ 210:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/banner_4.20c163e.jpg";
 
 /***/ }),
 
-/***/ 199:
+/***/ 211:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/banner_3.e5e0b87.jpg";
 
 /***/ }),
 
-/***/ 213:
+/***/ 226:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23,7 +23,7 @@ module.exports = __webpack_require__.p + "img/banner_3.e5e0b87.jpg";
 __webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/swiper/adSwiper.vue?vue&type=template&id=59ef0506&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{directives:[{name:"swiper",rawName:"v-swiper:mySwiper",value:(_vm.swiperOption),expression:"swiperOption",arg:"mySwiper"}],staticClass:"adBanner",on:{"click":_vm.handleBannerPopShow}},[_vm._ssrNode("<div class=\"swiper-wrap swiper-wrapper g-flex\"><div data-swiper-autoplay=\"5000\" class=\"swiper-item swiper-slide\"><img"+(_vm._ssrAttr("src",__webpack_require__(198)))+" alt> <div class=\"txt text-c\">"+((_vm.recommendCate)?("<p>"+_vm._ssrEscape("\n          "+_vm._s(_vm.recommendCate)+"软件\n        ")+"</p>"):("<p>\n          选型宝\n        </p>"))+" <p>诚邀您的点评！</p></div></div> <div data-swiper-autoplay=\"5000\" class=\"swiper-item swiper-slide\"><img"+(_vm._ssrAttr("src",__webpack_require__(199)))+" alt></div></div>")])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{directives:[{name:"swiper",rawName:"v-swiper:mySwiper",value:(_vm.swiperOption),expression:"swiperOption",arg:"mySwiper"}],staticClass:"adBanner",on:{"click":_vm.handleBannerPopShow}},[_vm._ssrNode("<div class=\"swiper-wrap swiper-wrapper g-flex\"><div data-swiper-autoplay=\"5000\" class=\"swiper-item swiper-slide\"><img"+(_vm._ssrAttr("src",__webpack_require__(210)))+" alt> <div class=\"txt text-c\">"+((_vm.recommendCate)?("<p>"+_vm._ssrEscape("\n          "+_vm._s(_vm.recommendCate)+"软件\n        ")+"</p>"):("<p>\n          选型宝\n        </p>"))+" <p>诚邀您的点评！</p></div></div> <div data-swiper-autoplay=\"5000\" class=\"swiper-item swiper-slide\"><img"+(_vm._ssrAttr("src",__webpack_require__(211)))+" alt></div></div>")])}
 var staticRenderFns = []
 
 
@@ -86,7 +86,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/swiper/adSwiper.vue?vue&type=script&lang=js&
  /* harmony default export */ var swiper_adSwipervue_type_script_lang_js_ = (adSwipervue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(13);
+var componentNormalizer = __webpack_require__(14);
 
 // CONCATENATED MODULE: ./components/swiper/adSwiper.vue
 

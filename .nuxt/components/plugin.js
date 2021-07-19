@@ -16,6 +16,7 @@ const components = {
   Review: () => import('../..\\components\\Review.vue' /* webpackChunkName: "components/review" */).then(c => wrapFunctional(c.default || c)),
   SearchBox: () => import('../..\\components\\SearchBox.vue' /* webpackChunkName: "components/search-box" */).then(c => wrapFunctional(c.default || c)),
   Slider: () => import('../..\\components\\Slider.vue' /* webpackChunkName: "components/slider" */).then(c => wrapFunctional(c.default || c)),
+  Echarts: () => import('../..\\components\\echarts\\index.vue' /* webpackChunkName: "components/echarts" */).then(c => wrapFunctional(c.default || c)),
   HasNoData: () => import('../..\\components\\hasNoData\\noData.vue' /* webpackChunkName: "components/has-no-data" */).then(c => wrapFunctional(c.default || c)),
   HeaderMHeader: () => import('../..\\components\\header\\mHeader.vue' /* webpackChunkName: "components/header-m-header" */).then(c => wrapFunctional(c.default || c)),
   HeaderPHeader: () => import('../..\\components\\header\\pHeader.vue' /* webpackChunkName: "components/header-p-header" */).then(c => wrapFunctional(c.default || c)),
