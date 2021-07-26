@@ -151,3 +151,15 @@ export function validate (form) {
   }
   return data
 }
+
+export function paramsToString (obj) {
+  let str = '"['
+  obj.forEach((item, index, obj) => {
+    if (index < obj.length - 1) {
+      str += item.product_id + ','
+    } else {
+      str += item.product_id + ']"'
+    }
+  })
+  return str
+}

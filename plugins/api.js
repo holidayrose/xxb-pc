@@ -258,6 +258,33 @@ const api = {
       banner: {
         url: `${base}/aac/current/category/recommend`
       }
+    },
+    // 产品对比
+    compare: {
+      menu: {
+        url: `${testBase}/productc/getcategoryfunctionlist`,
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        }
+      },
+      recommendProduct: {
+        url: `${testBase}/productc/getnotcontrastproductlist`,
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        }
+      },
+      info: {
+        url: `${testBase}/productc/getcategorydefaultcontrastinfo`,
+        method: 'post'
+      },
+      hotReviews: {
+        url: `${testBase}/productc/getcategoryproducthotcontrastinfo`,
+        method: 'post'
+      },
+      functionInfo: {
+        url: `${testBase}/productc/getcategoryfunctioncontrastinfo`,
+        method: 'post'
+      }
     }
   }
 }

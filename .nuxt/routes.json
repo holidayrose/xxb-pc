@@ -7,6 +7,13 @@
     "_name": "_86acd598"
   },
   {
+    "name": "compare",
+    "path": "/compare",
+    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\compare\\\\index.vue",
+    "chunkName": "pages/compare/index",
+    "_name": "_d120bc20"
+  },
+  {
     "name": "cctv-product_trial_info-id",
     "path": "/cctv/product_trial_info/:id?",
     "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\cctv\\\\product_trial_info\\\\_id.vue",
@@ -47,13 +54,6 @@
     "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\case\\\\_id.vue",
     "chunkName": "pages/case/_id",
     "_name": "_6c1fb2b7"
-  },
-  {
-    "name": "compare-id",
-    "path": "/compare/:id?",
-    "component": "F:\\\\local_project\\\\xxb-pc\\\\pages\\\\compare\\\\_id.vue",
-    "chunkName": "pages/compare/_id",
-    "_name": "_495d6058"
   },
   {
     "name": "news-id",

@@ -1,4 +1,4 @@
-exports.ids = [29];
+exports.ids = [30];
 exports.modules = {
 
 /***/ 210:
@@ -15,7 +15,7 @@ module.exports = __webpack_require__.p + "img/banner_3.e5e0b87.jpg";
 
 /***/ }),
 
-/***/ 226:
+/***/ 227:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

@@ -1,19 +1,19 @@
-exports.ids = [8];
+exports.ids = [9];
 exports.modules = {
 
-/***/ 222:
+/***/ 223:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/echarts/index.vue?vue&type=template&id=69499a30&
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/echarts/index.vue?vue&type=template&id=832223fc&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"echarts"}},[_vm._ssrNode("<div id=\"myChart\" style=\"width: 100%;height: 500px\"></div>")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/echarts/index.vue?vue&type=template&id=69499a30&
+// CONCATENATED MODULE: ./components/echarts/index.vue?vue&type=template&id=832223fc&
 
 // CONCATENATED MODULE: ./node_modules/_babel-loader@8.2.2@babel-loader/lib??ref--2-0!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/echarts/index.vue?vue&type=script&lang=js&
 //
@@ -92,10 +92,15 @@ var staticRenderFns = []
           }
         },
         series: [{
-          symbolSize: 10,
-          data: [[10.0, 8.04], [8.07, 6.95], [13.0, 7.58], [9.05, 8.81], [11.0, 8.33], [14.0, 7.66], [13.4, 6.81], [10.0, 6.33], [14.0, 8.96], [12.5, 6.82], [9.15, 7.20], [11.5, 7.20], [3.03, 4.23], [12.2, 7.83], [2.02, 4.47], [1.05, 3.33], [4.05, 4.96], [6.03, 7.24], [12.0, 6.26], [12.0, 8.84], [7.08, 5.82], [5.02, 5.68]],
+          symbolSize: 20,
+          data: [[5.0, 2.18]],
           type: 'scatter',
-          symbol: data => {}
+          symbol: 'image://http://xuanxingbao.com/images/xxb_mark.png'
+        }, {
+          symbolSize: 20,
+          data: [[10.0, 8.04]],
+          type: 'scatter',
+          symbol: 'image://http://xuanxingbao.com/images/xxb_mark.png'
         }]
       };
       option && myChart.setOption(option);

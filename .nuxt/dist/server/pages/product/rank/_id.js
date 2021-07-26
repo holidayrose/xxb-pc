@@ -1,4 +1,4 @@
-exports.ids = [39,6,7,9,10,11,12,17,22,23,25,26,28];
+exports.ids = [40,6,7,10,11,12,13,18,23,24,26,27,29];
 exports.modules = {
 
 /***/ 172:
@@ -1007,7 +1007,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 191:
+/***/ 192:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1349,19 +1349,19 @@ module.exports = __webpack_require__.p + "img/px_2.460331d.png";
 
 /***/ }),
 
-/***/ 221:
+/***/ 222:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/ProductOrder.vue?vue&type=template&id=5ef5b521&
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./components/ProductOrder.vue?vue&type=template&id=b4dc77ae&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"rank-list-item"},[_vm._ssrNode("<div class=\"pro-img\">","</div>",[_c('nuxt-link',{attrs:{"target":"_blank","to":{name: 'product-detail-id',params: { id: _vm.info.product_id }}}},[_c('img',{attrs:{"src":"https://xuanxingbao.com/xxb_mark.png","alt":_vm.categoryName + (_vm.info.factory_short_name || _vm.info.product_name)}})])],1),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"pro-info\">","</div>",[_vm._ssrNode("<div class=\"pro-name\">","</div>",[_c('nuxt-link',{staticClass:"link",attrs:{"target":"_blank","to":{name: 'product-detail-id',params: { id: _vm.info.product_id }}}},[_vm._v("\n        "+_vm._s(_vm.info.product_name)+"\n      ")])],1),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"pro-count g-flex space-between\">","</div>",[(_vm.info.ztgsnum)?_vm._ssrNode("<div class=\"g-flex\">","</div>",[_vm._ssrNode("<span class=\"score-box\">"+_vm._ssrEscape(_vm._s(_vm.info.ztgsnum)+"分")+"</span> "),_c('Star',{attrs:{"out-width":100,"out-height":20,"decimal":_vm.info.ztgsnum/5}})],2):_vm._ssrNode(("<div>\n        暂时还没有人点评快来贡献您的专业见解吧！\n      </div>")),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"pro-right\">","</div>",[(_vm.info.yjznum > 0)?_c('nuxt-link',{staticStyle:{"color":"#222222"},attrs:{"target":"_blank","to":{name: 'product-detail-id',params: { id: _vm.info.product_id }}}},[_vm._v("\n          "+_vm._s(_vm.info.yjznum)+"条有价值点评\n        ")]):_c('div',{staticClass:"tab-btn"},[_vm._v("\n          马上去点评\n        ")])],1)],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"pro-sub\">","</div>",[_vm._ssrNode("<div class=\"pro-left\">","</div>",[_vm._ssrNode(((_vm.info.productnum > 0)?("<div class=\"pro-desc\">"+_vm._ssrEscape("\n          共有"+_vm._s(_vm.info.productnum)+"条点评，经审核后，有价值点评"+_vm._s(_vm.info.yjznum > 0 ? _vm.info.yjznum : 0)+"条\n        ")+"</div>"):"<!---->")+" "),_vm._ssrNode("<div class=\"pro-compare\">","</div>",[_c('a-checkbox',{staticClass:"txt",attrs:{"id":_vm.info.product_id,"checked":_vm.checked,"disabled":_vm.disabled},on:{"change":_vm.onChange}},[_vm._v("\n            对比\n          ")])],1)],2),_vm._ssrNode(" <div class=\"pro-right\"><div class=\"tab-btn\">\n          请厂商联系我\n        </div></div>")],2)],2)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/ProductOrder.vue?vue&type=template&id=5ef5b521&
+// CONCATENATED MODULE: ./components/ProductOrder.vue?vue&type=template&id=b4dc77ae&
 
 // EXTERNAL MODULE: ./components/common/starComp/StarZoom.vue + 4 modules
 var StarZoom = __webpack_require__(172);
@@ -1501,14 +1501,12 @@ var StarZoom = __webpack_require__(172);
     },
 
     onChange(e) {
-      console.log(e.target);
-
       if (e.target.checked) {
         // 添加对比
-        this.$emit('addCompare', e.target.id);
+        this.$emit('addCompare', this.info);
       } else {
         // 取消对比
-        this.$emit('cancelCompare', e.target.id);
+        this.$emit('cancelCompare', this.info);
       }
     }
 
@@ -1542,22 +1540,22 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 246:
+/***/ 248:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./pages/product/rank/_id.vue?vue&type=template&id=18278146&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"main pro-rank"},[_vm._ssrNode("<h1 class=\"heading-hide\">"+_vm._ssrEscape("\n    "+_vm._s(_vm.categoryName)+"软件排名_"+_vm._s(_vm.categoryName)+"软件点评_"+_vm._s(_vm.categoryName)+"软件是什么意思？\n  ")+"</h1> "),_c('a-anchor',{staticClass:"default"},[_c('Header2',{attrs:{"is-show":true},on:{"handleBannerPopShow":_vm.handleBannerPopShow}})],1),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"container-index\">","</div>",[_c('breadCrumb',[_c('a-breadcrumb-item',[_c('a',{attrs:{"href":"/"}},[_vm._v("首页")])]),_vm._v(" "),_c('a-breadcrumb-item',[_vm._v(_vm._s(_vm.categoryName)+"软件排名")])],1),_vm._ssrNode(" "),_c('a-row',[_c('a-col',{attrs:{"md":"24"}},[_c('a-row',{staticClass:"g-wrapper",attrs:{"gutter":[32, 32]}},[_c('a-col',{attrs:{"span":"8","md":8}},[_c('Slider',[_c('div',{staticClass:"report-wrap",attrs:{"slot":"report-txt"},slot:"report-txt"},[_c('div',{staticClass:"txt1"},[_c('h2',[_vm._v(_vm._s(_vm.categoryName)+"选型")])]),_vm._v(" "),_c('div',{staticClass:"txt2"},[_vm._v("\n                  用户口碑报告\n                ")])]),_vm._v(" "),_c('div',{staticClass:"g-flex space-between",attrs:{"slot":"slider-title"},on:{"click":_vm.navigateToRank},slot:"slider-title"},[_c('span',[_vm._v(_vm._s(_vm.categoryName)+"厂商口碑排名")]),_vm._v(" "),_c('span',{staticStyle:{"font-size":"14px","color":"#a9a9a9","cursor":"pointer"}},[_vm._v("查看完整")])]),_vm._v(" "),(_vm.hotCompanyList.length)?_c('div',{staticClass:"slider-nav-bar",attrs:{"slot":"slider-nav-bar"},slot:"slider-nav-bar"},[_c('h3',[_vm._v("热门厂商")]),_vm._v(" "),_vm._l((_vm.hotCompanyList),function(item,index){return _c('div',{key:index,staticClass:"view-wrap"},[_c('rankListItem',{attrs:{"item":item,"index":index,"category-id":_vm.categoryId}})],1)})],2):_vm._e(),_vm._v(" "),(_vm.challengerList.length)?_c('div',{staticClass:"slider-nav-bar",attrs:{"slot":"slider-nav-bar"},slot:"slider-nav-bar"},[_c('h3',[_vm._v("挑战者")]),_vm._v(" "),_vm._l((_vm.challengerList),function(item,index){return _c('div',{key:index,staticClass:"view-wrap",attrs:{"target":"_blank","to":{name: 'reputation-id',params: {id: _vm.categoryId},query: {factory_id: item.qcid}}}},[_c('rankListItem',{attrs:{"item":item,"index":index,"category-id":_vm.categoryId}})],1)})],2):_vm._e(),_vm._v(" "),(_vm.noReviewList.length)?_c('div',{staticClass:"slider-nav-bar",attrs:{"slot":"slider-nav-bar"},slot:"slider-nav-bar"},[_c('h3',[_vm._v("暂无点评的厂商")]),_vm._v(" "),_vm._l((_vm.noReviewList),function(item,index){return _c('div',{key:index,staticClass:"view-wrap"},[_c('div',{staticClass:"view"},[_c('div',{staticClass:"g-flex space-between pad-20",staticStyle:{"width":"100%"}},[_c('nuxt-link',{staticStyle:{"color":"#222222"},attrs:{"target":"_blank","to":{name: 'reputation-id',params: {id: _vm.categoryId},query: {factory_id: item.qcid}}}},[_vm._v("\n                        "+_vm._s(item.factory_short_name || item.qcname)+"\n                      ")])],1)])])})],2):_vm._e()])],1),_vm._v(" "),_c('a-col',{attrs:{"span":"16"}},[_c('a-row',{staticClass:"grey"},[_c('a-col',{attrs:{"span":"24"}},[_c('h2',[_vm._v("\n                  "+_vm._s(_vm.categoryName)+"产品 用户口碑排名\n                ")]),_vm._v(" "),(_vm.productList.length)?_c('div',[_c('div',{staticClass:"sort-item-wrap g-flex"},_vm._l((_vm.sortTabs),function(tab,index){return _c('div',{key:index,staticClass:"sort-item",class:tab.query === _vm.orderType ? 'on' : '',on:{"click":function($event){$event.preventDefault();$event.stopPropagation();return _vm.handleSortTabClick(index, tab.query)}}},[(tab.query === _vm.orderType)?[_c('img',{staticClass:"icon",attrs:{"src":__webpack_require__(205),"alt":""}}),_vm._v(" "),_c('img',{staticClass:"corner",attrs:{"src":__webpack_require__(206),"alt":""}})]:[_c('img',{staticClass:"icon",attrs:{"src":__webpack_require__(207),"alt":""}})],_vm._v("\n                      "+_vm._s(tab.name)+"\n                    ")],2)}),0)]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"rank-box"},[_c('div',{staticClass:"rank-list"},[(_vm.productList.length)?_c('div',_vm._l((_vm.productList),function(item){return _c('productOrder',{key:item.product_id,attrs:{"info":item,"category-name":_vm.categoryName,"category-id":_vm.categoryId,"checked":_vm.isInArray(item.product_id, _vm.compareList),"disabled":_vm.isDisabled(item.product_id, _vm.compareList)},on:{"formShow":_vm.formHandleShow,"addCompare":_vm.addCompare,"cancelCompare":_vm.cancelCompare}})}),1):_c('div',{staticStyle:{"width":"100%","height":"400px"}},[_c('no-data',[_c('div',{staticStyle:{"font-size":"14px"},attrs:{"slot":"txt"},slot:"txt"},[_vm._v("\n                          暂无产品排名~\n                        ")])])],1)])]),_vm._v(" "),(_vm.compareList.length)?_c('a-affix',{attrs:{"offset-bottom":0}},[_c('div',{staticClass:"compare-table g-flex a-center pad-20"},[_c('div',{staticClass:"clear-btn",on:{"click":_vm.clearAll}},[_vm._v("\n                      移除所有\n                    ")]),_vm._v(" "),_c('div',{staticClass:"img-group g-flex a-center"},_vm._l((_vm.compareList),function(item,index){return _c('div',{key:index,staticClass:"img-item"},[_c('i',{staticClass:"close-btn",on:{"click":function($event){return _vm.cancelCompare(item.product_id)}}}),_vm._v(" "),_c('img',{attrs:{"src":"https://xuanxingbao.com/xxb_mark.png","alt":""}})])}),0),_vm._v(" "),_c('div',{staticClass:"compare-btn"},[_vm._v("\n                      立即比较\n                    ")])])]):_vm._e()],1)],1)],1)],1)],1)],1)],2),_vm._ssrNode(" "),_c('contact',{ref:"child",attrs:{"form-show":_vm.formShow},on:{"formHide":_vm.formHandleHide,"submit":_vm.submitForm}}),_vm._ssrNode(" "),_c('banner-pop',{directives:[{name:"show",rawName:"v-show",value:(_vm.bannerPopShow),expression:"bannerPopShow"}],on:{"handleBannerPopHide":_vm.handleBannerPopHide}}),_vm._ssrNode(" "),_c('rightNav',[_c('qrcode')],1),_vm._ssrNode(" "),_c('Footer')],2)}
+// CONCATENATED MODULE: ./node_modules/_vue-loader@15.9.7@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_@nuxt_components@2.1.8@@nuxt/components/dist/loader.js??ref--0-0!./node_modules/_vue-loader@15.9.7@vue-loader/lib??vue-loader-options!./pages/product/rank/_id.vue?vue&type=template&id=3a8dfd80&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"main pro-rank"},[_vm._ssrNode("<h1 class=\"heading-hide\">"+_vm._ssrEscape("\n    "+_vm._s(_vm.categoryName)+"软件排名_"+_vm._s(_vm.categoryName)+"软件点评_"+_vm._s(_vm.categoryName)+"软件是什么意思？\n  ")+"</h1> "),_c('a-anchor',{staticClass:"default"},[_c('Header2',{attrs:{"is-show":true},on:{"handleBannerPopShow":_vm.handleBannerPopShow}})],1),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"container-index\">","</div>",[_c('breadCrumb',[_c('a-breadcrumb-item',[_c('a',{attrs:{"href":"/"}},[_vm._v("首页")])]),_vm._v(" "),_c('a-breadcrumb-item',[_vm._v(_vm._s(_vm.categoryName)+"软件排名")])],1),_vm._ssrNode(" "),_c('a-row',[_c('a-col',{attrs:{"md":"24"}},[_c('a-row',{staticClass:"g-wrapper",attrs:{"gutter":[32, 32]}},[_c('a-col',{attrs:{"span":"8","md":8}},[_c('Slider',[_c('div',{staticClass:"report-wrap",attrs:{"slot":"report-txt"},slot:"report-txt"},[_c('div',{staticClass:"txt1"},[_c('h2',[_vm._v(_vm._s(_vm.categoryName)+"选型")])]),_vm._v(" "),_c('div',{staticClass:"txt2"},[_vm._v("\n                  用户口碑报告\n                ")])]),_vm._v(" "),_c('div',{staticClass:"g-flex space-between",attrs:{"slot":"slider-title"},on:{"click":_vm.navigateToRank},slot:"slider-title"},[_c('span',[_vm._v(_vm._s(_vm.categoryName)+"厂商口碑排名")]),_vm._v(" "),_c('span',{staticStyle:{"font-size":"14px","color":"#a9a9a9","cursor":"pointer"}},[_vm._v("查看完整")])]),_vm._v(" "),(_vm.hotCompanyList.length)?_c('div',{staticClass:"slider-nav-bar",attrs:{"slot":"slider-nav-bar"},slot:"slider-nav-bar"},[_c('h3',[_vm._v("热门厂商")]),_vm._v(" "),_vm._l((_vm.hotCompanyList),function(item,index){return _c('div',{key:index,staticClass:"view-wrap"},[_c('rankListItem',{attrs:{"item":item,"index":index,"category-id":_vm.categoryId}})],1)})],2):_vm._e(),_vm._v(" "),(_vm.challengerList.length)?_c('div',{staticClass:"slider-nav-bar",attrs:{"slot":"slider-nav-bar"},slot:"slider-nav-bar"},[_c('h3',[_vm._v("挑战者")]),_vm._v(" "),_vm._l((_vm.challengerList),function(item,index){return _c('div',{key:index,staticClass:"view-wrap",attrs:{"target":"_blank","to":{name: 'reputation-id',params: {id: _vm.categoryId},query: {factory_id: item.qcid}}}},[_c('rankListItem',{attrs:{"item":item,"index":index,"category-id":_vm.categoryId}})],1)})],2):_vm._e(),_vm._v(" "),(_vm.noReviewList.length)?_c('div',{staticClass:"slider-nav-bar",attrs:{"slot":"slider-nav-bar"},slot:"slider-nav-bar"},[_c('h3',[_vm._v("暂无点评的厂商")]),_vm._v(" "),_vm._l((_vm.noReviewList),function(item,index){return _c('div',{key:index,staticClass:"view-wrap"},[_c('div',{staticClass:"view"},[_c('div',{staticClass:"g-flex space-between pad-20",staticStyle:{"width":"100%"}},[_c('nuxt-link',{staticStyle:{"color":"#222222"},attrs:{"target":"_blank","to":{name: 'reputation-id',params: {id: _vm.categoryId},query: {factory_id: item.qcid}}}},[_vm._v("\n                        "+_vm._s(item.factory_short_name || item.qcname)+"\n                      ")])],1)])])})],2):_vm._e()])],1),_vm._v(" "),_c('a-col',{attrs:{"span":"16"}},[_c('a-row',{staticClass:"grey"},[_c('a-col',{attrs:{"span":"24"}},[_c('h2',[_vm._v("\n                  "+_vm._s(_vm.categoryName)+"产品 用户口碑排名\n                ")]),_vm._v(" "),(_vm.productList.length)?_c('div',[_c('div',{staticClass:"sort-item-wrap g-flex"},_vm._l((_vm.sortTabs),function(tab,index){return _c('div',{key:index,staticClass:"sort-item",class:tab.query === _vm.orderType ? 'on' : '',on:{"click":function($event){$event.preventDefault();$event.stopPropagation();return _vm.handleSortTabClick(index, tab.query)}}},[(tab.query === _vm.orderType)?[_c('img',{staticClass:"icon",attrs:{"src":__webpack_require__(205),"alt":""}}),_vm._v(" "),_c('img',{staticClass:"corner",attrs:{"src":__webpack_require__(206),"alt":""}})]:[_c('img',{staticClass:"icon",attrs:{"src":__webpack_require__(207),"alt":""}})],_vm._v("\n                      "+_vm._s(tab.name)+"\n                    ")],2)}),0)]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"rank-box"},[_c('div',{staticClass:"rank-list"},[(_vm.productList.length)?_c('div',_vm._l((_vm.productList),function(item){return _c('productOrder',{key:item.product_id,attrs:{"info":item,"category-name":_vm.categoryName,"category-id":_vm.categoryId,"checked":_vm.isInArray(item.product_id, _vm.compareList),"disabled":_vm.isDisabled(item.product_id, _vm.compareList)},on:{"formShow":_vm.formHandleShow,"addCompare":_vm.addCompare,"cancelCompare":_vm.cancelCompare}})}),1):_c('div',{staticStyle:{"width":"100%","height":"400px"}},[_c('no-data',[_c('div',{staticStyle:{"font-size":"14px"},attrs:{"slot":"txt"},slot:"txt"},[_vm._v("\n                          暂无产品排名~\n                        ")])])],1)])]),_vm._v(" "),(_vm.compareList.length)?_c('a-affix',{attrs:{"offset-bottom":0}},[_c('div',{staticClass:"compare-table g-flex a-center pad-20"},[_c('div',{staticClass:"clear-btn",on:{"click":_vm.clearAll}},[_vm._v("\n                      移除所有\n                    ")]),_vm._v(" "),_c('div',{staticClass:"img-group g-flex a-center"},_vm._l((_vm.compareList),function(item,index){return _c('div',{key:index,staticClass:"img-item"},[_c('i',{staticClass:"close-btn",on:{"click":function($event){return _vm.cancelCompare(item)}}}),_vm._v(" "),_c('img',{attrs:{"src":"https://xuanxingbao.com/xxb_mark.png","alt":""}})])}),0),_vm._v(" "),_c('a-button',{staticClass:"compare-btn",attrs:{"type":"danger","disabled":_vm.compareList.length < 2},on:{"click":_vm.goToCompare}},[_vm._v("\n                      立即比较\n                    ")])],1)]):_vm._e()],1)],1)],1)],1)],1)],1)],2),_vm._ssrNode(" "),_c('contact',{ref:"child",attrs:{"form-show":_vm.formShow},on:{"formHide":_vm.formHandleHide,"submit":_vm.submitForm}}),_vm._ssrNode(" "),_c('banner-pop',{directives:[{name:"show",rawName:"v-show",value:(_vm.bannerPopShow),expression:"bannerPopShow"}],on:{"handleBannerPopHide":_vm.handleBannerPopHide}}),_vm._ssrNode(" "),_c('rightNav',[_c('qrcode')],1),_vm._ssrNode(" "),_c('Footer')],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/product/rank/_id.vue?vue&type=template&id=18278146&
+// CONCATENATED MODULE: ./pages/product/rank/_id.vue?vue&type=template&id=3a8dfd80&
 
 // EXTERNAL MODULE: ./components/ProductOrder.vue + 4 modules
-var ProductOrder = __webpack_require__(221);
+var ProductOrder = __webpack_require__(222);
 
 // EXTERNAL MODULE: ./components/productDetail/contact.vue + 4 modules
 var contact = __webpack_require__(196);
@@ -1566,7 +1564,7 @@ var contact = __webpack_require__(196);
 var noData = __webpack_require__(184);
 
 // EXTERNAL MODULE: ./components/rank/list.vue + 4 modules
-var list = __webpack_require__(191);
+var list = __webpack_require__(192);
 
 // EXTERNAL MODULE: ./components/rightNav/index.vue + 2 modules
 var rightNav = __webpack_require__(181);
@@ -1833,17 +1831,31 @@ var breadCrumb = __webpack_require__(185);
   },
 
   methods: {
+    // 跳转到产品对比页
+    goToCompare() {
+      this.$router.push({
+        name: 'compare',
+        params: {
+          categoryId: this.categoryId,
+          compareList: this.compareList
+        }
+      });
+    },
+
     // 添加比较
-    addCompare(id) {
+    addCompare(item) {
+      // console.log(item)
       this.compareList.push({
-        product_id: id
+        // category_id: item.category_id,
+        product_id: item.product_id // product_name: item.product_name
+
       });
       console.log(this.compareList);
     },
 
     // 取消比较
-    cancelCompare(id) {
-      let index = this.indexInArray(id, this.compareList);
+    cancelCompare(item) {
+      let index = this.indexInArray(item.product_id, this.compareList);
       this.compareList.splice(index, 1);
       console.log(this.compareList);
     },

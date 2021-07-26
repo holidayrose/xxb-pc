@@ -1,4 +1,4 @@
-exports.ids = [34,4,6,7,9,10,11,12,25,26,28];
+exports.ids = [35,4,6,7,10,11,12,13,26,27,29];
 exports.modules = {
 
 /***/ 172:
@@ -1035,7 +1035,7 @@ module.exports = __webpack_require__.p + "img/right.06b411f.png";
 
 /***/ }),
 
-/***/ 218:
+/***/ 219:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1127,7 +1127,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 244:
+/***/ 246:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1142,7 +1142,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./pages/company/rank/_id.vue?vue&type=template&id=339482ae&
 
 // EXTERNAL MODULE: ./components/BarZoomSmall.vue + 4 modules
-var BarZoomSmall = __webpack_require__(218);
+var BarZoomSmall = __webpack_require__(219);
 
 // EXTERNAL MODULE: ./components/common/starComp/StarZoom.vue + 4 modules
 var StarZoom = __webpack_require__(172);

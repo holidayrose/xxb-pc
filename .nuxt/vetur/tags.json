@@ -41,11 +41,11 @@
   "Slider": {
     "description": "Auto imported from components/Slider.vue"
   },
+  "CompareAddPro": {
+    "description": "Auto imported from components/compare/addPro.vue"
+  },
   "Echarts": {
     "description": "Auto imported from components/echarts/index.vue"
-  },
-  "HasNoData": {
-    "description": "Auto imported from components/hasNoData/noData.vue"
   },
   "HeaderMHeader": {
     "description": "Auto imported from components/header/mHeader.vue"
@@ -55,6 +55,9 @@
   },
   "HeaderPHeader2": {
     "description": "Auto imported from components/header/pHeader2.vue"
+  },
+  "HasNoData": {
+    "description": "Auto imported from components/hasNoData/noData.vue"
   },
   "IndexCase": {
     "description": "Auto imported from components/index/case.vue"

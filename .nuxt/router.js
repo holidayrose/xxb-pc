@@ -5,13 +5,13 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _86acd598 = () => interopDefault(import('..\\pages\\all\\index.vue' /* webpackChunkName: "pages/all/index" */))
+const _d120bc20 = () => interopDefault(import('..\\pages\\compare\\index.vue' /* webpackChunkName: "pages/compare/index" */))
 const _93fbe2c4 = () => interopDefault(import('..\\pages\\cctv\\product_trial_info\\_id.vue' /* webpackChunkName: "pages/cctv/product_trial_info/_id" */))
 const _947ce9d8 = () => interopDefault(import('..\\pages\\company\\rank\\_id.vue' /* webpackChunkName: "pages/company/rank/_id" */))
 const _29a21246 = () => interopDefault(import('..\\pages\\product\\detail\\_id.vue' /* webpackChunkName: "pages/product/detail/_id" */))
 const _57ddc862 = () => interopDefault(import('..\\pages\\product\\rank\\_id.vue' /* webpackChunkName: "pages/product/rank/_id" */))
 const _9311c6c4 = () => interopDefault(import('..\\pages\\review\\detail\\_id.vue' /* webpackChunkName: "pages/review/detail/_id" */))
 const _6c1fb2b7 = () => interopDefault(import('..\\pages\\case\\_id.vue' /* webpackChunkName: "pages/case/_id" */))
-const _495d6058 = () => interopDefault(import('..\\pages\\compare\\_id.vue' /* webpackChunkName: "pages/compare/_id" */))
 const _7a1e8a74 = () => interopDefault(import('..\\pages\\news\\_id.vue' /* webpackChunkName: "pages/news/_id" */))
 const _3a162bf3 = () => interopDefault(import('..\\pages\\report\\_id.vue' /* webpackChunkName: "pages/report/_id" */))
 const _2961b064 = () => interopDefault(import('..\\pages\\reputation\\_id.vue' /* webpackChunkName: "pages/reputation/_id" */))
@@ -33,6 +33,10 @@ export const routerOptions = {
     path: "/all",
     component: _86acd598,
     name: "all"
+  }, {
+    path: "/compare",
+    component: _d120bc20,
+    name: "compare"
   }, {
     path: "/cctv/product_trial_info/:id?",
     component: _93fbe2c4,
@@ -57,10 +61,6 @@ export const routerOptions = {
     path: "/case/:id?",
     component: _6c1fb2b7,
     name: "case-id"
-  }, {
-    path: "/compare/:id?",
-    component: _495d6058,
-    name: "compare-id"
   }, {
     path: "/news/:id?",
     component: _7a1e8a74,

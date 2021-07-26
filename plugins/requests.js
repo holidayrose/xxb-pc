@@ -22,7 +22,7 @@ function generateRequests (obj, parentKey) {
             params: data
           }
         } else {
-          dataTransfer = stringify(data)
+          dataTransfer = obj[key].headers ? stringify(data) : data
         }
         if (obj[key].headers) {
           options.headers = obj[key].headers
